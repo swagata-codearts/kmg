@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (min-width: 1920px) and (max-width: 2500px){
+	/*supriyo-start*/
+    .cart-section {padding: 10px 10px 10px 10px;width: 50%; text-align: center;}
+    /*supriyo-end*/
+    /* Paulami Saha work Start */
+    .fi-offer-banner1 .container-fluid .row .col-lg-6:first-child .list-banner-content {right: 511px;}     
+    
+        /* Paulami Saha work End */
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+    /*supriyo-start*/
+    .cart-section {padding: 10px 10px 10px 10px;width: 30%; text-align: center;}
+    .cart-section li h4 {font-size: 12px;}
+    
+    /*supriyo-end*/
+    /* Paulami Saha work start */
+.fi-offer-img-wrap img {width: 100%;margin: 3px 0;height: 413px;}
+.fi-offer-banner1 .container-fluid .row .col-lg-6:first-child .list-banner-content {right: 179px;}
+.bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 5px;left: 53px;}
+         /* Paulami Saha work End */
+	
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+	/*supriyo-start*/
+    .cart-section {padding: 10px 10px 10px 10px;width: 32%; text-align: center;}
+    .cart-section li h4 {font-size: 12px;}
+    
+    /*supriyo-end*/
+    /* Paulami Saha work start */
+    .custom-offer-banner1 li.ni-banner:nth-child(2n) {width: 41%;}
+    .custom-offer-banner1 li.ni-banner img {height: 245px;}
+    .custom-offer-banner1 li.ni-banner:nth-child(2n+1) {width: 54%;}
+    .custom-offer-banner1 .ni-banner-wrap .list-banner-content h5 {font-size: 28px;}
+    .custom-offer-banner1 .ni-banner-wrap .list-banner-content p {font-size: 16px;}
+              /* Paulami Saha work End */
+}
+@media (max-width: 1230px)  {
+    .custom-col-5 {
+        flex: 0 0 24.999%;
+        margin: 15px 0px;
+      }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    /*suprio-start*/
+    .navigation .nav-item a {font-size: 10px;}
+    .cart-section li h4 {font-size: 14px;}
+    .navigation .navbar-expand-lg .navbar-nav .nav-link {padding-right: 0rem; padding-left: 0rem; padding: 0 4px;}
+    .cart-section {padding: 10px 10px 10px 10px;width: 42%; text-align: center;}
+    .cart-section li h4 {font-size: 12px;}
+    /*supriyo-end*/
+
+	/* Paulami Saha work start */
+	.custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 15px;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 59%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 39%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 22px;}
+    .custom-offer-banner1 li.ni-banner img {height: 331px;}
+                         /* Paulami Saha work end */
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*supriyo-start*/
+    .cart-section li h4 {font-size: 14px;}
+    .navigation .navbar-expand-lg .navbar-nav .nav-link {padding-right: 0rem; padding-left: 0rem; padding: 0 4px;}
+    .logo-login .log-in li {padding: 0 5px 0 0;}
+    .navigation .nav-item a {font-size: 10px;}
+    .footer-1-text li a {font-size: 12px;}
+    .footer-1-text li a span {padding-right: 5px;}
+    .footer-2-text li a {font-size: 12px;}
+    .footer-2-text li a span {padding-right: 5px;}
+    .cart-section {padding: 10px 10px 10px 10px;width: 50%; text-align: center;}
+    .cart-section li h4 {font-size: 12px;}
+
+    /*supriyo-end*/
+	/* Paulami Saha work start */
+	.custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 58%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 39%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
+    .fi-offer-img-wrap img {height: 300px; margin-bottom: 14px;}
+    .custom-offer-banner1 li.ni-banner img {margin-top: 4px; height: 282px;}
+                         /* Paulami Saha work end */
+
+/* Deep-banner-start */
+/* .custom-banner .items { flex-direction: column; } */
+.custom-banner .side-img { padding: 6px; }
+.custom-banner .carousel-caption a{
+ margin-top: 18px;
+}
+/* Deep-banner-end */
+	
+
+
+}
+
+
+@media only screen and (max-width: 991.98px) {    
+    /*supriyo-start*/
+    .logo-search {display: none;}
+    .log-in {display: none;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {display: block;}
+    .logo {display: none;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 img {width: 35%;}
+    .cart-section li h4 {display: none;}
+    .navigation .logo-login {display: block;}
+    .logo-section {display: none;}
+    .cart-section span {background-color: #fff; height: 35px; width: 35px; border-radius: 50px; color: #000; display: inline-block; text-align: center; line-height: 36px;}
+    .cart-section {text-align: center;}
+    .navigation .cart-section.col-md-3.col-lg-none.col-sm-block {display: block; text-align: end;}
+    .footer-1-text li a {font-size: 14px;}
+    .footer-1-text li a span {padding-right: 5px;}
+    .copyright-left h4 {font-size: 12px;}
+    .bottom-text li a {font-size: 12px;}
+    .accordion-body {font-size: 12px;}
+    .faq .accordion-button.collapsed {font-size: 16px;}
+    .accordion-button:not(.collapsed) {font-size: 16px;}
+
+
+    /*supriyo-end*/
+
+    /* Paulami Saha work start */
+    .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 9px;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 55%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
+    .fi-offer-img-wrap img {height: 300px; margin-bottom: 10px;}
+    .custom-offer-banner1 li.ni-banner img {margin-top: 8px;}
+    .fi-offer-img-wrap img {width: 100%;height: 390px;}
+                         /* Paulami Saha work end */
+
+                         /* Deep-banner-start */
+.custom-banner .items { flex-direction: row; }
+.custom-banner .side-img { padding: 6px; }
+.custom-banner .carousel-caption a { margin-top: 20px; }
+/* Deep-banner-end */
+
+.navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
+.navbar-toggler .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
+.navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
+.navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
+.navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
+.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
+.navbar-toggler .icon-bar:nth-child(3){opacity: 0}
+.navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+.navbar-header {display: block;}
+}
+
+
+@media (max-width: 767.98px){
+    /*supriyo-start*/
+    .top-section .top-nav {display: none;}
+    .cart-section {flex: 0 0 40%;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 40%;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 img {width: 60%;}
+
+
+
+
+    /*supriyo-end*/
+
+
+     /* Paulami Saha work start */
+    .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
+    .custom-offer-banner1 li.ni-banner img {margin-top: 8px;}
+    .fi-offer-img-wrap img {width: 100%;height: 305px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 331px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;} 
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 35px;line-height: 47px;}
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 19px;line-height: 19px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 34px;line-height: 51px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 15px 23px;}
+    .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 55%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 40%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 18px;}
+    .fi-offer-img-wrap img {margin-bottom: 10px;}
+                         /* Paulami Saha work end */
+
+                         /* Deep-banner-start */
+     .custom-banner .carousel-caption h2{ font-size: 22px; padding-bottom: 18px; }
+     .custom-banner .side-banner-content a{ font-weight: 300; padding: 2px 4px; margin-top: 4px;}
+     .custom-banner .side-banner-content h5{ font-size: 14px; font-weight: 300;}
+     .custom-banner li.side-banner:first-child .side-banner-content a{ padding: 4px 5px; margin-top: 4px; }
+     .custom-banner .side-banner:nth-child(2) .side-banner-content{ top: 44%; }
+     /* Deep-banner-end */
+}
+
+@media (max-width: 575.98px){
+    /*supriyo-start*/
+    .top-section {display: none;}
+    .footer-2 {margin-top: 20px;}
+    .footer-3 {margin-top: 20px;}
+    .copyright-icons {text-align: center;}
+    .copyright-left {text-align: center; margin-bottom: 20px;}
+
+    /*supriyo-end*/
+
+
+    /* Paulami Saha work start */
+    .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
+    .custom-offer-banner1 li.ni-banner img {margin-top: 8px;height: auto;}
+    .fi-offer-img-wrap img {width: 100%;height: 252px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;} 
+    .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 27px;line-height: 43px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 12px 20px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 262px;}
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 31px;line-height: 37px;}
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content a {font-size: 12px;padding: 9px 12px;}
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 17px;line-height: 12px;}
+    .fi-offer-img-wrap img {margin-bottom: 6px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 10px 15px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: -7px;}
+                         /* Paulami Saha work end */
+                         /* Deep-banner-start */
+    .custom-banner .carousel-caption h2{ font-size: 14px; }
+    .custom-banner .carousel-caption h4{ font-size: 12px; }
+
+
+    /* Deep-banner-end */
+}
+
+@media only screen and (max-width: 480.98px) {	
+    /*supriyo-start*/
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 35%;}
+    .cart-section {padding: 5px 0px;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 img {width: 100%;}
+    .faq .accordion-button.collapsed {font-size: 14px;}
+    .accordion-button:not(.collapsed) {font-size: 14px;}
+    .bottom-text li {padding: 0 0px 10px 0px;}
+    .footer-1-text li a span {display: none;}
+    .footer-2-text li a span {display: none;}
+    .footer-header h3 {font-size: 16px;}
+
+
+
+    /*supriyo-end*/
+
+    /* Paulami Saha work start */
+    .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
+    .ni-banner a img{width: 100%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
+        .custom-offer-banner1 li.ni-banner img {margin-top: 4px;height: auto;}
+    .fi-offer-img-wrap img {width: 100%;height: 252px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;} 
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 24px;line-height: 30px;}
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 14px;line-height: 5px;}
+    .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content a {font-size: 12px;padding: 9px 12px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 21px;line-height: 26px;}
+    .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 207px;}
+                         /* Paulami Saha work end */
+
+}
+

@@ -997,6 +997,7 @@ padding: 22px 50px;
   z-index: 9;
   width: 100%;
   padding: 150px 0;
+  margin-bottom: 80px;
 }
 .custom-inner-banner::after{
   content: '';
@@ -1031,19 +1032,22 @@ padding: 22px 50px;
 }
 .custom-inner-banner .custom-inner-banner-breadcrumb .breadcrumb {
   gap: 0 8px;
+  margin-bottom: 0.5rem;
 }
 .custom-inner-banner .custom-inner-banner-breadcrumb a{
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Arimo', sans-serif;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .breadcrumb-item.active {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Arimo', sans-serif;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .breadcrumb-divider {
@@ -1092,7 +1096,7 @@ padding: 22px 50px;
     color: #fff;
   }
   .privacy-content {
-    padding: 50px 0 50px;
+    padding: 0px 0 50px;
   }
   .privacy-text .paragraph {
     font-family: 'Montserrat', sans-serif;

@@ -130,7 +130,7 @@
     /* Paulami Saha work start */
     .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
     .ni-banner a img{width: 100%;}
-    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 9px;}
+    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 9px;} */
     .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 55%;}
     .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
     .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
@@ -217,7 +217,7 @@
             flex: 0 0 33.33%;
           }
           .bestseller-items-section .bsp-left-img-1 {
-            padding-bottom: 0;
+            padding-bottom: 15px;
             flex: 0 0 49%;
             margin-left: 0;
           }
@@ -228,7 +228,7 @@
           .bestseller-items-section .bsp-left-img-1 img,
           .bestseller-items-section .bsp-left-img-2 img {
             min-height: 100%;
-height: 294px;
+height: auto;
           }
           .bsp-banner-bottom .bsp-banner-bottom-wap img {
             height: 340px;}
@@ -236,10 +236,64 @@ height: 294px;
             margin-top: 30px;
           }
 .contact-us .contact-us-right {height: 340px;}
-.contact-us .contact-us-left {height: 340px;}
+.contact-us .contact-us-left {height: 340px;position: relative;
+  z-index: 9;padding: 54px 30px;margin-bottom: 15px;}
 .contact-us .row > * {padding-right: calc(var(--bs-gutter-x) * .5) !important;padding-left: calc(var(--bs-gutter-x) * .5) !important;}
 .contact-us {margin-bottom: 30px;}
 .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 144px;}
+
+.bsp-banner-bottom .bsp-banner-bottom-wap {height: 340px;background-position: 72% center;z-index: 9;}
+.bsp-banner-bottom .bsp-banner-bottom-wap::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0 0 0 / 0.4);
+  z-index: -1;
+}
+.bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.bsp-banner-bottom .bsp-banner-bottom-wap h4 {
+  font-size: 32px;
+  line-height: 41px;
+  margin-bottom: 16px;
+}
+.bsp-banner-bottom .bsp-banner-bottom-wap .custom-button {
+  padding: 10px 25px;
+  background-color: var(--c-primary);
+}
+.contact-us-left::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(227, 35, 48, 0.5);
+  z-index: -1;
+}
+.contact-us .contact-us-left .contact-us-left-content ul {
+  padding-top: 20px;
+}
+.contact-us .contact-us-left .contact-us-left-content .icons-content a {
+  font-size: 17px;
+  line-height: 38px;
+}
+.contact-us .contact-us-right-logo {text-align: center;}
+.contact-us .contact-us-right-logo img {
+  width: 70%;
+}
+.custom-offer-banner1 li.ni-banner:last-child{
+  margin-bottom: 0;
+}
 /* sb */
 
 }
@@ -267,15 +321,15 @@ height: 294px;
     .custom-offer-banner1 li.ni-banner img {margin-top: 8px;}
     .fi-offer-img-wrap img {width: 100%;height: 305px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 331px;}
-    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;} 
+    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;}  */
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 35px;line-height: 47px;}
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 19px;line-height: 19px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 34px;line-height: 51px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 15px 23px;}
     .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
     .ni-banner a img{width: 100%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 55%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 40%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 100%; margin-right: 0;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 100%; margin-right: 0;margin-left: 0;}
     .custom-offer-banner1 li.ni-banner {margin-bottom: 18px;}
     .fi-offer-img-wrap img {margin-bottom: 10px;}
                          /* Paulami Saha work end */
@@ -291,6 +345,16 @@ height: 294px;
      /* sb */
      .custom-col-5 {
       flex: 0 0 50% !important;
+    }
+    .contact-us .contact-us-left .contact-us-left-content .icons-content a {
+      font-size: 15px;
+      line-height: 37px;
+    }
+    .contact-us .contact-us-left .contact-us-left-content .icons-content a span i {
+      font-size: 13px;
+    }
+    .contact-us .contact-us-right-logo img {
+      width: 60%;
     }
     /* sb */
 }
@@ -309,12 +373,12 @@ height: 294px;
     /* Paulami Saha work start */
     .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
     .ni-banner a img{width: 100%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
+    /* .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;} */
     .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
     .custom-offer-banner1 li.ni-banner img {margin-top: 8px;height: auto;}
     .fi-offer-img-wrap img {width: 100%;height: 252px;}
-    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;} 
+    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;}  */
     .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 27px;line-height: 43px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 12px 20px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 262px;}
@@ -323,7 +387,7 @@ height: 294px;
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 17px;line-height: 12px;}
     .fi-offer-img-wrap img {margin-bottom: 6px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 10px 15px;}
-    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: -7px;}
+    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: -7px;} */
                          /* Paulami Saha work end */
                          /* Deep-banner-start */
     .custom-banner .carousel-caption h2{ font-size: 14px; }
@@ -331,6 +395,14 @@ height: 294px;
 
 
     /* Deep-banner-end */
+
+    /* sb */
+    .contact-us .contact-us-left {background-position: 71% 50%;}
+    .contact-us-left::after {background-color: rgba(227, 35, 48, 0.6);}
+    .contact-us .contact-us-right-logo img {
+      width: 100%;
+    }
+    /* sb */
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -352,12 +424,12 @@ height: 294px;
     /* Paulami Saha work start */
     .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
     .ni-banner a img{width: 100%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
+    /* .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
+    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;} */
     .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
         .custom-offer-banner1 li.ni-banner img {margin-top: 4px;height: auto;}
     .fi-offer-img-wrap img {width: 100%;height: 252px;}
-    .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;} 
+    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;}  */
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 24px;line-height: 30px;}
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 14px;line-height: 5px;}
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content a {font-size: 12px;padding: 9px 12px;}

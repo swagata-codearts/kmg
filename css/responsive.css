@@ -64,6 +64,18 @@
     .custom-offer-banner1 li.ni-banner {margin-bottom: 22px;}
     .custom-offer-banner1 li.ni-banner img {height: 331px;}
                          /* Paulami Saha work end */
+
+    /*supriyo-blog-page-start*/
+    .post-content .img-fluid {width: 100%;}
+    .custom-inner-banner {padding: 100px 0;}
+    .box-right-text h2 {font-size: 20px; line-height: 28px;}
+    .box-right-text .paragraph {line-height: 22px;}
+    .box-right-text h5 {margin-top: 10px; font-size: 14px;}
+    .box-right-text .comment {margin-top: 10px;}
+    .popular-text.align-self-center h5 {font-size: 14px;}
+    .post-content-img {width: 100%;}
+
+     /*supriyo-blog-page-end*/ 
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -98,6 +110,17 @@
 }
 /* Deep-banner-end */
 	
+ /*supriyo-blog-page-start*/
+ .post-content .img-fluid {width: 100%;}
+ .custom-inner-banner {padding: 100px 0;}
+ .box-right-text h2 {font-size: 20px; line-height: 28px;}
+ .box-right-text .paragraph {line-height: 22px;}
+ .box-right-text h5 {margin-top: 10px; font-size: 14px;}
+ .box-right-text .comment {margin-top: 10px;}
+ .popular-text.align-self-center h5 {font-size: 14px;}
+ .post-content-img {width: 100%;}
+
+  /*supriyo-blog-page-end*/ 
 
 
 }
@@ -296,6 +319,25 @@ height: auto;
 }
 /* sb */
 
+/*supriyo-privacy-terms-refund-start*/
+.custom-inner-banner {padding: 100px 0;}
+.custom-inner-banner-title h2 {font-size: 28px;}
+.breadcrumb-item.active {font-size: 14px;}
+.breadcrumb-divider {padding-top: 4px;}
+.custom-inner-banner .custom-inner-banner-breadcrumb {padding: 0px 30px 0px;padding-top: 10px;}
+.custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
+
+/*supriyo-privacy-terms-refund-end*/
+
+/*supriyo-blog-page-start*/
+.post-content-img {min-height: 70px;}
+.box-right-text h2 {font-size: 18px;line-height: 25px; margin-top: 20px;}
+.box-right-text h5 {font-size: 14px;}
+.popular-text.align-self-center h5 {font-size: 14px;}
+.popular-content-date {padding: 35px 33px 35px;}
+
+ /*supriyo-blog-page-end*/ 
+
 }
 
 
@@ -357,6 +399,31 @@ height: auto;
       width: 60%;
     }
     /* sb */
+
+    /*supriyo-privacy-terms-refund-start*/
+    .custom-inner-banner-title h2 {font-size: 26px;}
+    .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
+    .breadcrumb-item.active {font-size: 14px;}
+    .custom-inner-banner {padding: 100px 0;}
+    .term-condition-part .paragraph-bold {font-size: 13px;text-align: center;}
+    .term-condition-part .paragraph {font-size: 13px;}
+    .custom-term-condition .term-condition-part ul li {font-size: 13px;}
+    .privacy-text .paragraph {font-size: 13px;}
+    .privacy-text .custom-ul li {font-size: 13px;}
+    .paragraph-margin {font-size: 13px;}
+    .privacy-content {padding: 0px 0 20px;}
+    .custom-inner-banner {margin-bottom: 60px;}
+    .custom-term-condition {padding: 0 0 20px 0;}
+    /*supriyo-privacy-terms-refund-end*/
+
+
+    /*supriyo-blog-page-start*/
+    .popular-content-date {width: 50%;}
+    .popular-text.align-self-center h5 {font-size: 18px;}
+
+
+    /*supriyo-blog-page-end*/
+
 }
 
 @media (max-width: 575.98px){
@@ -389,20 +456,37 @@ height: auto;
     .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 10px 15px;}
     /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: -7px;} */
                          /* Paulami Saha work end */
-                         /* Deep-banner-start */
+    /* Deep-banner-start */
     .custom-banner .carousel-caption h2{ font-size: 14px; }
     .custom-banner .carousel-caption h4{ font-size: 12px; }
 
-
     /* Deep-banner-end */
-
     /* sb */
     .contact-us .contact-us-left {background-position: 71% 50%;}
     .contact-us-left::after {background-color: rgba(227, 35, 48, 0.6);}
-    .contact-us .contact-us-right-logo img {
-      width: 100%;
-    }
+    .contact-us .contact-us-right-logo img {width: 100%;}
     /* sb */
+    /*supriyo-privacy-terms-refund-start*/
+    .sub-heading h4 {font-size: 18px;}
+    .sub-heading-margin-top h4 {font-size: 18px;}
+    .privacy-text .paragraph {text-align: center;}
+    .sub-heading {text-align: center;}
+    .paragraph-malware {text-align: center;}
+    .custom-inner-banner-title h2 {font-size: 19px;}
+    .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 12px;}
+    .breadcrumb-item.active {font-size: 12px;}
+    .breadcrumb {align-items: center;}
+    .custom-inner-banner {padding: 80px 0;}
+    .term-condition-part .paragraph {text-align: center;}
+    .term-condition-part .paragraph-margin-top {text-align: center;}
+    .term-condition-part .sub-heading-margin-top {text-align: center;}
+    /*supriyo-privacy-terms-refund-end*/
+
+     /*supriyo-blog-page-start*/
+     .blog-content .row.big-box {padding: 15px 5px;}
+     .blog-content {padding: 0 0 10px 0;}
+     .pagination {margin-bottom: 20px;}
+      /*supriyo-blog-page-end*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -418,18 +502,14 @@ height: auto;
     .footer-header h3 {font-size: 16px;}
 
 
-
     /*supriyo-end*/
 
     /* Paulami Saha work start */
     .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
     .ni-banner a img{width: 100%;}
-    /* .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
-    .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;} */
     .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
-        .custom-offer-banner1 li.ni-banner img {margin-top: 4px;height: auto;}
+    .custom-offer-banner1 li.ni-banner img {margin-top: 4px;height: auto;}
     .fi-offer-img-wrap img {width: 100%;height: 252px;}
-    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;}  */
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 24px;line-height: 30px;}
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 14px;line-height: 5px;}
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content a {font-size: 12px;padding: 9px 12px;}
@@ -438,9 +518,14 @@ height: auto;
                          /* Paulami Saha work end */
 
                          /* sb */
-     .custom-col-5 {
-      flex: 0 0 100% !important;
-    }
+     .custom-col-5 {flex: 0 0 100% !important;}
     /* sb */
+
+    /*supriyo-blog-page-start*/
+    .popular-text.align-self-center h5 {font-size: 16px;}
+    .box-right-text .paragraph {font-size: 12px;line-height: 25px;}
+    /*supriyo-blog-page-end*/
+
+    
 }
 

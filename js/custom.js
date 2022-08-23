@@ -15,3 +15,11 @@ jQuery('#custom-owl').owlCarousel({
         }
     }
 });
+
+jQuery( document ).ready(function() {
+    jQuery(".pr-button").click(  function() {
+// alert('dfgf')
+        jQuery(".quick-view-modal").toggleClass('quick-view-none')
+        jQuery("body").toggleClass('modal-overlay')
+    })
+});

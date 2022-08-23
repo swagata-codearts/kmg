@@ -64,6 +64,18 @@
     .custom-offer-banner1 li.ni-banner {margin-bottom: 22px;}
     .custom-offer-banner1 li.ni-banner img {height: 331px;}
                          /* Paulami Saha work end */
+
+    /*supriyo-blog-page-start*/
+    .post-content .img-fluid {width: 100%;}
+    .custom-inner-banner {padding: 100px 0;}
+    .box-right-text h2 {font-size: 20px; line-height: 28px;}
+    .box-right-text .paragraph {line-height: 22px;}
+    .box-right-text h5 {margin-top: 10px; font-size: 14px;}
+    .box-right-text .comment {margin-top: 10px;}
+    .popular-text.align-self-center h5 {font-size: 14px;}
+    .post-content-img {width: 100%;}
+
+     /*supriyo-blog-page-end*/ 
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -98,6 +110,17 @@
 }
 /* Deep-banner-end */
 	
+ /*supriyo-blog-page-start*/
+ .post-content .img-fluid {width: 100%;}
+ .custom-inner-banner {padding: 100px 0;}
+ .box-right-text h2 {font-size: 20px; line-height: 28px;}
+ .box-right-text .paragraph {line-height: 22px;}
+ .box-right-text h5 {margin-top: 10px; font-size: 14px;}
+ .box-right-text .comment {margin-top: 10px;}
+ .popular-text.align-self-center h5 {font-size: 14px;}
+ .post-content-img {width: 100%;}
+
+  /*supriyo-blog-page-end*/ 
 
 
 }
@@ -252,6 +275,15 @@ height: 294px;
 
 /*supriyo-privacy-terms-refund-end*/
 
+/*supriyo-blog-page-start*/
+.post-content-img {min-height: 70px;}
+.box-right-text h2 {font-size: 18px;line-height: 25px; margin-top: 20px;}
+.box-right-text h5 {font-size: 14px;}
+.popular-text.align-self-center h5 {font-size: 14px;}
+.popular-content-date {padding: 35px 33px 35px;}
+
+ /*supriyo-blog-page-end*/ 
+
 }
 
 
@@ -320,6 +352,14 @@ height: 294px;
     .custom-term-condition {padding: 0 0 20px 0;}
     /*supriyo-privacy-terms-refund-end*/
 
+
+    /*supriyo-blog-page-start*/
+    .popular-content-date {width: 50%;}
+    .popular-text.align-self-center h5 {font-size: 18px;}
+
+
+    /*supriyo-blog-page-end*/
+
 }
 
 @media (max-width: 575.98px){
@@ -377,6 +417,13 @@ height: 294px;
 
 
     /*supriyo-privacy-terms-refund-end*/
+
+     /*supriyo-blog-page-start*/
+     .blog-content .row.big-box {padding: 15px 5px;}
+     .blog-content {padding: 0 0 10px 0;}
+     .pagination {margin-bottom: 20px;}
+
+      /*supriyo-blog-page-end*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -415,5 +462,13 @@ height: 294px;
       flex: 0 0 100% !important;
     }
     /* sb */
+
+    /*supriyo-blog-page-start*/
+    .popular-text.align-self-center h5 {font-size: 16px;}
+    .box-right-text .paragraph {font-size: 12px;line-height: 25px;}
+
+    /*supriyo-blog-page-end*/
+
+    
 }
 

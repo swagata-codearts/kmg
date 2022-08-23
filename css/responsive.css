@@ -242,6 +242,16 @@ height: 294px;
 .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 144px;}
 /* sb */
 
+/*supriyo-privacy-terms-refund-start*/
+.custom-inner-banner {padding: 100px 0;}
+.custom-inner-banner-title h2 {font-size: 28px;}
+.breadcrumb-item.active {font-size: 14px;}
+.breadcrumb-divider {padding-top: 4px;}
+.custom-inner-banner .custom-inner-banner-breadcrumb {padding: 0px 30px 0px;padding-top: 10px;}
+.custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
+
+/*supriyo-privacy-terms-refund-end*/
+
 }
 
 
@@ -353,6 +363,18 @@ height: 294px;
     /*supriyo-privacy-terms-refund-start*/
     .sub-heading h4 {font-size: 18px;}
     .sub-heading-margin-top h4 {font-size: 18px;}
+    .privacy-text .paragraph {text-align: center;}
+    .sub-heading {text-align: center;}
+    .paragraph-malware {text-align: center;}
+    .custom-inner-banner-title h2 {font-size: 19px;}
+    .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 12px;}
+    .breadcrumb-item.active {font-size: 12px;}
+    .breadcrumb {align-items: center;}
+    .custom-inner-banner {padding: 80px 0;}
+    .term-condition-part .paragraph {text-align: center;}
+    .term-condition-part .paragraph-margin-top {text-align: center;}
+    .term-condition-part .sub-heading-margin-top {text-align: center;}
+
 
     /*supriyo-privacy-terms-refund-end*/
 }

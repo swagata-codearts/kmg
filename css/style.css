@@ -1516,7 +1516,7 @@ margin-bottom: 34px;
 
 .newsletter .form-control {
   padding: 16px;
-  border: 1px solid #fff;
+  background: transparent;
 }
 
 .newsletter #basic-addon2 {
@@ -1531,6 +1531,8 @@ margin-bottom: 34px;
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
+  border: 1px solid #fff;
+  padding: 4px;
 }
 /*---------------------------newsletter-end---------------------------------------- */
 
@@ -1555,8 +1557,10 @@ margin-bottom: 34px;
   background-color: #e32330;
   border-color: #e32330;
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
+  border-radius: 0;
+  
 }
 
 .contact-details .contact-form .contact-form-content .mb-3 .form-label {
@@ -1567,8 +1571,45 @@ margin-bottom: 34px;
   padding-right: 0px;
 }
 
+.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {
+  color: #000;
+  padding-bottom: 30px;
+}
 
+.contact-details .contact-content ul.info {
+  display: inline-flex;
+}
 
+.contact-details .contact-content {
+  padding-left: 100px;
+}
+
+.contact-details .contact-content .info .info-detail{
+  padding: 0 50px 0 0;
+  
+}
+
+.contact-details .contact-content .info .info-detail i{
+  color: #e32330;
+  font-size: 22px;
+}
+
+.contact-details .contact-content .info .info-detail h4{
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.contact-details .contact-content .info .info-detail a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+}
+
+.contact-details .contact-content .info .info-detail ul{
+  display: inline-flex;
+  margin-top: 4px;
+}
 
 /* ----------contact details start---------------------- */
 

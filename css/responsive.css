@@ -293,6 +293,23 @@ height: 294px;
       flex: 0 0 50% !important;
     }
     /* sb */
+
+    /*supriyo-privacy-terms-refund-start*/
+    .custom-inner-banner-title h2 {font-size: 26px;}
+    .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
+    .breadcrumb-item.active {font-size: 14px;}
+    .custom-inner-banner {padding: 100px 0;}
+    .term-condition-part .paragraph-bold {font-size: 13px;text-align: center;}
+    .term-condition-part .paragraph {font-size: 13px;}
+    .custom-term-condition .term-condition-part ul li {font-size: 13px;}
+    .privacy-text .paragraph {font-size: 13px;}
+    .privacy-text .custom-ul li {font-size: 13px;}
+    .paragraph-margin {font-size: 13px;}
+    .privacy-content {padding: 0px 0 20px;}
+    .custom-inner-banner {margin-bottom: 60px;}
+    .custom-term-condition {padding: 0 0 20px 0;}
+    /*supriyo-privacy-terms-refund-end*/
+
 }
 
 @media (max-width: 575.98px){
@@ -331,6 +348,13 @@ height: 294px;
 
 
     /* Deep-banner-end */
+
+
+    /*supriyo-privacy-terms-refund-start*/
+    .sub-heading h4 {font-size: 18px;}
+    .sub-heading-margin-top h4 {font-size: 18px;}
+
+    /*supriyo-privacy-terms-refund-end*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -344,7 +368,6 @@ height: 294px;
     .footer-1-text li a span {display: none;}
     .footer-2-text li a span {display: none;}
     .footer-header h3 {font-size: 16px;}
-
 
 
     /*supriyo-end*/

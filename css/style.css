@@ -1598,6 +1598,9 @@ margin-bottom: 48px;
 .sub-heading h4 {line-height: 35px;}
 
 /* Paulami Saha Terms & Conditions work End */
+
+
+
 /* Paulami Saha Newsletter Part Start */
 .custom-newsletter .custom-form-wrap{
   padding: 10px 50px;
@@ -1741,9 +1744,10 @@ margin-bottom: 34px;
   margin-left: 10px;
 }
 .post-content-img {
-  height: auto;
   width: 60%;
+  height: auto;
   object-fit: cover;
+  overflow: hidden;
 }
 .post-content-img .img-fluid {
   width: 100%;
@@ -1794,17 +1798,18 @@ margin-bottom: 34px;
 .sidebar-box .popular-posts li {
   padding: 20px 0 0px 0;
 }
-.blog-content .row.big-box {
+.blog-content .big-box {
   background-color: #f9f9f9;
   margin: 0 0 30px 0;
-  padding: 25px 15px;
+  display: flex;
+  padding: 15px 15px;
 }
 .big-box-left {
   object-fit: cover;
   overflow: hidden;
 }
 .big-box-left .img-fluid {
-  width: 100%;
+  width:100%;
 }
 .box-right-text h2 {
   font-size: 26px;
@@ -1862,6 +1867,77 @@ margin-bottom: 34px;
   margin-bottom: 30px;
 }
 .pagination .page-link {color: #d33;}
+
+/*---supriyo-blog-css-change-start-24/8/22---*/
+.post-content-img {
+  width: 60%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.big-box-left {
+  position: relative;
+}
+.img-date {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  background-color: #d33;
+  color: #fff;
+  padding: 10px;
+}
+.img-date h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+}
+.img-date h4 {
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+.big-box-left img {
+  width: 100%;
+  object-fit: cover;
+}
+.big-box-right {
+  margin-left: 30px;
+}
+.post-content-img img {
+  width: 100%;
+  object-fit: cover;
+}
+/*---supriyo-blog-css-change-end-24/8/22---*/
+
+/*---supriyo-refund-start-24/8/22---*/
+.term-condition-part-refund .paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 30px 0px 0;
+  line-height: 28px;
+}
+.term-condition-part-refund ul {
+  margin-top: 20px;
+  padding: 10px 0px 0px 15px;
+}
+.term-condition-part-refund ul li {
+  list-style-type: circle;
+  color: #727272;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  padding: 0 0 10px 0;
+  list-style: inherit;
+}
+
+/*---supriyo-refund-end-24/8/22---*/
+
+
 /* --------------------------- inner blog page end (fdev-sg) --------------------------- */
 
 

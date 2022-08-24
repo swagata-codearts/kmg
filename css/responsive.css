@@ -80,6 +80,7 @@
     .post-content-img {width: 100%;}
 
      /*supriyo-blog-page-end*/ 
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -127,6 +128,17 @@
  .post-content-img {width: 100%;}
 
   /*supriyo-blog-page-end*/ 
+
+   /*----supriyo-blog-page-start-24/8/22----*/
+   .box-right-text h2 {font-size: 16px;line-height: 24px;}
+   .box-right-text h5 {margin-top: 8px;font-size: 12px;}
+   .box-right-text .comment {margin-top: 8px;}
+   .box-right-text .paragraph {margin-top: 6px;font-size: 12px;line-height: 19px;}
+   .box-right-text .custom-button {margin-top: 8px;font-size: 12px;padding: 8px 20px;}
+
+
+
+  /*----supriyo-blog-page-end-24/8/22----*/
 
 
 }
@@ -347,6 +359,14 @@ height: auto;
 
  /*supriyo-blog-page-end*/ 
 
+
+ /*----supriyo-blog-page-start-24/8/22----*/
+ .blog-content .big-box {display: block;}
+ .big-box-right {margin-left: 0px;}
+ .custom-inner-banner {padding: 80px 0;}
+
+  /*----supriyo-blog-page-end-24/8/22----*/
+
 }
 
 
@@ -433,6 +453,11 @@ height: auto;
 
     /*supriyo-blog-page-end*/
 
+    /*---supriyo-refund-page-start-24/8/22---*/
+    .term-condition-part-refund .paragraph {font-size: 13px; text-align: center;}
+    .term-condition-part-refund ul li {font-size: 13px;}
+    /*---supriyo-refund-page-end-24/8/22---*/
+
 }
 
 @media (max-width: 575.98px){
@@ -496,6 +521,8 @@ height: auto;
      .blog-content {padding: 0 0 10px 0;}
      .pagination {margin-bottom: 20px;}
       /*supriyo-blog-page-end*/
+
+
 }
 
 @media only screen and (max-width: 480.98px) {	

@@ -1367,6 +1367,10 @@ margin-bottom: 48px;
   transform: translateY(-150px);
   right: 30%;
 } */
+
+.inner-contact-us-page .custom-inner-banner {
+  margin-bottom: 0;
+}
 .contact-us .contact-us-left{
   background-image: url(../images/contact-banner1.jpg);
   width: 100%;
@@ -1450,11 +1454,11 @@ margin-bottom: 48px;
   padding: 10px;
 }
 
-.contact-form .form-control {
+/*.contact-form .form-control {
   background-color: #f8f8f8;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-}
+}*/
 
 .contact-form form {
   padding: 60px 30px;
@@ -1473,8 +1477,12 @@ margin-bottom: 48px;
   padding-bottom: 30px;
 }
 
-.contact-details .contact-form .contact-form-content .mb-3 .form-control{
+.contact-details .contact-form .contact-form-content .form-control{
   padding: 10px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border-radius: 0;
 }
 .contact-details .contact-form .contact-form-content .btn.btn-primary {
   width: 100%;
@@ -1537,14 +1545,32 @@ margin-bottom: 48px;
 }
 
 .contact-details .contact-content .info .info-detail span{
-  background-color: #e32330;
-  padding: 20px;
+  background-color: var(--c-white);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  line-height: 110px;
+  border: 1px solid var(--c-primary);
+}
+
+.contact-details .contact-content .info .info-detail span i{
+color: var(--c-primary);
+font-size: 30px;
 }
 
 .contact-details .contact-content .info .info-detail ul .si a i{
   color: #e32330;
   font-size: 20px;
   margin-right: 6px;
+}
+
+.contact-details .contact-form .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--c-grey-light);
+  outline: 0;
+  box-shadow: none;
 }
 
 /* ----------contact details start---------------------- */

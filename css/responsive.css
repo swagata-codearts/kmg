@@ -450,10 +450,18 @@ height: auto;
     .contact-details .contact-content .info .info-detail h4 {font-size: 16px;}
     .contact-details .contact-content .info .info-detail span {padding: 14px;}
     .contact-details .contact-content .info .info-detail ul .si a i {font-size: 12px;}
-    .contact-details .contact-content .info .info-detail a {font-size: 8px; font-weight: bold;}
+    .contact-details .contact-content .info .info-detail a {font-size: 8px;font-weight: 500;}
     .newsletter .newsletter-heading h4 {font-size: 14px;}
-    .newsletter .form-control {padding: 6px;}
+    .newsletter .form-control {padding: 6px;font-size: 12px;}
     .newsletter .input-group {top: -38px; left: 120px;}
+    .newsletter #basic-addon2 {font-weight: 400;}
+    .contact-details .contact-content .info .info-detail span {line-height: 84px;}
+    .newsletter {padding: 60px 0;}
+    .newsletter .input-group {
+      top: 12px;
+      left: -75px;
+      width: 70%;
+    }
 
     /*--------------------------------Deep-contact-us-end--------------------------------*/
 
@@ -520,6 +528,29 @@ height: auto;
      .blog-content {padding: 0 0 10px 0;}
      .pagination {margin-bottom: 20px;}
       /*supriyo-blog-page-end*/
+
+      /*------------------------Deep-contact-us-page-start-------------*/
+      .custom-inner-banner .custom-inner-banner-breadcrumb {padding: 8px 18px 0px;}
+      .contact-details .contact-content {padding-left: 0;}
+      .contact-details .contact-content .info .info-detail {padding: 0 0 0 0;}
+      .contact-details .contact-content .info .info-detail span {width: 70px;}
+      .contact-details .contact-content .info .info-detail h4 {font-size: 12px;}
+      .contact-details .contact-content .info .info-detail a {
+        font-size: 9px;
+        font-weight: 500;
+      }
+      .contact-details .contact-form {
+        margin: 10px 0;
+        padding: 24px;
+      }
+      .contact-details .contact-form .contact-form-content .btn.btn-primary {font-size: 16px;}
+      .newsletter .input-group {
+        top: 12px;
+        left: -17px;
+      }
+
+
+      /*------------------------Deep-contact-us-page-end-------------*/
 }
 
 @media only screen and (max-width: 480.98px) {	

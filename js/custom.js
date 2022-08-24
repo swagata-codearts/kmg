@@ -1,5 +1,5 @@
 // JavaScript Document
-jQuery('#custom-owl').owlCarousel({
+jQuery('#quick-view-owl').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -16,10 +16,10 @@ jQuery('#custom-owl').owlCarousel({
     }
 });
 
-jQuery( document ).ready(function() {
-    jQuery(".pr-button").click(  function() {
-// alert('dfgf')
-        jQuery(".quick-view-modal").toggleClass('quick-view-none')
-        jQuery("body").toggleClass('modal-overlay')
-    })
-});
+// jQuery( document ).ready(function() {
+//     jQuery(".pr-button").click(  function() {
+
+//         jQuery(".quick-view-modal").toggleClass('quick-view-none')
+//         jQuery("body").toggleClass('modal-overlay')
+//     })
+// });

@@ -1154,6 +1154,9 @@ margin-bottom: 37px;
  /* About Us Heading End */
 
  /* About Us Content Start */
+ .about-us-content {
+  margin: 80px 0;
+}
  .about-us-content .about-us-content-wap{
   margin-top: 5px 0 20px 0;
  }
@@ -1175,65 +1178,52 @@ margin-bottom: 37px;
  }
  .about-us-content .about-us-content-image-wap .list-about-us-content h4{
   font-size: 50px;
-  line-height: 20px;
+  line-height: 35px;
   margin-bottom: 30px;
  }
  .about-us-content .about-us-content-image-wap .list-about-us-content p{
   font-size: 25px;
   line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+ }
+ .about-us-content .about-us-right-content-wap .custom-heading .product-section-heading{
+  text-align: left;
+  margin-bottom: 25px;
+  color: #000000;
  }
 
  .about-us-content .about-us-right-content-wap{
   text-align: left;
   /* background-color: #e3d2c1; */
-padding: 35px 26px 90px 26px;
+padding: 35px 19px 90px 19px;
 margin: 5px 0 10px 0;
  }
- .about-us-content .about-us-right-content-wap h4{
-  font-family: 'Montserrat', sans-serif;
-
- font-size: 44px;
- color: #9b1a1a;
- line-height: 66px;
- margin-bottom: 20px;
+ .about-us-right-content .about-us-right-content-wap .custom-heading{
+  text-align: left;
  }
 .about-us-content .about-us-right-content-wap p{
-/* font-family: 'Arimo', sans-serif; */
-/* font-family: 'Audiowide', cursive;  */
+
 font-family: 'Montserrat', sans-serif;
-/* font-family: 'Poppins', sans-serif;  */
 font-size: 19px;
 color: #443636e0;
 line-height: 26px;
 margin-bottom: 48px;
 }
-.about-us-content .about-us-right-content-wap a{
-  font-size: 23px;
+.about-us-content .about-us-right-content-wap .custom-button{
   background-color: #e32330;
-  color: #ffffff;
-  line-height: 41px;
-  padding: 17px 20px;
+  padding: 15px 33px;
 }
 /* Our Mission Section Start*/
 .our-mission-section .our-mission-section-wrap{
-  margin: 30px;
   padding: 30px;
   text-align: center;
-  background-color: #f0bea021;
-}
-.our-mission-section .our-mission-section-wrap .mission-heading-wrap h4{
-  font-family: 'Montserrat', sans-serif;
-  color: #a22323;
-  font-size: 50px;
-  line-height: 30px;
-  margin-bottom: 20px;
 }
 .our-mission-section .our-mission-section-wrap .mission-heading-wrap p{
   font-family: 'Montserrat', sans-serif;
-  color: #000000;
-  font-size: 24px;
-  line-height: 56px;
-  margin-bottom: 30px;
+  font-size: 21px;
+  color: #443636e0;
+  line-height: 35px;
+  margin: 15px 0;
 }
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li{
   display: inline-block;
@@ -1244,14 +1234,15 @@ margin-bottom: 48px;
   padding: 48px 15px;
 }
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li img{
-  width: 33%;
+  width: 95px;
+  height: 95px;
   margin-bottom: 20px;
 }
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li h5{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Audiowide', cursive;
+  font-weight: 500;
   color: #000000;
-  font-size: 34px;
+  font-size: 30px;
 }
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li p{
   font-family: 'Montserrat', sans-serif;
@@ -1262,21 +1253,18 @@ margin-bottom: 48px;
   margin-bottom: 12px;
 }
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li a{
-  color: #fff;
-  font-size: 25px;
-  background-color: #ac5c49;
-  padding: 8px 14px;
+  background-color: #e32330;
 }
 /* Customer & Counter Start*/
 .customer-counter .customer-counter-wap{
-  background-color: #ffffff;
   text-align:center ;
-  margin-top: 65px;
+  margin: 20px 0 55px 0;
 }
 .customer-counter .customer-counter-wap ul li{
   display: inline-block;
   margin: 60px;
   border: 4px rgb(198, 44, 44);
+  border-radius: 25px;
   border-style: dotted;
   padding: 40px;
 }
@@ -1287,17 +1275,26 @@ margin-bottom: 48px;
   width: 100px;
   margin-bottom: 27px;
 }
-.customer-counter .customer-counter-wap ul li h5{ 
+/* .customer-counter .customer-counter-wap ul li h5{ 
   font-size: 45px;
-  font-family:'Poppins', sans-serif;
+  font-family:'Audiowide', cursive;
+  font-weight: 200px;
+  margin-bottom: 10px;
+  color: #ca3636;
+} */
+/* help */
+.customer-counter .customer-counter-wap ul li { 
+  font-size: 45px;
+  font-family:'Audiowide', cursive;
   font-weight: 200px;
   margin-bottom: 10px;
   color: #ca3636;
 }
+
 .customer-counter .customer-counter-wap ul li p{ 
   color: #483e3e;
   font-size: 23px;
-  font-family:'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200px;
 }
 /* our service */
@@ -1309,12 +1306,11 @@ margin-bottom: 48px;
   text-align: center;
 }
 .our-service .row .col-lg-4 p{
-  font-family: 'Poppins', sans-serif; 
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 400;
   font-size: 25px;
   line-height: 24px;
   margin-top: 10px;
-  border-left: 4px solid #a22323;
 }
 /* Inner About Us Page Start (Paulami) */
 

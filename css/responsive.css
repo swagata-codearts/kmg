@@ -81,6 +81,14 @@
 
      /*supriyo-blog-page-end*/ 
 
+
+     /*--supriyo-home-page-responsive-start-24/8/22--*/
+     .contact-us .contact-us-left {background-position: 60% 50%;}
+
+
+     /*--supriyo-home-page-responsive-end-24/8/22--*/
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -149,6 +157,11 @@
 
   /*----supriyo-blog-inner-end-24/8/22----*/
 
+      /*--supriyo-home-page-responsive-start-24/8/22--*/
+      .custom-banner .side-banner-content .custom-button {padding: 5px 15px;font-size: 10px;}
+      .contact-us .contact-us-left {background-position: 60% 50%;}
+
+     /*--supriyo-home-page-responsive-end-24/8/22--*/
 }
 
 
@@ -389,6 +402,13 @@ height: auto;
 
     /*----supriyo-blog-inner-end-24/8/22----*/
 
+    /*----supriyo-home-cart-start-24/8/22----*/
+    .navigation .cart-section.col-md-3.col-lg-none.col-sm-block {width: 32%; padding: 0px 0px;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 55%;}
+
+    /*----supriyo-home-cart-end-24/8/22----*/
+
+
 }
 
 
@@ -491,6 +511,12 @@ height: auto;
     .blog-inner-3 {min-height: 702px;}
 
     /*----supriyo-blog-inner-end-24/8/22----*/
+
+    /*----supriyo-home-cart-start-24/8/22----*/
+    .navigation .cart-section.col-md-3.col-lg-none.col-sm-block {width: 32%; padding: 0px 0px;}
+    .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 45%;}
+
+    /*----supriyo-home-cart-end-24/8/22----*/
 
 }
 

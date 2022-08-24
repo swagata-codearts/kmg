@@ -1024,6 +1024,31 @@ margin-bottom: 37px;
 /*footer-end*/
 /*supriyo-work-end*/
 
+/*--supriyo-home-page-css-change-start-24/8/22--*/
+.bestseller-items-section .bsp-left-img-1 {object-fit: cover;overflow: hidden;}
+.bestseller-items-section .bsp-left-img-2 {object-fit: cover;overflow: hidden;}
+.bestseller-items-section .bsp-left-img-1 img {min-height: 430px;object-fit: cover;object-position: right;}
+.bestseller-items-section .bsp-left-img-2 img {min-height: 430px;object-fit: cover;object-position: right;}
+.logo-search .form-control.me-2 {
+  margin-right: 0px !important;
+}
+.contact-us .contact-us-left {position: relative;z-index: 1;}
+.contact-us .contact-us-left::after {
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+
+/*--supriyo-home-page-css-change-end-24/8/22--*/
+
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS START +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */
 

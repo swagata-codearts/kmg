@@ -518,7 +518,7 @@ transition: opacity 0.8s ease-in-out;
   position: fixed;
   width: calc(100% - 20%);
   height: calc(100vh - 150px);
-  background-color: #333;
+  background-color: #f9f9f9;
   z-index: 9999;
   margin: 0 auto;
   left: 0;
@@ -528,6 +528,105 @@ transition: opacity 0.8s ease-in-out;
   opacity: 1;
   transition: all 0.4s ease-in-out 0s;
 }
+.quick-view-modal-content {
+  padding: 6%;
+}
+.qv-modal-dialog {
+  max-width: 55% !important;
+}
+#quick-view-owl .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+#quick-view-owl .owl-stage {
+  display: flex;
+  align-items: center;
+}
+#quick-view-owl .owl-item img {
+  width: 80%;
+}
+#quick-view-owl .owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.qv-modal-right .modal-header {
+  border: none !important;
+  position: absolute;
+right: 10px;
+top: 10px;
+}
+.modal-content.qv-modal-content {
+  padding: 25px 35px;
+}
+.qv-modal-heading h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+position: relative;}
+  .qv-modal-heading h4::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background-color: var(--c-primary);
+    bottom: 0;
+    left: 0;
+  }
+  .qv-modal-price h5 {
+    font-family: var(--ff-tertiary);
+    font-size: 18px;
+    color: var(--c-text-light);
+    /* margin-bottom: 20px; */
+  }
+  .qv-modal-desc.mb-md-3.mb-2 p {
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--c-text-light);
+  }
+  .qv-modal-add .quantity {
+    height: 44px;
+border-radius: 0;
+border: 1px solid var(--c-grey-light);
+width: 45px;
+text-align: center;
+  }
+  .qv-modal-add .custom-button {
+    background-color: var(--c-primary);
+  padding: 12px 34px;
+  text-transform: uppercase;
+  border: none;
+  margin-left: 10px;
+  }
+#quick-view-owl .owl-prev {
+  left: 0;
+  position: absolute;
+}
+#quick-view-owl .owl-next {
+  right: 0;
+  position: absolute;
+}
+#quick-view-owl .owl-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#quick-view-owl .owl-dot {
+  background-color: var(--c-white) !important;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+#quick-view-owl .owl-dot.active {
+  background-color: #000 !important;
+}
+
+
 /* quick view modal */
 /* Product Section */
 /* NEXT */

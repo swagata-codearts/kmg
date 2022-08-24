@@ -1447,15 +1447,13 @@ margin-bottom: 48px;
 }
 
 .contact-form .mb-3 {
-  padding: 15px;
+  padding: 10px;
 }
 
 .contact-form .form-control {
   background-color: #f8f8f8;
-  border: 1px solid transparent;
-  padding: 20px;
-  border: 1px;
-  border: 1px solid #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .contact-form form {
@@ -1465,8 +1463,8 @@ margin-bottom: 48px;
 
 /* ----------contact details start---------------------- */
 .contact-details .contact-form{
-  background-color: #e4e4e4;
-  margin: 70px;
+  background-color: #f9f9f9;
+  margin: 40px;
   padding: 50px;
 }
 
@@ -1476,7 +1474,7 @@ margin-bottom: 48px;
 }
 
 .contact-details .contact-form .contact-form-content .mb-3 .form-control{
-  padding: 12px;
+  padding: 10px;
 }
 .contact-details .contact-form .contact-form-content .btn.btn-primary {
   width: 100%;
@@ -1500,7 +1498,7 @@ margin-bottom: 48px;
 
 .contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {
   color: #000;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .contact-details .contact-content ul.info {
@@ -1516,14 +1514,14 @@ margin-bottom: 48px;
   
 }
 
-.contact-details .contact-content .info .info-detail i{
-  color: #e32330;
-  font-size: 22px;
+.contact-details .contact-content .info .info-detail span i{
+  color: #fff;
+  font-size: 20px;
 }
 
 .contact-details .contact-content .info .info-detail h4{
   font-size: 20px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .contact-details .contact-content .info .info-detail a{
@@ -1536,6 +1534,17 @@ margin-bottom: 48px;
 .contact-details .contact-content .info .info-detail ul{
   display: inline-flex;
   margin-top: 4px;
+}
+
+.contact-details .contact-content .info .info-detail span{
+  background-color: #e32330;
+  padding: 20px;
+}
+
+.contact-details .contact-content .info .info-detail ul .si a i{
+  color: #e32330;
+  font-size: 20px;
+  margin-right: 6px;
 }
 
 /* ----------contact details start---------------------- */
@@ -1651,10 +1660,10 @@ height: 34px;
   }
   .custom-newsletter .card p{
     color: #000000;
-font-family: var(--ff-tertiary-alt);
-padding-left: 67px;
-font-size: 15px;
-margin-bottom: 34px;
+    font-family: var(--ff-tertiary-alt);
+    padding-left: 67px;
+    font-size: 15px;
+    margin-bottom: 34px;
   }
   .custom-newsletter .inputbox{
     margin-bottom: 23px;
@@ -1707,6 +1716,7 @@ margin-bottom: 34px;
 .newsletter .form-control {
   padding: 16px;
   background: transparent;
+  border: none;
 }
 .newsletter #basic-addon2 {
   background-color: #e32330;

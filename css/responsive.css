@@ -349,6 +349,16 @@ height: auto;
 
 }
 
+/*----------------Deep-contact-us-page-start---------------------- */
+.contact-details .contact-content {margin-top: 20px;}
+.newsletter .newsletter-heading h4 {font-size: 20px;}
+.newsletter .input-group{width: 50%; padding: 0px;top: -50px; left: 170px;}
+
+
+
+
+/*----------------Deep-contact-us-page-end---------------------- */
+
 
 @media (max-width: 767.98px){
     /*supriyo-start*/
@@ -432,6 +442,19 @@ height: auto;
 
 
     /*supriyo-blog-page-end*/
+
+    /*--------------------------------Deep-contact-us-start--------------------------------*/
+
+    .contact-details .contact-content .info .info-detail {padding: 0 40px 0 0;}
+    .contact-details .contact-content .info .info-detail h4 {font-size: 16px;}
+    .contact-details .contact-content .info .info-detail span {padding: 14px;}
+    .contact-details .contact-content .info .info-detail ul .si a i {font-size: 12px;}
+    .contact-details .contact-content .info .info-detail a {font-size: 8px; font-weight: bold;}
+    .newsletter .newsletter-heading h4 {font-size: 14px;}
+    .newsletter .form-control {padding: 6px;}
+    .newsletter .input-group {top: -38px; left: 120px;}
+
+    /*--------------------------------Deep-contact-us-end--------------------------------*/
 
 }
 

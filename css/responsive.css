@@ -140,6 +140,14 @@
 
   /*----supriyo-blog-page-end-24/8/22----*/
 
+  /*----supriyo-blog-inner-start-24/8/22----*/
+  .blog-inner-1-content .paragraph {font-size: 13px;}
+  .blog-inner-2 .blog-inner-2-list li {font-size: 13px;}
+  .blog-inner-3 .paragraph {font-size: 13px;}
+  .blog-inner-3 {min-height: 750px;}
+  .blog-inner-2 {min-height: 750px;}
+
+  /*----supriyo-blog-inner-end-24/8/22----*/
 
 }
 
@@ -367,6 +375,20 @@ height: auto;
 
   /*----supriyo-blog-page-end-24/8/22----*/
 
+    /*----supriyo-blog-inner-start-24/8/22----*/
+    .blog-inner-1-content .comments li {font-size: 13px;}
+    .blog-inner-1-content .comments li {padding: 0 30px 0 0;}
+    .blog-inner-1-content .comments li::after {right: 12px;}
+    .blog-inner-1-content .paragraph {font-size: 13px;}
+    .blog-inner-2 .blog-inner-2-list li {font-size: 13px;}
+    .blog-inner-2 .blog-inner-2-list {margin-left: 22px;}
+    .blog-inner-3 .paragraph {font-size: 12px;}
+
+
+
+
+    /*----supriyo-blog-inner-end-24/8/22----*/
+
 }
 
 
@@ -458,6 +480,18 @@ height: auto;
     .term-condition-part-refund ul li {font-size: 13px;}
     /*---supriyo-refund-page-end-24/8/22---*/
 
+
+    /*----supriyo-blog-inner-start-24/8/22----*/
+    .blog-inner-1-content .comments li {font-size: 12px;}
+    .blog-inner-1-content .comments li {padding: 0 10px 0 0;}
+    .blog-inner-1-content .comments li::after {right: 2px;}
+    .blog-inner .col-md-6.col-sm-12 {margin: 0 0 30px 0;}
+    .blog-inner .col-md-6.col-sm-12:last-child {margin: 0 0 0px 0;}
+    .blog-inner-2 {min-height: 702px;}
+    .blog-inner-3 {min-height: 702px;}
+
+    /*----supriyo-blog-inner-end-24/8/22----*/
+
 }
 
 @media (max-width: 575.98px){
@@ -521,6 +555,20 @@ height: auto;
      .blog-content {padding: 0 0 10px 0;}
      .pagination {margin-bottom: 20px;}
       /*supriyo-blog-page-end*/
+
+
+      /*----supriyo-blog-inner-start-24/8/22----*/
+      .blog-inner-1-content h3 {text-align: center;}
+      .blog-inner-1-content .comments {text-align: center;}
+      .blog-inner-1-content .paragraph {text-align: center;}
+      .blog-inner {padding: 0 0 50px 0;}
+      .blog-inner-1 {padding: 15px;}
+      .blog-inner-2 {padding: 15px;}
+      .blog-inner-3 {padding: 15px;}
+      
+
+
+      /*----supriyo-blog-inner-end-24/8/22----*/
 
 
 }

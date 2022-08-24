@@ -1938,6 +1938,115 @@ margin-bottom: 34px;
 /*---supriyo-refund-end-24/8/22---*/
 
 
+/*---supriyo-blog-inner-start-24/8/22---*/
+.blog-inner-1-img {
+  background-image: url(../images/blog-big-img-1.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+.blog-inner {
+  padding: 0 0 80px 0;
+}
+.blog-inner-img {
+  object-fit: cover;
+  overflow: hidden;
+}
+.blog-inner-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.blog-inner-2 {
+  background-color: #f9f9f9;
+  padding: 30px;
+  min-height: 831px;
+}
+.blog-inner-3 {
+  background-color: #f9f9f9;
+  padding: 30px;
+  min-height: 831px;
+}
+.blog-inner-1 {
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.blog-inner-1-content .comments li {
+  display: inline-block;
+  padding: 0 60px 0 0;
+  position: relative;
+}
+.blog-inner-1-content .comments li::after {
+  position: absolute;
+  content: '';
+  background-color: #727272;
+  width: 1px;
+  height: 20px;
+  right: 29px;
+  top: 4px;
+}
+.blog-inner-1-content .comments li:last-child::after {
+  display: none;
+}
+.blog-inner-2 .blog-inner-2-list li {
+  padding: 0px 0 15px 0;
+  list-style: conic-gradient;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #727272;
+}
+.blog-inner-2 .blog-inner-2-list li:last-child {
+  padding: 0 0;
+}
+.blog-inner-2 .blog-inner-2-list {
+  margin-top: 30px;
+  margin-left: 28px;
+}
+.blog-inner-3 .paragraph {
+margin-top: 30px;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: #727272;
+line-height: 28px;
+}
+.blog-inner-1-content .paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.blog-inner-1-content .comments li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #727272;
+  line-height: 28px;
+}
+.blog-inner-1-content .comments {
+  margin-top: 30px;
+}
+.blog-inner-1-content h3 {
+  margin-top: 30px;
+}
+.blog-inner-1-content .comments li span {
+  margin-right: 10px;
+  color: #e32330;
+  font-size: 16px;
+}
+
+
+
+
+/*---supriyo-blog-inner-end-24/8/22---*/
+
+
+
 /* --------------------------- inner blog page end (fdev-sg) --------------------------- */
 
 

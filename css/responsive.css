@@ -22,6 +22,14 @@
 .fi-offer-img-wrap img {width: 100%;margin: 3px 0;height: 413px;}
 .fi-offer-banner1 .container-fluid .row .col-lg-6:first-child .list-banner-content {right: 179px;}
 /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 5px;left: 53px;} */
+/* About US START */
+/* .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {margin: 51px 17px;
+  padding: 72px 9px;}
+  .customer-counter .customer-counter-wap .counter-box-wrap {
+    padding: 40px;
+  } */
+/* About US End */
+
          /* Paulami Saha work End */
 	
 }
@@ -38,7 +46,12 @@
     .custom-offer-banner1 li.ni-banner:nth-child(2n+1) {width: 54%;}
     .custom-offer-banner1 .ni-banner-wrap .list-banner-content h5 {font-size: 28px;}
     .custom-offer-banner1 .ni-banner-wrap .list-banner-content p {font-size: 16px;}
-    
+
+        /* About Us start */
+        .our-service .row .col-lg-4 p {font-weight: 500;font-size: 16px;margin: 14px 0 14px 5px;}
+        .our-service .row .col-lg-4 span i {font-size: 23px;margin-left: 40px;}
+        .about-us-content .about-us-right-content-wap {padding: 36px 30px 21px 19px;}
+                /* About Us End */
 
               /* Paulami Saha work End */
 }
@@ -105,6 +118,16 @@
     .fi-offer-img-wrap img {height: 300px; margin-bottom: 14px;}
     .custom-offer-banner1 li.ni-banner img {margin-top: 4px; height: 282px;}
     
+    /* About Us start */
+    .about-us-content .about-us-content-image-wap img {height: 671px;}
+    .about-us-content .about-us-right-content-wap {padding: 32px 0px 0px 19px;}
+    .customer-counter .customer-counter-wap ul li {margin: 25px;}
+    .our-service .row .col-lg-4 span i {font-size: 20px;margin-left: 26px;}
+    .our-service .row .col-lg-4 p {font-weight: 600;font-size: 13px;margin: 8px 0 8px 3px;}
+    .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap .mission-box-wrap{
+      padding: 0 55px;}
+        /* About Us End */
+
    
                          /* Paulami Saha work end */
 
@@ -167,7 +190,17 @@
     .custom-offer-banner1 li.ni-banner img {margin-top: 8px;}
     .fi-offer-img-wrap img {width: 100%;height: 340px;}
 
-    
+    /* About Us Start */
+    .about-us-content .about-us-right-content-wap {margin: 75px 0 0 0;padding-bottom: 5px;}
+    .our-mission-section .our-mission-section-wrap {padding: 10px;}
+    our-service {padding: 15px 0;}
+    .customer-counter .customer-counter-wap ul li {margin: 29px 55px;}
+    /* About Us End */
+    /* Newsletter Start */
+    .custom-newsletter {margin-bottom: 50px;}
+
+        /* Newsletter End */
+
 
                          /* Paulami Saha work end */
 
@@ -383,6 +416,15 @@ height: auto;
     .custom-offer-banner1 li.ni-banner:nth-child(even){width: 100%; margin-right: 0;margin-left: 0;}
     .custom-offer-banner1 li.ni-banner {margin-bottom: 18px;}
     .fi-offer-img-wrap img {margin-bottom: 10px;}
+
+    /* About Us Start */
+    .about-us-content .about-us-content-image-wap img {height: 550px;}
+
+    /* About Us End */
+
+    .custom-newsletter {
+      margin-bottom: 40px;
+    }
                          /* Paulami Saha work end */
 
                          /* Deep-banner-start */
@@ -463,7 +505,32 @@ height: auto;
     .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 17px;line-height: 12px;}
     .fi-offer-img-wrap img {margin-bottom: 6px;}
     .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 10px 15px;}
-    /* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: -7px;} */
+
+    /* About Us Start */
+    .about-us-content .about-us-content-image-wap img {height: 332px;}
+    .about-us-content .about-us-content-image-wap .list-about-us-content h4 {font-size: 30px;line-height: 13px;
+      margin-bottom: 14px;}
+      .about-us-content .about-us-content-image-wap .list-about-us-content p {font-size: 18px;line-height: 15px;
+      }
+      .about-us-content .about-us-content-image-wap .list-about-us-content {padding: 27px;bottom: -52px;
+        transform: translateX(13%);}
+        .customer-counter .customer-counter-wap ul li img {width: 85px;}
+        .customer-counter .customer-counter-wap ul li span {font-size: 32px;}
+        .customer-counter .customer-counter-wap ul li p {font-size: 17px; line-height: 20px;}
+        .customer-counter .customer-counter-wap ul li {margin: 30px;padding: 34px;}
+        .our-service .row .col-lg-4 span i {font-size: 29px; margin-left: 20px;}
+        .our-service .row .col-lg-4 p {font-size: 14px;margin: 10px 0 18px 6px;display: block;}
+    /* About Us End */
+    
+    /* Newsletter Start */
+    .custom-newsletter {margin-bottom: 25px;}
+    .custom-newsletter .newsletter-heading-wrap .custom-heading .product-section-heading {line-height: 27px;}
+    .custom-newsletter .card p {font-size: 13px;margin: 15px 0 23px 0;line-height: 12px;}
+    .custom-newsletter .inputbox .label-title {font-size: 14px;}
+    .custom-newsletter .inputbox {margin-bottom: 14px;}
+    .custom-newsletter .inputbox input {font-size: 12px;height: 40px; margin-bottom: 20px;}
+        /* Newsletter Start */
+
                          /* Paulami Saha work end */
     /* Deep-banner-start */
     .custom-banner .carousel-caption h2{ font-size: 14px; }

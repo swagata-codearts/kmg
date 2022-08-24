@@ -13,7 +13,8 @@ jQuery('#quick-view-owl').owlCarousel({
         1000:{
             items:1
         }
-    }
+    },
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
 });
 
 // jQuery( document ).ready(function() {

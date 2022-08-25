@@ -86,7 +86,10 @@ padding: 72px 9px;}
 .contact-us .contact-us-left {background-position: 60% 50%;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
 /* sb */
-.product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 160px;}
+/* .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 160px;} */
+.newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: 340px;}
+  .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
+  .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
 /* sb */
 }
 
@@ -158,6 +161,9 @@ padding: 72px 9px;}
   bottom: unset;
   top: 50%;
   transform: translateY(-50%);}
+  .newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: 340px;}
+  .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
+  .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
 /* sb */
 /* .carousel-inner {
@@ -273,6 +279,10 @@ padding: 72px 9px;}
 .contact-us .contact-us-right-logo {text-align: center;}
 .contact-us .contact-us-right-logo img {width: 70%;}
 .custom-offer-banner1 li.ni-banner:last-child{margin-bottom: 0;}
+.newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {
+  height: unset;
+}
+.newest-items-section .product-items-wrap .product-item-box {height: unset;}
 /* sb */
 /*supriyo-privacy-terms-refund-start*/
 .custom-inner-banner {padding: 100px 0;}

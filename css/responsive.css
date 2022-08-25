@@ -353,7 +353,7 @@ padding: 72px 9px;}
 
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 17px;}
-.testimonial-content .client-name li::after {height: 26px; right: 1px;}
+.testimonial-content .client-name li::after {height: 22px; right: 1px;}
 .testimonial-content .paragraph {font-size: 13px;}
 .testimonial-content .client-name h5 {font-size: 13px;}
 .testimonial-content {padding: 50px 20px 50px 20px;}
@@ -365,6 +365,12 @@ padding: 72px 9px;}
 
 
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
+/*--supriyo-faq-page-responsive-start-25/8/22--*/
+.faq.custom-pad-2 {padding: 0 0 40px 0;}
+
+
+/*--supriyo-faq-page-responsive-end-25/8/22--*/
 
 
 }
@@ -476,7 +482,6 @@ padding: 72px 9px;}
 
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .paragraph {min-height: 60px;}
-.testimonial-content .client-name li::after {height: 24px;}
 
 
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
@@ -642,6 +647,12 @@ padding: 72px 9px;}
 
 
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
+/*--supriyo-faq-page-responsive-start-25/8/22--*/
+.faq.custom-pad-2 {padding: 0 0 30px 0;}
+
+
+/*--supriyo-faq-page-responsive-end-25/8/22--*/
 
 
 }

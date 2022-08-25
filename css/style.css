@@ -1043,6 +1043,7 @@ margin-bottom: 37px;
 /*--supriyo-home-page-css-change-end-24/8/22--*/
 
 
+
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS START +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */
 /* custom-inner-banner-start */
 .custom-inner-banner{
@@ -2104,6 +2105,92 @@ line-height: 28px;
 
 
 /*---supriyo-blog-inner-end-24/8/22---*/
+
+
+
+/*--supriyo-testimonial-start-25/8/22--*/
+.testimonial {
+  padding: 0 0 50px 0;
+}
+.testimonial-box {
+  background-color: #f2f2f2;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+.testimonial-content .review li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+.testimonial-content .review li span {
+  font-size:18px;
+  color:#e32330;
+}
+.testimonial-content .client-name {
+  margin-top: 30px;  
+}
+.testimonial-content .client-name li {
+  display: inline-block;
+  padding: 0 30px 0 0;
+  position: relative;
+}
+.testimonial-content .client-name li::after {
+  position: absolute;
+  content: '';
+  background-color: #727272;
+  height: 30px;
+  width: 1px;
+  top: 0;
+  right: 11px;
+}
+.testimonial-content .client-name li:last-child::after {
+  display: none;
+}
+.testimonial-content {
+  padding: 50px 50px 50px 20px;
+}
+.testimonial .quote {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: #e32330;
+  color: #fff;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 25px;
+}
+.testimonial-content .paragraph {
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+  min-height: 100px;
+}
+.testimonial-content .client-name h4 {
+  font-size: 22px;
+}
+.testimonial-content .client-name h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.testimonial-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.testimonial .testimonial-btn .custom-button {
+  background-color: #e32330;
+}
+.testimonial .testimonial-btn .custom-button:hover {
+  color: #000;
+}
+
+
+/*--supriyo-testimonial-start-25/8/22--*/
 
 
 

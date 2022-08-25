@@ -91,6 +91,17 @@ padding: 72px 9px;}
   .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
   .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
 /* sb */
+
+
+/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
+.testimonial-content .client-name h4 {font-size: 20px;}
+.testimonial-content .client-name li::after {height: 28px;}
+.testimonial-content .paragraph {font-size: 13px;}
+.testimonial-content .client-name h5 {font-size: 13px;}
+
+
+/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -180,6 +191,17 @@ padding: 72px 9px;}
   z-index: -1;
 } */
 /* sb */
+
+
+/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
+.testimonial-content .client-name h4 {font-size: 20px;}
+.testimonial-content .client-name li::after {height: 28px;}
+.testimonial-content .paragraph {font-size: 13px;}
+.testimonial-content .client-name h5 {font-size: 13px;}
+
+
+/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -328,6 +350,23 @@ padding: 72px 9px;}
 .navigation .navbar-nav .nav-item:first-child {margin: 0 auto;}
 .navigation .navbar-nav .nav-item:last-child {margin: 0 auto;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
+
+/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
+.testimonial-content .client-name h4 {font-size: 17px;}
+.testimonial-content .client-name li::after {height: 26px; right: 1px;}
+.testimonial-content .paragraph {font-size: 13px;}
+.testimonial-content .client-name h5 {font-size: 13px;}
+.testimonial-content {padding: 50px 20px 50px 20px;}
+.testimonial-content .client-name li {padding: 0 10px 0 0;}
+.testimonial-content .paragraph {min-height: 110px;}
+.testimonial-btn {margin-top: 10px;}
+.testimonial {padding: 0 0 40px 0;}
+
+
+
+/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
+
 }
 
 @media (max-width: 767.98px){
@@ -432,6 +471,17 @@ padding: 72px 9px;}
 .newsletter .input-group {top: 12px;left: -75px;width: 70%;}
 /*--------------------------------Deep-contact-us-end--------------------------------*/
 /* >>>>>>> 4af3a937e541aff2a1ad64ce6a1704b307e79b1e */
+
+
+
+/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
+.testimonial-content .paragraph {min-height: 60px;}
+.testimonial-content .client-name li::after {height: 24px;}
+
+
+/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
+
 }
 
 @media (max-width: 575.98px){
@@ -582,4 +632,16 @@ padding: 72px 9px;}
 .custom-banner .carousel-caption a {
   margin-top: 10px;
 }
+
+
+/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
+.testimonial-content .client-name h4 {font-size: 15px;}
+.testimonial-content .client-name h5 {font-size: 12px;}
+.testimonial-content .client-name li::after {height: 20px;}
+
+
+
+/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
+
+
 }

@@ -24,16 +24,14 @@
 </head>
 
 <body >
-  <!-- <div class="quick-view-modal-wrap">
-
-    <div class="quick-view-modal quick-view-none">
-      <div class="quick-view-modal-content">
-
+  <!-- Modal -->
+  <div class="modal qv-modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered qv-modal-dialog">
+      <div class="modal-content qv-modal-content">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-6">
-  
-              <div class="qv-modal-left">
+              <div class="modal-body qv-modal-body">
                 <div id="quick-view-owl" class="owl-carousel owl-theme">
                   <div class="item qv-product-image">
                     <img src="./images/newest-items1.jpg" alt="">
@@ -41,66 +39,31 @@
                   <div class="item qv-product-image">
                     <img src="./images/ni_hover1.jpg" alt="">
                   </div>
-                  
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-  
-              <div class="qv-modal-body">
-                sddsd
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div> -->
-  <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quickViewModal">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<div class="modal qv-modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered qv-modal-dialog">
-    <div class="modal-content qv-modal-content">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="modal-body qv-modal-body">
-              <div id="quick-view-owl" class="owl-carousel owl-theme">
-                <div class="item qv-product-image">
-                  <img src="./images/newest-items1.jpg" alt="">
+              <div class="qv-modal-right">
+                <div class="modal-header qv-modal-close-wrap">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="item qv-product-image">
-                  <img src="./images/ni_hover1.jpg" alt="">
+                <div class="qv-modal-heading mb-md-3 mb-2">
+                  <h4>ASPIRE BP80 REPLACEMENT Pod</h4>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="qv-modal-right">
-              <div class="modal-header qv-modal-close-wrap">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="qv-modal-heading mb-md-3 mb-2">
-                <h4>ASPIRE BP80 REPLACEMENT Pod</h4>
-              </div>
-              <div class="qv-modal-price mb-md-3 mb-2">
-                <h5>$2.36</h5>
-              </div>
-              <div class="qv-modal-desc mb-md-3 mb-2">
-                <p class="demo">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus soluta earum eum rerum, non sint excepturi similique accusamus id molestias, praesentium tempore eaque odit itaque magnam, cumque enim possimus dolorum?
-                </p>
-              </div>
-              <div class="qv-modal-add">
-                <form action="">
-                  <input type="number" class="quantity" step="1" min="1" max="10" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
-                  <input type="button" class="custom-button" value="Add to cart">
-                </form>
+                <div class="qv-modal-price mb-md-3 mb-2">
+                  <h5>$2.36</h5>
+                </div>
+                <div class="qv-modal-desc mb-md-3 mb-2">
+                  <p class="demo">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus soluta earum eum rerum, non sint excepturi similique accusamus id molestias, praesentium tempore eaque odit itaque magnam, cumque enim possimus dolorum?
+                  </p>
+                </div>
+                <div class="qv-modal-add">
+                  <form action="">
+                    <input type="number" class="quantity" step="1" min="1" max="10" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
+                    <input type="button" class="custom-button" value="Add to cart">
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -108,8 +71,6 @@
       </div>
     </div>
   </div>
-</div>
-
   <header>
     <div class="top-section">
       <div class="container-fluid">
@@ -138,145 +99,148 @@
         </div>
       </div>
     </div>
-    <div class="logo-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-start">
-            <div class="logo">
-              <a href="index.html"><img src="images/kmg-logo.png" alt="kmg-logo"></a>
-            </div>
-          </div>
-          <div class="col-md-6 align-self-center">
-            <div class="logo-search">
-              <form class="d-flex justify-content-center" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"><span><i class="fa fa-search" aria-hidden="true"></i>
-                </span></button>
-              </form>      
+    <div class="bottom-section">
 
+      <div class="logo-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-start">
+              <div class="logo">
+                <a href="index.html"><img src="images/kmg-logo.png" alt="kmg-logo"></a>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-end">
-            <div class="logo-login">
-              <ul class="log-in">
-                <li><span><i class="fas fa-sign-in-alt"></i></span></li>
-                <li><a href="#">Login</a></li>
-              </ul>
-              <ul class="cart-section col-md-3 col-lg-block col-sm-none">
-                <li><span><i class="fas fa-shopping-cart"></i></span></li>
-                <li>
-                  <h4>Cart/$0.00</h4>
-                </li>
-              </ul>
+            <div class="col-md-6 align-self-center">
+              <div class="logo-search">
+                <form class="d-flex justify-content-center" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><span><i class="fa fa-search" aria-hidden="true"></i>
+                  </span></button>
+                </form>      
+  
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-end">
+              <div class="logo-login">
+                <ul class="log-in">
+                  <li><span><i class="fas fa-sign-in-alt"></i></span></li>
+                  <li><a href="#">Login</a></li>
+                </ul>
+                <ul class="cart-section col-md-3 col-lg-block col-sm-none">
+                  <li><span><i class="fas fa-shopping-cart"></i></span></li>
+                  <li>
+                    <h4>Cart/$0.00</h4>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="navigation">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg py-0">
-          <a class="navbar-brand col-lg-none col-sm-block ms-0 py-0" href="#"><img src="images/footer-logo.png" alt="kmg-logo"></a>
-          <ul class="cart-section col-md-3 col-lg-none col-sm-block">
-            <li><span><i class="fas fa-shopping-cart"></i></span></li>
-            <li>
-              <h4>Cart/$0.00</h4>
-            </li>
-          </ul>
-          <div class="navbar-header me-0">
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">New</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Blowout
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  BRANDS
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  VAPE SHOP
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">POD SYSTEMS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Disposable Vapes </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">E-Liquid</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Accessories
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Wholesale</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">smoke shop and membership</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <div class="navigation">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg py-0">
+            <a class="navbar-brand col-lg-none col-sm-block ms-0 py-0" href="#"><img src="images/footer-logo.png" alt="kmg-logo"></a>
+            <div class="d-flex align-items-center me-0">
+              <ul class="cart-section d-lg-none d-block">
+                <li><span><i class="fas fa-shopping-cart"></i></span></li>
+                <li><h4>Cart/$0.00</h4></li>
+              </ul>
+              <div class="navbar-header me-0">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">New</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Blowout
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    BRANDS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    VAPE SHOP
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+  
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#">POD SYSTEMS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Disposable Vapes </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">E-Liquid</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Accessories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wholesale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">smoke shop and membership</a>
+                </li>
+              </ul>
+            </div>
+  
+          </nav>
+        </div>
       </div>
     </div>
   </header>

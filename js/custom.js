@@ -17,6 +17,15 @@ jQuery('#quick-view-owl').owlCarousel({
     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
 });
 
+jQuery(document).ready(function(){
+    jQuery(window).scroll(function() {
+       if(jQuery(this).scrollTop() > 225 ) {
+       jQuery(".bottom-section").addClass("fixed-top");
+      } else {
+       jQuery(".bottom-section").removeClass("fixed-top");
+      }
+    });
+});
 // jQuery( document ).ready(function() {
 //     jQuery(".pr-button").click(  function() {
 

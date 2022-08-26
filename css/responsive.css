@@ -95,18 +95,14 @@ padding: 72px 9px;}
 /* sb */
 /* .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 160px;} */
 .newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: 340px;}
-  .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
-  .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
+.product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
+.bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
 /* sb */
-
-
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 20px;}
 .testimonial-content .client-name li::after {height: 28px;}
 .testimonial-content .paragraph {font-size: 13px;}
 .testimonial-content .client-name h5 {font-size: 13px;}
-
-
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
 /* sb contact 26-08-2022 */
 .contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
@@ -179,13 +175,10 @@ padding: 72px 9px;}
 .contact-us .contact-us-left {background-position: 60% 50%;}
 .product-button a {font-weight: 600;}
 .custom-banner .side-img {padding: 0px;}
-.custom-banner-caption {left: 0%;
-  bottom: unset;
-  top: 50%;
-  transform: translateY(-50%);}
-  .newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: 340px;}
-  .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
-  .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
+.custom-banner-caption {left: 0%;bottom: unset;top: 50%;transform: translateY(-50%);}
+.newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: 340px;}
+.product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
+.bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
 /* sb */
 /* .carousel-inner {
@@ -202,15 +195,11 @@ padding: 72px 9px;}
   z-index: -1;
 } */
 /* sb */
-
-
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 20px;}
 .testimonial-content .client-name li::after {height: 28px;}
 .testimonial-content .paragraph {font-size: 13px;}
 .testimonial-content .client-name h5 {font-size: 13px;}
-
-
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
 /* sb contact 26-08-2022 */
 .contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
@@ -288,7 +277,7 @@ padding: 72px 9px;}
 .custom-banner .carousel-caption h2 {font-size: 28px;padding-bottom: 15px;}
 .custom-banner .carousel-caption h4 {font-size: 18px;}
 .newest-items-section .product-items-wrap {padding: 15px 0 5px;}
-.newest-items-section .product-items-wrap .product-item-box .product-images img {width: 70%;}
+.newest-items-section .product-items-wrap .product-item-box .product-images img {width: 100%;}
 .newest-items-section .product-items-wrap .product-item-box .product-price h5 {font-size: 13px;}
 .product-button a {padding: 4px 9px;margin-top: 11px;margin-bottom: 6px;font-size: 12px;}
 .newest-items-section .product-items-wrap .product-item-box .product-badge span {padding: 3px;font-size: 9px;}
@@ -316,10 +305,8 @@ padding: 72px 9px;}
 .contact-us .contact-us-right-logo {text-align: center;}
 .contact-us .contact-us-right-logo img {width: 70%;}
 .custom-offer-banner1 li.ni-banner:last-child{margin-bottom: 0;}
-.newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {
-  height: unset;
-}
-.newest-items-section .product-items-wrap .product-item-box {height: unset;}
+.newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: unset;}
+.newest-items-section .product-items-wrap .product-item-box {height: unset !important;}
 /* sb */
 /*supriyo-privacy-terms-refund-start*/
 /* .custom-inner-banner {padding: 100px 0;} */
@@ -365,7 +352,6 @@ padding: 72px 9px;}
 .navigation .navbar-nav .nav-item:first-child {margin: 0 auto;}
 .navigation .navbar-nav .nav-item:last-child {margin: 0 auto;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
-
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 17px;}
 .testimonial-content .client-name li::after {height: 22px; right: 1px;}
@@ -376,41 +362,22 @@ padding: 72px 9px;}
 .testimonial-content .paragraph {min-height: 110px;}
 .testimonial-btn {margin-top: 10px;}
 .testimonial {padding: 0 0 40px 0;}
-
-
-
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-
 /*--supriyo-faq-page-responsive-start-25/8/22--*/
 .faq.custom-pad-2 {padding: 0 0 40px 0;}
-
-
 /*--supriyo-faq-page-responsive-end-25/8/22--*/
 /* contact sb 26-08-2022 */
 .contact-details .contact-form {margin-top: 40px;margin-left: 0;}
-.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {padding-bottom: 30px;
-  text-align: center;
-  margin-left: auto;
-}
-.contact-details .contact-content .info .info-detail {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
+.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {padding-bottom: 30px;text-align: center;margin-left: auto;}
+.contact-details .contact-content .info .info-detail {margin-left: auto !important;margin-right: auto !important;}
 .contact-details .contact-content ul.info {text-align: center;}
 .contact-details .contact-content .info .info-detail h4 {padding: 20px 0 15px;}
-.contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {
-  padding-bottom: 20px;
-  text-align: center;
-  margin-left: auto;
-}
+.contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {padding-bottom: 20px;text-align: center;margin-left: auto;}
 .newsletter {padding: 50px 0;}
 .newsletter .input-group {padding: 0px 6px 0 0;}
-.newsletter .form-control {
-  padding: 13px;
-font-size: 15px;}
+.newsletter .form-control {padding: 13px;font-size: 15px;}
 .newsletter #basic-addon2 {margin: 6px 0;font-size: 13px;}
 /* contact sb 26-08-2022 */
-
 }
 
 @media (max-width: 767.98px){
@@ -496,9 +463,7 @@ font-size: 15px;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 45%;}
 /*----supriyo-home-cart-end-24/8/22----*/
 /*--supriyo-home-page-responsive-start-24/8/22--*/
-.custom-banner-caption {top: 50%;
-  transform: translateY(-50%);
-  padding: 0px 0;}
+.custom-banner-caption {top: 50%;transform: translateY(-50%);padding: 0px 0;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
 /*--------------------------------Deep-contact-us-start--------------------------------*/
 /* .contact-details .contact-content .info .info-detail {padding: 0 40px 0 0;} */
@@ -515,22 +480,13 @@ font-size: 15px;}
 /* .newsletter .input-group {top: 12px;left: -75px;width: 70%;} */
 /*--------------------------------Deep-contact-us-end--------------------------------*/
 /* >>>>>>> 4af3a937e541aff2a1ad64ce6a1704b307e79b1e */
-
-
-
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .paragraph {min-height: 60px;}
-
-
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-
 /* contact sb 26-03-2022 */
 .contact-details .contact-form .contact-form-content .form-control {font-size: 14px;}
 .contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {padding: 8px 0;font-size: 14px;}
-.newsletter .newsletter-heading {
-  width: 100%;
-  text-align: center;
-  padding-bottom: 22px;}
+.newsletter .newsletter-heading {width: 100%;text-align: center;padding-bottom: 22px;}
 /* contact sb 26-03-2022 */
 }
 
@@ -649,16 +605,14 @@ font-size: 15px;}
 .contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {padding: 8px 0;font-size: 13px;}
 .contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {font-size: 17px;}
 .contact-details .contact-content ul.info {flex-direction: column;gap: 35px 0;}
-.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {
-  padding-bottom: 20px;}
-  .contact-details .contact-content .info .info-detail h4 {
-    padding: 15px 0 12px;
-  }.newsletter .newsletter-heading h4 {
-    font-size: 16px;
-  }
-  .newsletter {
-    padding: 40px 0;
-  }
+.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {padding-bottom: 20px;}
+.contact-details .contact-content .info .info-detail h4 {padding: 15px 0 12px;}
+.newsletter .newsletter-heading h4 {font-size: 16px;}
+.newsletter {padding: 40px 0;}
+.hour-mins {gap: 0 10px;}
+.product-timings .time-box {width: 36px;height: 36px;}
+.product-timings .time-box h4 {font-size: 12px;}
+.product-timings .time-box h5 {font-size: 11px;}
 /* contact sb 26-03-2022 */
 }
 
@@ -670,7 +624,6 @@ font-size: 15px;}
 .faq .accordion-button.collapsed {font-size: 14px;}
 .accordion-button:not(.collapsed) {font-size: 14px;}
 .bottom-text li {padding: 0 0px 10px 0px;}
-
 .footer-header h3 {font-size: 16px;}
 /*supriyo-end*/
 /* Paulami Saha work start */
@@ -686,14 +639,9 @@ font-size: 15px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 207px;}
 /* Paulami Saha work end */
 /* sb */
-  .custom-col-5 {flex: 0 0 100% !important;}
-  .custom-banner .items {
-    flex-direction: column;
-  gap: 11px 10px;}
-  .custom-banner .side-banner .side-img img {
-    width: 100%;
-    object-position: top;}
-
+.custom-col-5 {flex: 0 0 100% !important;}
+.custom-banner .items {flex-direction: column;gap: 11px 10px;}
+.custom-banner .side-banner .side-img img {width: 100%;object-position: top;}
 /* sb */
 /*supriyo-blog-page-start*/
 .popular-text.align-self-center h5 {font-size: 16px;}
@@ -702,25 +650,13 @@ font-size: 15px;}
 }
 
 @media only screen and (max-width: 360.98px) {
-.custom-banner .carousel-caption a {
-  margin-top: 10px;
-}
-
-
+.custom-banner .carousel-caption a {margin-top: 10px;}
 /*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 15px;}
 .testimonial-content .client-name h5 {font-size: 12px;}
 .testimonial-content .client-name li::after {height: 20px;}
-
-
-
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-
 /*--supriyo-faq-page-responsive-start-25/8/22--*/
 .faq.custom-pad-2 {padding: 0 0 30px 0;}
-
-
 /*--supriyo-faq-page-responsive-end-25/8/22--*/
-
-
 }

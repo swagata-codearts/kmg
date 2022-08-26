@@ -1046,12 +1046,19 @@ margin-bottom: 37px;
 
 
 /*--supriyo-home-page-css-start-26/8/22--*/
+.hour-mins {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
 .product-timings .time-box {
   display: inline-block;
-  background-color: #e32330;
-  border-radius: 4px;
-  padding: 8px 16px;
-  margin: 0 4px;
+background-color: #e32330;
+border-radius: 4px;
+width: 46px;
+height: 46px;
+text-align: center;
+padding: 5px 0;
 }
 .product-timings .time-box h4 {
   font-family: 'Montserrat', sans-serif;
@@ -1075,9 +1082,9 @@ margin-bottom: 37px;
 .product-reviews {
   padding: 15px 0;
 }
-.newest-items-section .product-items-wrap .product-item-box {
+/* .newest-items-section .product-items-wrap .product-item-box {
   height: 500px;
-}
+} */
 .product-reviews .review-star li span {
   color: #ffb500;
 }

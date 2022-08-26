@@ -307,7 +307,7 @@ padding: 72px 9px;}
 .newest-items-section .product-items-wrap .product-item-box {height: unset;}
 /* sb */
 /*supriyo-privacy-terms-refund-start*/
-.custom-inner-banner {padding: 100px 0;}
+/* .custom-inner-banner {padding: 100px 0;} */
 .custom-inner-banner-title h2 {font-size: 28px;}
 .breadcrumb-item.active {font-size: 14px;}
 .breadcrumb-divider {padding-top: 4px;}
@@ -329,7 +329,7 @@ padding: 72px 9px;}
 /*----supriyo-blog-page-start-24/8/22----*/
 .blog-content .big-box {display: block;}
 .big-box-right {margin-left: 0px;}
-.custom-inner-banner {padding: 80px 0;}
+.custom-inner-banner {padding: 80px 0;margin-bottom: 50px;}
 /*----supriyo-blog-page-end-24/8/22----*/
 /*----supriyo-blog-inner-start-24/8/22----*/
 .blog-inner-1-content .comments li {font-size: 13px;}
@@ -422,10 +422,10 @@ padding: 72px 9px;}
 .custom-banner .side-banner .side-img img {height: 150px;}
 /* sb */
 /*supriyo-privacy-terms-refund-start*/
-.custom-inner-banner-title h2 {font-size: 26px;}
+.custom-inner-banner-title h2 {font-size: 24px;}
 .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
 .breadcrumb-item.active {font-size: 14px;}
-.custom-inner-banner {padding: 100px 0;}
+.custom-inner-banner {padding: 70px 0;}
 .term-condition-part .paragraph-bold {font-size: 13px;text-align: center;}
 .term-condition-part .paragraph {font-size: 13px;}
 .custom-term-condition .term-condition-part ul li {font-size: 13px;}
@@ -433,7 +433,7 @@ padding: 72px 9px;}
 .privacy-text .custom-ul li {font-size: 13px;}
 .paragraph-margin {font-size: 13px;}
 .privacy-content {padding: 0px 0 20px;}
-.custom-inner-banner {margin-bottom: 60px;}
+/* .custom-inner-banner {margin-bottom: 60px;} */
 .custom-term-condition {padding: 0 0 20px 0;}
 /*supriyo-privacy-terms-refund-end*/
 /*supriyo-blog-page-start*/
@@ -496,6 +496,12 @@ padding: 72px 9px;}
 .footer-3 {margin-top: 20px;}
 .copyright-icons {text-align: center;}
 .copyright-left {text-align: center; margin-bottom: 20px;}
+.footer-1-text li a span {display: none;}
+.footer-2-text li a span {display: none;}
+.footer-1-text, .footer-2-text {column-count: unset;}
+.footer-1, .footer-2, .footer-3 {text-align: center;}
+.footer-1-text li, .footer-2-text li {padding: 0 0 14px 0;}
+.footer-header::after {right: 0;left: 0;margin: 0 auto;}
 /*supriyo-end*/
 /* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
@@ -528,11 +534,13 @@ padding: 72px 9px;}
 /* About Us End */
 /* Newsletter Start */
 .custom-newsletter {margin-bottom: 25px;}
-.custom-newsletter .newsletter-heading-wrap .custom-heading .product-section-heading {line-height: 27px;}
+.custom-newsletter .newsletter-heading-wrap .custom-heading .product-section-heading {line-height: 24px;font-size: 17px;}
 .custom-newsletter .card p {font-size: 13px;margin: 15px 0 23px 0;line-height: 12px;}
-.custom-newsletter .inputbox .label-title {font-size: 14px;}
+.custom-newsletter .inputbox .label-title {font-size: 12px;margin-bottom: 4px;}
 .custom-newsletter .inputbox {margin-bottom: 14px;}
-.custom-newsletter .inputbox input {font-size: 12px;height: 40px; margin-bottom: 20px;}
+.custom-newsletter .inputbox input {font-size: 14px;height: 35px;margin-bottom: 15px;}
+.custom-newsletter .inputbox input::placeholder {font-size: 13px;}
+.custom-newsletter .form-btn-wrap .custom-button {font-size: 12px;font-weight: 500;padding: 8px 25px;}
 /* Newsletter Start */
 /* Paulami Saha work end */
 /* Deep-banner-start */
@@ -553,11 +561,11 @@ padding: 72px 9px;}
 .privacy-text .paragraph {text-align: center;}
 .sub-heading {text-align: center;}
 .paragraph-malware {text-align: center;}
-.custom-inner-banner-title h2 {font-size: 19px;}
+.custom-inner-banner-title h2 {font-size: 20px;}
 .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 12px;}
 .breadcrumb-item.active {font-size: 12px;}
 .breadcrumb {align-items: center;}
-.custom-inner-banner {padding: 80px 0;}
+.custom-inner-banner {padding: 60px 0;margin-bottom: 40px;}
 .term-condition-part .paragraph {text-align: center;}
 .term-condition-part .paragraph-margin-top {text-align: center;}
 .term-condition-part .sub-heading-margin-top {text-align: center;}
@@ -580,7 +588,7 @@ padding: 72px 9px;}
 .custom-banner .carousel-caption h2 {font-size: 20px;}   
 /*--supriyo-home-page-responsive-end-24/8/22--*/
 /*------------------------Deep-contact-us-page-start-------------*/
-.custom-inner-banner .custom-inner-banner-breadcrumb {padding: 8px 18px 0px;}
+.custom-inner-banner .custom-inner-banner-breadcrumb {padding: 8px 13px 0px; border-radius: 7px;}
 .contact-details .contact-content {padding-left: 0;}
 .contact-details .contact-content .info .info-detail {padding: 0 0 0 0;}
 .contact-details .contact-content .info .info-detail span {width: 70px;}
@@ -601,8 +609,7 @@ padding: 72px 9px;}
 .faq .accordion-button.collapsed {font-size: 14px;}
 .accordion-button:not(.collapsed) {font-size: 14px;}
 .bottom-text li {padding: 0 0px 10px 0px;}
-.footer-1-text li a span {display: none;}
-.footer-2-text li a span {display: none;}
+
 .footer-header h3 {font-size: 16px;}
 /*supriyo-end*/
 /* Paulami Saha work start */

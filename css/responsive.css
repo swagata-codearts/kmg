@@ -55,6 +55,13 @@ padding: 72px 9px;}
 .custom-col-5 {flex: 0 0 24.999%;margin: 15px 0px;}
 }
 
+@media (min-width: 1200px) and (max-width: 1350px){
+/* sb contact 26-08-2022 */
+.contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
+.contact-details .contact-content .info .info-detail {display: flex;margin-left: 0;margin-right: auto !important;gap: 25px;align-items: center;}
+.contact-details .contact-content .info .info-detail h4 {padding: 0 0 10px;}
+/* sb contact 26-08-2022 */
+}
 @media (min-width: 1024px) and (max-width: 1200px){
 /*suprio-start*/
 .navigation .nav-item a {font-size: 11px;}
@@ -101,7 +108,11 @@ padding: 72px 9px;}
 
 
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-
+/* sb contact 26-08-2022 */
+.contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
+.contact-details .contact-content .info .info-detail {display: flex;margin-left: 0;margin-right: auto !important;gap: 25px;align-items: center;}
+.contact-details .contact-content .info .info-detail h4 {padding: 0 0 10px;}
+/* sb contact 26-08-2022 */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -201,7 +212,11 @@ padding: 72px 9px;}
 
 
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-
+/* sb contact 26-08-2022 */
+.contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
+.contact-details .contact-content .info .info-detail {display: flex;margin-left: 0;margin-right: auto !important;gap: 25px;align-items: center;}
+.contact-details .contact-content .info .info-detail h4 {padding: 0 0 10px;}
+/* sb contact 26-08-2022 */
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -322,9 +337,9 @@ padding: 72px 9px;}
 .popular-content-date {padding: 35px 33px 35px;}
 /*supriyo-blog-page-end*/ 
 /*----------------Deep-contact-us-page-start---------------------- */
-.contact-details .contact-content {margin-top: 20px;}
+/* .contact-details .contact-content {margin-top: 20px;} */
 .newsletter .newsletter-heading h4 {font-size: 20px;}
-.newsletter .input-group{width: 50%; padding: 0px;top: -50px; left: 170px;}
+/* .newsletter .input-group{width: 50%; padding: 0px;top: -50px; left: 170px;} */
 /*----------------Deep-contact-us-page-end---------------------- */
 /*----supriyo-blog-page-start-24/8/22----*/
 .blog-content .big-box {display: block;}
@@ -371,7 +386,30 @@ padding: 72px 9px;}
 
 
 /*--supriyo-faq-page-responsive-end-25/8/22--*/
-
+/* contact sb 26-08-2022 */
+.contact-details .contact-form {margin-top: 40px;margin-left: 0;}
+.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {padding-bottom: 30px;
+  text-align: center;
+  margin-left: auto;
+}
+.contact-details .contact-content .info .info-detail {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.contact-details .contact-content ul.info {text-align: center;}
+.contact-details .contact-content .info .info-detail h4 {padding: 20px 0 15px;}
+.contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: auto;
+}
+.newsletter {padding: 50px 0;}
+.newsletter .input-group {padding: 0px 6px 0 0;}
+.newsletter .form-control {
+  padding: 13px;
+font-size: 15px;}
+.newsletter #basic-addon2 {margin: 6px 0;font-size: 13px;}
+/* contact sb 26-08-2022 */
 
 }
 
@@ -463,18 +501,18 @@ padding: 72px 9px;}
   padding: 0px 0;}
 /*--supriyo-home-page-responsive-end-24/8/22--*/
 /*--------------------------------Deep-contact-us-start--------------------------------*/
-.contact-details .contact-content .info .info-detail {padding: 0 40px 0 0;}
+/* .contact-details .contact-content .info .info-detail {padding: 0 40px 0 0;} */
 .contact-details .contact-content .info .info-detail h4 {font-size: 16px;}
-.contact-details .contact-content .info .info-detail span {padding: 14px;}
+/* .contact-details .contact-content .info .info-detail span {padding: 14px;} */
 .contact-details .contact-content .info .info-detail ul .si a i {font-size: 12px;}
-.contact-details .contact-content .info .info-detail a {font-size: 8px;font-weight: 500;}
-.newsletter .newsletter-heading h4 {font-size: 14px;}
+/* .contact-details .contact-content .info .info-detail a {font-size: 8px;font-weight: 500;} */
+.newsletter .newsletter-heading h4 {font-size: 20px;}
 .newsletter .form-control {padding: 6px;font-size: 12px;}
-.newsletter .input-group {top: -38px; left: 120px;}
+/* .newsletter .input-group {top: -38px; left: 120px;} */
 .newsletter #basic-addon2 {font-weight: 400;}
-.contact-details .contact-content .info .info-detail span {line-height: 84px;}
-.newsletter {padding: 60px 0;}
-.newsletter .input-group {top: 12px;left: -75px;width: 70%;}
+/* .contact-details .contact-content .info .info-detail span {line-height: 84px;} */
+.newsletter {padding: 50px 0;}
+/* .newsletter .input-group {top: 12px;left: -75px;width: 70%;} */
 /*--------------------------------Deep-contact-us-end--------------------------------*/
 /* >>>>>>> 4af3a937e541aff2a1ad64ce6a1704b307e79b1e */
 
@@ -486,7 +524,14 @@ padding: 72px 9px;}
 
 /*--supriyo-testimonial-page-responsive-end-25/8/22--*/
 
-
+/* contact sb 26-03-2022 */
+.contact-details .contact-form .contact-form-content .form-control {font-size: 14px;}
+.contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {padding: 8px 0;font-size: 14px;}
+.newsletter .newsletter-heading {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 22px;}
+/* contact sb 26-03-2022 */
 }
 
 @media (max-width: 575.98px){
@@ -590,15 +635,31 @@ padding: 72px 9px;}
 /*------------------------Deep-contact-us-page-start-------------*/
 .custom-inner-banner .custom-inner-banner-breadcrumb {padding: 8px 13px 0px; border-radius: 7px;}
 .contact-details .contact-content {padding-left: 0;}
-.contact-details .contact-content .info .info-detail {padding: 0 0 0 0;}
-.contact-details .contact-content .info .info-detail span {width: 70px;}
-.contact-details .contact-content .info .info-detail h4 {font-size: 12px;}
-.contact-details .contact-content .info .info-detail a {font-size: 9px;font-weight: 500;}
-.contact-details .contact-form {margin: 10px 0;padding: 24px;}
+/* .contact-details .contact-content .info .info-detail {padding: 0 0 0 0;} */
+/* .contact-details .contact-content .info .info-detail span {width: 70px;} */
+/* .contact-details .contact-content .info .info-detail h4 {font-size: 12px;} */
+/* .contact-details .contact-content .info .info-detail a {font-size: 9px;font-weight: 500;} */
+.contact-details .contact-form {margin: 35px 0 0;}
 .contact-details .contact-form .contact-form-content .btn.btn-primary {font-size: 16px;}
-.newsletter .input-group {top: 12px;left: -17px;}
+/* .newsletter .input-group {top: 12px;left: -17px;} */
 /*------------------------Deep-contact-us-page-end-------------*/
 /* >>>>>>> 4af3a937e541aff2a1ad64ce6a1704b307e79b1e */
+/* contact sb 26-03-2022 */
+.contact-details .contact-form .contact-form-content .form-control {font-size: 13px;}
+.contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {padding: 8px 0;font-size: 13px;}
+.contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {font-size: 17px;}
+.contact-details .contact-content ul.info {flex-direction: column;gap: 35px 0;}
+.contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {
+  padding-bottom: 20px;}
+  .contact-details .contact-content .info .info-detail h4 {
+    padding: 15px 0 12px;
+  }.newsletter .newsletter-heading h4 {
+    font-size: 16px;
+  }
+  .newsletter {
+    padding: 40px 0;
+  }
+/* contact sb 26-03-2022 */
 }
 
 @media only screen and (max-width: 480.98px) {	

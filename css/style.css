@@ -1492,9 +1492,9 @@ margin-bottom: 37px;
   background-color: #000;
   border-color: #000;
 }
-.contact-form .mb-3 {
+/* .contact-form .mb-3 {
   padding: 10px;
-}
+} */
 /*.contact-form .form-control {
   background-color: #f8f8f8;
   font-family: 'Montserrat', sans-serif;
@@ -1506,8 +1506,7 @@ margin-bottom: 37px;
 /* ----------contact details start---------------------- */
 .contact-details .contact-form{
   background-color: #f9f9f9;
-  margin: 40px;
-  padding: 50px;
+  margin-left: 40px;
 }
 .contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {
   color: #000;
@@ -1520,7 +1519,20 @@ margin-bottom: 37px;
   font-size: 15px;
   border-radius: 0;
 }
-.contact-details .contact-form .contact-form-content .btn.btn-primary {
+.contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {
+  border: 2px solid var(--c-primary);
+  padding: 12px 0;
+  background-color: var(--c-primary);
+  color: var(--c-white);
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out ;
+}
+.contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button:hover {
+  border: 2px solid var(--c-secondary);
+  background-color: var(--c-secondary);
+}
+/* .contact-details .contact-form .contact-form-content .btn.btn-primary {
   width: 100%;
   padding: 12px;
   background-color: #e32330;
@@ -1529,7 +1541,7 @@ margin-bottom: 37px;
   font-size: 20px;
   font-weight: 500;
   border-radius: 0;
-}
+} */
 .contact-details .contact-form .contact-form-content .mb-3 .form-label {
   margin-bottom: .5rem;
   font-family: 'Montserrat', sans-serif;
@@ -1542,13 +1554,16 @@ margin-bottom: 37px;
   padding-bottom: 50px;
 }
 .contact-details .contact-content ul.info {
-  display: inline-flex;
+  display: flex;
 }
-.contact-details .contact-content {
+/* .contact-details .contact-content {
   padding-left: 100px;
+} */
+.contact-details .contact-content .info .info-detail:first-child {
+  margin-left: 0;
 }
-.contact-details .contact-content .info .info-detail{
-  padding: 0 50px 0 0; 
+.contact-details .contact-content .info .info-detail:last-child {
+  margin-right: 0;
 }
 .contact-details .contact-content .info .info-detail span i{
   color: #fff;
@@ -1556,7 +1571,7 @@ margin-bottom: 37px;
 }
 .contact-details .contact-content .info .info-detail h4{
   font-size: 20px;
-  padding: 30px 0;
+  padding: 30px 0 25px;
 }
 .contact-details .contact-content .info .info-detail a{
   font-family: 'Montserrat', sans-serif;
@@ -1570,21 +1585,35 @@ margin-bottom: 37px;
 }
 .contact-details .contact-content .info .info-detail span{
   background-color: var(--c-white);
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   display: inline-block;
   text-align: center;
-  line-height: 110px;
   border: 1px solid var(--c-primary);
 }
 .contact-details .contact-content .info .info-detail span i{
 color: var(--c-primary);
-font-size: 30px;
+font-size: 40px;
+line-height: 120px;
 }
-.contact-details .contact-content .info .info-detail ul .si a i{
-  color: #e32330;
-  font-size: 20px;
-  margin-right: 6px;
+.contact-details .contact-content .info .info-detail ul .si a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center !important;
+  color: var(--c-white);
+  background-color: var(--c-secondary);
+  border-radius: 50%;
+  border: 1px solid var(--c-secondary);
+  transition: all 0.5s ease-in-out;
+}
+.contact-details .contact-content .info .info-detail ul .si a:hover {
+  color: var(--c-black);
+  background-color: var(--c-white);
+}
+.contact-details .contact-content .info .info-detail ul .si a i{ 
+  font-size: 14px;
+  line-height: 29px;
 }
 .contact-details .contact-form .form-control:focus {
   color: #212529;
@@ -1764,6 +1793,10 @@ font-size: 30px;
   top: 0;
   left: 0;
 }
+.newsletter .newsletter-heading {
+  width: 80%;
+  margin-left: 0;
+}
 .newsletter .newsletter-heading h4 {
   color: #fff;
   font-size: 30px;
@@ -1777,6 +1810,7 @@ font-size: 30px;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  color: #fff;
 }
 
 .newsletter .form-control:focus{
@@ -1790,6 +1824,10 @@ font-size: 30px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  margin: 6px 0;
+border-radius: 0;
+text-transform: uppercase;
+font-size: 16px;
 }
 .newsletter .input-group {
   position: relative;

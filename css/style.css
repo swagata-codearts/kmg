@@ -1045,6 +1045,54 @@ margin-bottom: 37px;
 /*--supriyo-home-page-css-change-end-24/8/22--*/
 
 
+/*--supriyo-home-page-css-start-26/8/22--*/
+.product-timings .time-box {
+  display: inline-block;
+  background-color: #e32330;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 4px;
+}
+.product-timings .time-box h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color:#fff;
+}
+.product-timings .time-box h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color:#fff;
+}
+.product-reviews ul {
+  display: inline-block;
+  padding: 0 5px;
+}
+.product-reviews .review-star li {
+  display: inline-block;
+}
+.product-reviews {
+  padding: 15px 0;
+}
+.newest-items-section .product-items-wrap .product-item-box {
+  height: 500px;
+}
+.product-reviews .review-star li span {
+  color: #ffb500;
+}
+.product-reviews .review-persons li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #727272;
+}
+
+
+
+
+/*--supriyo-home-page-css-end-26/8/22--*/
+
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS START +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */
 /* custom-inner-banner-start */

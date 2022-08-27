@@ -511,10 +511,18 @@ text-overflow: ellipsis;
   text-transform: uppercase;
   font-weight: 500;
   margin-top: 18px;
-  margin-bottom: 10px;
+  transition: all 0.6s ease-in-out;
+}
+.product-button a:hover {
+  background-color: var(--c-primary);
+  color: var(--c-white);
 }
 .product-button a span {
   padding-left: 4px;
+  transition: all 0.4s ease-in-out;
+}
+.product-button a:hover span {
+  padding: 7px;
 }
 
 

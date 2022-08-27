@@ -25,6 +25,13 @@ jQuery(document).ready(function(){
        jQuery(".bottom-section").removeClass("fixed-top");
       }
     });
+
+    jQuery('.pr-button').click(function(){
+        const productName = jQuery(this).parent().siblings(".product-title").find('h4').html();
+        const productPrice = jQuery(this).parent().siblings(".product-price").find('h5').html();
+        jQuery('.qv-modal-heading h4').html(productName);
+        jQuery('.qv-modal-price h5').html(productPrice);
+    });
 });
 // jQuery( document ).ready(function() {
 //     jQuery(".pr-button").click(  function() {

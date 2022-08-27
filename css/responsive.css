@@ -45,14 +45,32 @@ padding: 72px 9px;}
 .about-us-content .about-us-right-content-wap {padding: 36px 30px 21px 19px;}
 /* About Us End */
 /* Paulami Saha work End */
+.hour-mins {gap: 0 8px;}
 }
 
 @media (max-width: 1400px)  {
   .navigation .nav-item a {font-size: 13px;}
 
 }
+@media (max-width: 1300px)  {
+  .contact-us .contact-us-left .contact-us-left-content ul {width: 100%;}
+  .contact-us .contact-us-left {
+    position: relative;
+    z-index: 9;}
+  .contact-us-left::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(227, 35, 48, 0.5);
+    z-index: -1;
+  }
+}
 @media (max-width: 1230px)  {
 .custom-col-5 {flex: 0 0 24.999%;margin: 15px 0px;}
+.faq-accordion .accordion-item .accordion-button::after {width: 37px;height: 33px;font-size: 24px;line-height: 34px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1350px){
@@ -112,6 +130,11 @@ padding: 72px 9px;}
 .product-timings .time-box {width: 42px;height: 42px;}
 .hour-mins {gap: 0 8px;}
 /* sb contact 26-08-2022 */
+.bestseller-items-section .bsp-left-image-wrap {margin: 0;}
+.custom-banner .side-banner .side-img img {height: 139px;}
+.custom-banner .carousel-item img {height: 439px;}
+.custom-banner .items {gap: 11px 10px;}
+.custom-banner .row .col-lg-9 {padding-right: 0px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -213,6 +236,11 @@ padding: 72px 9px;}
 .product-timings .time-box {width: 42px;height: 42px;}
 .hour-mins {gap: 0 8px;}
 /* sb contact 26-08-2022 */
+.custom-banner .side-banner .side-img img {height: 139px;}
+.custom-banner .carousel-item img {height: 439px;}
+.custom-banner .items {gap: 11px 10px;}
+.bestseller-items-section .bsp-left-image-wrap {margin: 0;}
+.custom-banner .row .col-lg-9 {padding-right: 0px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -301,12 +329,11 @@ padding: 72px 9px;}
 .contact-us .row > * {padding-right: calc(var(--bs-gutter-x) * .5) !important;padding-left: calc(var(--bs-gutter-x) * .5) !important;}
 .contact-us {margin-bottom: 30px;}
 .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 144px;}
-.bsp-banner-bottom .bsp-banner-bottom-wap {height: 340px;background-position: 72% center;z-index: 9;}
+.bsp-banner-bottom .bsp-banner-bottom-wap {height: 250px;background-position: 72% center;z-index: 9;}
 .bsp-banner-bottom .bsp-banner-bottom-wap::after {position: absolute;content: '';width: 100%;height: 100%;top: 0;left: 0;background-color: rgba(0 0 0 / 0.4);z-index: -1;}
 .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 50%;transform: translateY(-50%);text-align: center;right: 0;left: 0;margin: 0 auto;}
 .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 32px;line-height: 41px;margin-bottom: 16px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap .custom-button {padding: 10px 25px;background-color: var(--c-primary);}
-.contact-us-left::after {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(227, 35, 48, 0.5);z-index: -1;}
 .contact-us .contact-us-left .contact-us-left-content ul {padding-top: 20px;}
 .contact-us .contact-us-left .contact-us-left-content .icons-content a {font-size: 17px;line-height: 38px;}
 .contact-us .contact-us-right-logo {text-align: center;}
@@ -384,6 +411,13 @@ padding: 72px 9px;}
 .newsletter .form-control {padding: 13px;font-size: 15px;}
 .newsletter #basic-addon2 {margin: 6px 0;font-size: 13px;}
 /* contact sb 26-08-2022 */
+/* contact sb 27-08-2022 */
+.product-timings .time-box {width: 40px;height: 40px;}
+.hour-mins {gap: 0 9px;}
+.product-timings .time-box h4 {font-size: 13px;}
+.custom-banner .side-banner .side-banner-content .custom-button {margin-top: 9px;}
+.faq-accordion .accordion-item .accordion-button::after {width: 27px;height: 23px;font-size: 18px;line-height: 24px;}
+/* contact sb 27-08-2022 */
 }
 
 @media (max-width: 767.98px){

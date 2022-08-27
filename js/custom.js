@@ -20,9 +20,9 @@ jQuery('#quick-view-owl').owlCarousel({
 jQuery(document).ready(function(){
     jQuery(window).scroll(function() {
        if(jQuery(this).scrollTop() > 225 ) {
-       jQuery(".bottom-section").addClass("fixed-top");
+       jQuery("header").addClass("fixed-top");
       } else {
-       jQuery(".bottom-section").removeClass("fixed-top");
+       jQuery("header").removeClass("fixed-top");
       }
     });
 

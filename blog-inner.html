@@ -36,11 +36,11 @@
                     <!-- <div class="col-md-4 offset-md-8"></div> -->
                     <div class="col-md-6 col-sm-6 align-self-center justify-content-end">
                         <div class="top-right me-0">
-                            <ul class="top-nav">
+                            <ul class="top-nav d-flex">
                                 <li><a href="about-us.html">About</a></li>
                                 <li><a href="contact-us.html">Contact</a></li>
                             </ul>
-                            <ul class="top-social-icons">
+                            <ul class="top-social-icons d-flex align-items-center">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -52,147 +52,145 @@
                 </div>
             </div>
         </div>
-        <div class="logo-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-start">
-                        <div class="logo">
-                            <a href="index.html"><img src="images/kmg-logo.png" alt="kmg-logo"></a>
+        <div class="bottom-section">
+            <div class="logo-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-start">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/kmg-logo.png" alt="kmg-logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 align-self-center">
+                            <div class="logo-search">
+                                <form class="d-flex justify-content-center" role="search">
+                                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit"><span><i class="fa fa-search"
+                                                aria-hidden="true"></i>
+                                        </span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-end">
+                            <div class="logo-login">
+                                <ul class="log-in d-flex align-items-center">
+                                    <li><span><i class="fas fa-sign-in-alt"></i></span></li>
+                                    <li><a href="#">Login</a></li>
+                                </ul>
+                                <ul class="cart-section col-md-3 col-lg-block col-sm-none">
+                                    <li><span><i class="fas fa-shopping-cart"></i></span></li>
+                                    <li>
+                                        <h4>Cart/$0.00</h4>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 align-self-center">
-                        <div class="logo-search">
-                            <form class="d-flex justify-content-center" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit"><span><i class="fa fa-search"
-                                            aria-hidden="true"></i>
-                                    </span></button>
-                            </form>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-end">
-                        <div class="logo-login">
-                            <ul class="log-in">
-                                <li><span><i class="fas fa-sign-in-alt"></i></span></li>
-                                <li><a href="#">Login</a></li>
-                            </ul>
-                            <ul class="cart-section col-md-3 col-lg-block col-sm-none">
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg py-0">
+                        <a class="navbar-brand col-lg-none col-sm-block ms-0 py-0" href="#"><img
+                                src="images/footer-logo.png" alt="kmg-logo"></a>
+                        <div class="d-flex align-items-center me-0">
+                            <ul class="cart-section d-lg-none d-block">
                                 <li><span><i class="fas fa-shopping-cart"></i></span></li>
                                 <li>
                                     <h4>Cart/$0.00</h4>
                                 </li>
                             </ul>
+                            <div class="navbar-header me-0">
+                                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">New</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Blowout
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        BRANDS
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        VAPE SHOP
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">POD SYSTEMS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Disposable Vapes </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">E-Liquid</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Accessories
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Wholesale</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">smoke shop and membership</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </div>
-        </div>
-
-        <div class="navigation">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg py-0">
-                    <a class="navbar-brand col-lg-none col-sm-block ms-0 py-0" href="#"><img
-                            src="images/footer-logo.png" alt="kmg-logo"></a>
-                    <ul class="cart-section col-md-3 col-lg-none col-sm-block">
-                        <li><span><i class="fas fa-shopping-cart"></i></span></li>
-                        <li>
-                            <h4>Cart/$0.00</h4>
-                        </li>
-                    </ul>
-                    <div class="navbar-header me-0">
-                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">New</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Blowout
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    BRANDS
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    VAPE SHOP
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">POD SYSTEMS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Disposable Vapes </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">E-Liquid</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Accessories
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Wholesale</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">smoke shop and membership</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
             </div>
         </div>
     </header>
@@ -218,7 +216,6 @@
       </div>
     </div>
     </section>
-
     <section class="blog-inner">
         <div class="container">
             <div class="row">
@@ -268,7 +265,6 @@
             </div>
         </div>
     </section>
-    
     <footer>
         <div class="footer-wrap">
           <div class="container">
@@ -276,43 +272,48 @@
               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                 <div class="footer-1">
                   <div class="footer-header">
-                    <h3>Coustomer Service</h3>
+                    <h3>Customer Service</h3>
                   </div>
                   <ul class="footer-1-text">
-                    <li><a href="about-us.html"><span><i class="fas fa-arrow-circle-right"></i></span> About KMG Imports</a></li>
-                    <li><a href="newsletter.html"><span><i class="fas fa-arrow-circle-right"></i></span> Newsletter Signup</a></li>
-                    <li><a href="privacy-policy.html"><span><i class="fas fa-arrow-circle-right"></i></span> Privacy Policy</a></li>
-                    <li><a href="terms-conditions.html"><span><i class="fas fa-arrow-circle-right"></i></span>Terms & Conditions</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>My Account</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>View Cart</a></li>
-                    <li><a href="refund-policy.html"><span><i class="fas fa-arrow-circle-right"></i></span>Refund Policy</a></li>
-                    <li><a href="blog.html"><span><i class="fas fa-arrow-circle-right"></i></span>Blog</a></li>
+                    <li><a href="about-us.html"><span><i class="fas fa-angle-double-right"></i></span> About KMG Imports</a>
+                    </li>
+                    <li><a href="newsletter.html"><span><i class="fas fa-angle-double-right"></i></span> Newsletter Signup</a>
+                    </li>
+                    <li><a href="privacy-policy.html"><span><i class="fas fa-angle-double-right"></i></span> Privacy
+                        Policy</a></li>
+                    <li><a href="terms-conditions.html"><span><i class="fas fa-angle-double-right"></i></span>Terms &
+                        Conditions</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>My Account</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>View Cart</a></li>
+                    <li><a href="refund-policy.html"><span><i class="fas fa-angle-double-right"></i></span>Refund Policy</a>
+                    </li>
+                    <li><a href="blog.html"><span><i class="fas fa-angle-double-right"></i></span>Blog</a></li>
+                    <li><a href="faq.html"><span><i class="fas fa-angle-double-right"></i></span>FAQ</a></li>
+                    <li><a href="testimonial.html"><span><i class="fas fa-angle-double-right"></i></span>Testimonial</a></li>
                   </ul>
                 </div>
               </div>
-              
               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                 <div class="footer-2">
                   <div class="footer-header">
-                    <h3>Quik Link</h3>
+                    <h3>Quick Link</h3>
                   </div>
                   <ul class="footer-2-text">
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span> New</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span> Blowout</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span> Brands</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span> Device</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span> Atomizers/Tanks </a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>Pod Systems</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>Disposable Vapes</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>E-Liquid</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>Accessories</a></li>
-                    <li><a href="#"><span><i class="fas fa-arrow-circle-right"></i></span>Wholesale</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> New</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Blowout</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Brands</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Device</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Atomizers/Tanks </a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Pod Systems</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Disposable Vapes</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>E-Liquid</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Accessories</a></li>
+                    <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Wholesale</a></li>
                   </ul>
                 </div>
               </div>
-          
               <div class="col-lg-4  col-md-12 col-sm-12">
-                <div class="footer-3">
+                <div class="footer-3 ms-xl-5">
                   <div class="footer-header">
                     <h3>Find us on Google Maps</h3>
                   </div>
@@ -347,7 +348,7 @@
             </div>
           </div>
         </div>
-    </footer>
+      </footer>
 
     <script src="js/jquery-min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

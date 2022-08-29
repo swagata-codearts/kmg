@@ -857,6 +857,7 @@ margin-bottom: 37px;
   background-color: var(--c-primary);
   text-align: center;
   font-size: 30px;
+  line-height: 42px;
 }
 .faq-accordion .accordion-item .accordion-button:not(.collapsed)::after {
   background-image: none;
@@ -2167,7 +2168,7 @@ font-size: 16px;
   font-size: 15px;
   font-weight: 400;
   color: #727272;
-  padding: 30px 0px 0;
+  padding: 15px 0px 0;
   line-height: 28px;
 }
 .term-condition-part-refund ul {

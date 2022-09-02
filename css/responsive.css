@@ -48,6 +48,9 @@ padding: 72px 9px;}
 .hour-mins {gap: 0 8px;}
 }
 
+@media (max-width: 1500px)  {
+  .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 290px;}
+}
 @media (max-width: 1400px)  {
   .navigation .nav-item a {font-size: 13px;}
 
@@ -67,10 +70,13 @@ padding: 72px 9px;}
     background-color: rgba(227, 35, 48, 0.5);
     z-index: -1;
   }
+  .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 250px;}
 }
 @media (max-width: 1230px)  {
 .custom-col-5 {flex: 0 0 24.999%;margin: 15px 0px;}
 .faq-accordion .accordion-item .accordion-button::after {width: 37px;height: 33px;font-size: 24px;line-height: 34px;}
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 230px;}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 19px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1350px){
@@ -135,6 +141,7 @@ padding: 72px 9px;}
 .custom-banner .carousel-item img {height: 439px;}
 .custom-banner .items {gap: 11px 10px;}
 .custom-banner .row .col-lg-9 {padding-right: 0px;}
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -207,23 +214,6 @@ padding: 72px 9px;}
 .newest-items-section.deal-of-the-day-section .product-items-wrap .product-item-box {height: 460px !important;}
 .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
 .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
-/*--supriyo-home-page-responsive-end-24/8/22--*/
-/* sb */
-/* .carousel-inner {
-  z-index: 9;
-}
-.carousel-inner::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0 0 0/0.5);
-  top: 0;
-  left: 0;
-  z-index: -1;
-} */
-/* sb */
-/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 20px;}
 .testimonial-content .client-name li::after {height: 28px;}
 .testimonial-content .paragraph {font-size: 13px;}
@@ -247,7 +237,9 @@ padding: 72px 9px;}
 .our-mission-section .our-mission-section-wrap .mission-heading-wrap p {font-size: 18px;
   padding: 0 60px;
 }
-
+.custom-inner-banner-sb {padding: 45px 0 0;}
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 200px;}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 18px;}
 
 /* >>>>>>> 4638ce512fd856d5b49fd51ce29da8feb47d4f72 */
 }
@@ -445,6 +437,11 @@ padding: 72px 9px;}
 .privacy-text .paragraph {padding: 15px 0px;}
 .custom-ul {padding: 15px 0px 5px 15px !important;}
 
+/* sb 30-08 */
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 180px;}
+.custom-inner-banner-sb {padding: 38px 0 0;}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 16px;}
+/* sb 30-08 */
 /* >>>>>>> 4638ce512fd856d5b49fd51ce29da8feb47d4f72 */
 }
 
@@ -557,8 +554,14 @@ padding: 72px 9px;}
 .newsletter .newsletter-heading {width: 100%;text-align: center;padding-bottom: 22px;}
 /* contact sb 26-03-2022 */
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li p {font-size: 17px;margin-top: 4px;}
-.our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {width: 90%;
+.our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {width: 90%;}
+/* sb 30-08 */
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 150px;}
+.custom-inner-banner-sb {
+  padding: 25px 0 0;
 }
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 14px;}
+/* sb 30-08 */
 }
 
 @media (max-width: 575.98px){
@@ -690,6 +693,11 @@ padding: 72px 9px;}
 .navigation {padding: 15px 0;}
 .privacy-text .paragraph {padding: 7px 0px 10px;}
 /* contact sb 26-03-2022 */
+
+/* sb 30-08 */
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 120px;width: 100%;object-fit: contain;}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 13px;}
+/* sb 30-08 */
 }
 
 @media only screen and (max-width: 480.98px) {	

@@ -11,6 +11,8 @@
   --c-black: #000;
   --c-white: #fff;
 
+  --c-white-600: #f6f6f6;
+
   --c-grey-light: #c6c6c6;
 
   --c-text-dark: #161616;
@@ -78,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1440px;
 }
 
-
 /* Custom Properties */
 .custom-pad {
   padding: 60px 0;
@@ -135,6 +136,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Custom Properties */
 
+/******** Utility Classes ********/
+
 /*supriyo-eork-start*/
 /*top-section-start*/
 
@@ -178,11 +181,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #f2f2f2;
   border-radius: 50%;
 }
-/*logo-section*/
-/* .logo-login .log-in li {
-  display: inline-block;
-  padding: 0 10px 0 0;
-} */
 .logo-login {
   display: flex;
   align-items: center;
@@ -2390,6 +2388,94 @@ line-height: 28px;
 /*--supriyo-faq-end-25/8/22--*/
 
 
+/* ************ Product Details Page Start (fdev-sb) 30-08-2022 ************ */
+.custom-inner-banner-sb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  padding: 74px 0 0;
+}
 
+.custom-inner-banner-sb .custom-breadcrumb .breadcrumb-item +  .breadcrumb-item::before {
+  display: none;
+}
+.custom-inner-banner-sb .custom-breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: start;
+  margin-bottom: 14px;
+  position: relative;
+  gap: 0 20px;
+}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .custom-breadcrumb-divider {
+  position: absolute;
+  font-size: 23px;
+  left: -13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--c-white);
+}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a,
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {
+  font-size: 20px;
+  font-family: var(--ff-tertiary);
+  line-height: 25px;
+  color: var(--c-white);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active,
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item:last-child .custom-breadcrumb-divider {
+  color: var(--c-primary);
+}
+.custom-inner-banner-sb .custom-inner-banner-sb-right {
+  position: relative;
+  bottom: -8px;
+}
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {
+  height: 323px;
+}
+
+
+.ipd-left-wrap {
+  display: flex;
+}
+#thumb {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+#slider .owl-carousel.owl-loaded {
+  display: flex;
+}
+.product-slider {
+  display: flex;
+}
+.ipd-thumb-box {
+  display: flex;
+  width: 114px;
+  height: 124px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--c-white-600);
+}
+.ipd-image-box img {
+  height: 465px;
+  object-fit: contain;
+}
+.ipd-thumb-box img {
+  height: 80px;
+  object-fit: contain;
+}
+/* ************ Product Details Page Start (fdev-sb) 30-08-2022 ************ */
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS END +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */

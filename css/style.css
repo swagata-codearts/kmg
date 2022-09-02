@@ -2458,7 +2458,10 @@ line-height: 28px;
   display: flex;
 }
 .product-slider {
-  display: flex;
+  display: flex !important;
+  background-color: #f1f1f1;
+  min-height: 541px;
+  align-items: center;
 }
 .ipd-thumb-box {
   display: flex;
@@ -2475,6 +2478,185 @@ line-height: 28px;
 .ipd-thumb-box img {
   height: 80px;
   object-fit: contain;
+}
+.ipd-image-box {
+}
+.product-slider .owl-nav {
+  position: absolute;
+  bottom: -49px;
+  right: 0;
+
+}
+.product-slider .owl-nav button.owl-prev,
+.product-slider .owl-nav button.owl-next  {
+  background-color: var(--c-white-600);
+  padding: 9px !important;
+  color: #a3a3a3;
+  margin-left: 6px;
+}
+.product-slider .owl-nav button.owl-prev.disabled,
+.product-slider .owl-nav button.owl-next.disabled  {
+  color: #e2e2e2;
+}
+
+
+.ipd-heading > h4 {
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #505050;
+  margin-bottom: 16px;
+}
+.sku > p {
+  font-size: 15px;
+  font-family: var(--ff-tertiary);
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.ipd-right-wrap .sku > p > span {
+  font-weight: 400;
+}
+.ipd-right-wrap .ipd-price > h5 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--ff-tertiary-alt);
+  line-height: 25px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.ipd-desc > p {
+  font-size: 15px;
+  font-family: var(--ff-tertiary);
+  line-height: 25px;
+  margin-bottom: 26px;
+  font-weight: 400;
+  color: #7e7e7e;
+}
+.desc-links {
+  display: flex;
+  justify-content: start;
+  gap: 0 22px;
+}
+.desc-links > li  {
+  margin: 0;
+}
+.desc-links > li:not(:first-child)  {
+  list-style: unset;
+}
+.desc-links > li::marker  {
+  color: var(--c-text-light);
+}
+.desc-links > li > a {
+  color: var(--c-text-light);
+  font-family: var(--ff-tertiary);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.ipd-cta {
+  margin-top: 40px;
+}
+.ipd-cta .quantity .qty {
+  width: 42px;
+  text-align: center;
+  color: var(--c-text-light);
+  font-family: var(--ff-primary);
+  border: 1px solid var(--c-text-light);
+  font-size: 20px;
+}
+.ipd-cta .quantity .qtyminus,
+.ipd-cta .quantity .qtyplus {
+  display: inline-block;
+  background-color: var(--c-white);
+  width: 32px;
+  height: 40px;
+  color: var(--c-secondary);
+  font-size: 11px;
+  line-height: 36px;
+  text-align: center;
+}
+
+
+.inner-product-details-bottom {
+  padding-top: 100px;
+}
+.inner-product-details-bottom .ipd-tabs {
+  border: none !important;
+  gap: 0 70px;
+}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item {
+  margin: 0;
+}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a {
+  font-size: 19px;
+  font-family: var(--ff-tertiary);
+  line-height: 25px;
+  font-weight: 500;
+  color: #505050;
+  padding: 0;
+  border: none !important;
+  position: relative;
+  padding-bottom: 15px;
+}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a::before {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background-color: var(--c-primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.5s ease-in-out;
+}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a.active::before,
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a:hover::before {
+  width: 100%;
+}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid var(--c-primary);
+    transition: all 0.4s ease-in-out;
+}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a.active::after{
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 9px solid var(--c-primary);
+}
+.tab-content .ipd-tab-content-wrap {
+  margin-top: 40px;
+}
+.ipd-tab-list li {
+  position: relative;
+  font-size: 15px;
+  line-height: 45px;
+  color: #7e7e7e;
+  font-family: var(--ff-tertiary);
+  font-weight: 400;
+  padding-left: 26px;
+}
+.ipd-tab-list li > span {
+  font-size: 18px;
+  color: var(--c-primary);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.inner-product-section .custom-col-5 {
+  flex: 0 0 24.35%;
+  margin: 15px 5px;
 }
 /* ************ Product Details Page Start (fdev-sb) 30-08-2022 ************ */
 

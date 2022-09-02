@@ -17,8 +17,8 @@ jQuery('#quick-view-owl').owlCarousel({
     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
 });
 jQuery('#slider').owlCarousel({
-    loop:true,
-    margin:10,
+    loop:false,
+    margin:15,
     nav:true,
     responsive:{
         0:{
@@ -57,3 +57,4 @@ jQuery(document).ready(function(){
 //         jQuery("body").toggleClass('modal-overlay')
 //     })
 // });
+

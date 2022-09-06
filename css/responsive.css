@@ -1,109 +1,77 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @media (min-width: 1920px) and (max-width: 2500px){
-/*supriyo-start*/
 .cart-section {padding: 10px 10px 10px 10px;width: 50%; text-align: center;}
-/*supriyo-end*/
-/* Paulami Saha work Start */
-.fi-offer-banner1 .container-fluid .row .col-lg-6:first-child .list-banner-content {right: 511px;}     
-/* Paulami Saha work End */
+.fi-offer-banner1 .container-fluid .row .col-lg-6:first-child .list-banner-content {right: 511px;}  
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-/*supriyo-start*/
 .cart-section {padding: 10px 10px 10px 10px;width: 30%; text-align: center;}
-.cart-section li h4 {font-size: 12px;} 
-/*supriyo-end*/
-/* Paulami Saha work start */
+.cart-section li h4 {font-size: 12px;}
 .fi-offer-img-wrap img {width: 100%;margin: 3px 0;height: 413px;}
 .fi-offer-banner1 .container-fluid .row .col-lg-6:first-child .list-banner-content {right: 179px;}
-/*.bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 5px;left: 53px;} */
-/* About US START */
-/*.our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {margin: 51px 17px;
-padding: 72px 9px;}
-.customer-counter .customer-counter-wap .counter-box-wrap {padding: 40px;} */
-/* About US End */
-/* Paulami Saha work End */	
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-/*supriyo-start*/
 .cart-section {padding: 10px 10px 10px 10px;width: 32%; text-align: center;}
 .cart-section li h4 {font-size: 12px;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 li.ni-banner:nth-child(2n) {width: 41%;}
 .custom-offer-banner1 li.ni-banner img {height: 245px;}
 .custom-offer-banner1 li.ni-banner:nth-child(2n+1) {width: 54%;}
 .custom-offer-banner1 .ni-banner-wrap .list-banner-content h5 {font-size: 28px;}
 .custom-offer-banner1 .ni-banner-wrap .list-banner-content p {font-size: 16px;}
-/* About Us start */
 .our-service .row .col-lg-4 p {font-weight: 500;font-size: 16px;margin: 14px 0 14px 5px;}
 .our-service .row .col-lg-4 span i {font-size: 23px;margin-left: 40px;}
 .about-us-content .about-us-right-content-wap {padding: 36px 30px 21px 19px;}
-/* About Us End */
-/* Paulami Saha work End */
 .hour-mins {gap: 0 8px;}
 }
 
 @media (max-width: 1500px)  {
-  .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 290px;}
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 290px;}
 }
 @media (max-width: 1400px)  {
-  .navigation .nav-item a {font-size: 13px;}
-
+.navigation .nav-item a {font-size: 13px;}
 }
 @media (max-width: 1300px)  {
-  .contact-us .contact-us-left .contact-us-left-content ul {width: 100%;}
-  .contact-us .contact-us-left {
-    position: relative;
-    z-index: 9;}
-  .contact-us-left::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(227, 35, 48, 0.5);
-    z-index: -1;
-  }
-  .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 250px;}
+.contact-us .contact-us-left .contact-us-left-content ul {width: 100%;}
+.contact-us .contact-us-left {position: relative;z-index: 9;}
+.contact-us-left::after {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(227, 35, 48, 0.5);z-index: -1;}
+.custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 250px;}
+.ipd-thumb-box {width: 108px;}
+.product-thumb .item {margin-left: 0;}
 }
 @media (max-width: 1230px)  {
 .custom-col-5 {flex: 0 0 24.999%;margin: 15px 0px;}
 .faq-accordion .accordion-item .accordion-button::after {width: 37px;height: 33px;font-size: 24px;line-height: 34px;}
 .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 230px;}
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 19px;}
+.ipd-thumb-box {width: 100px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1350px){
-/* sb contact 26-08-2022 */
 .contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
 .contact-details .contact-content .info .info-detail {display: flex;margin-left: 0;margin-right: auto !important;gap: 25px;align-items: center;}
 .contact-details .contact-content .info .info-detail h4 {padding: 0 0 10px;}
-/* sb contact 26-08-2022 */
+}
+@media  (max-width: 1200px) {
+.inner-product-section .custom-col-5 {flex: 0 0 32%;margin: 10px 5px;padding: 0 5px 0 5px;}
+.desc-links {gap: 0 10px;flex-wrap: wrap;}
+.desc-links > li:not(:first-child) {list-style: none;}
 }
 @media (min-width: 1024px) and (max-width: 1200px){
-/*suprio-start*/
 .navigation .nav-item a {font-size: 11px;}
 .cart-section li h4 {font-size: 14px;}
 .navigation .navbar-expand-lg .navbar-nav .nav-link {padding-right: 0rem; padding-left: 0rem; padding: 0 4px;}
 .cart-section {padding: 10px 10px 10px 10px;width: 42%; text-align: center;}
 .cart-section li h4 {font-size: 12px;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
 .ni-banner a img{width: 100%;}
 .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 15px;}
 .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 59%;}
 .custom-offer-banner1 li.ni-banner:nth-child(even){width: 39%; margin-right: 0;}
 .custom-offer-banner1 li.ni-banner {margin-bottom: 22px;}
-.custom-offer-banner1 li.ni-banner img {height: 331px;}   
-/* Paulami Saha work end */
-/*supriyo-blog-page-start*/
+.custom-offer-banner1 li.ni-banner img {height: 331px;}
 .post-content .img-fluid {width: 100%;}
 .custom-inner-banner {padding: 100px 0;}
 .box-right-text h2 {font-size: 20px; line-height: 28px;}
@@ -112,40 +80,27 @@ padding: 72px 9px;}
 .box-right-text .comment {margin-top: 10px;}
 .popular-text.align-self-center h5 {font-size: 14px;}
 .post-content-img {width: 100%;}
-/*supriyo-blog-page-end*/ 
-/*--supriyo-home-page-responsive-start-24/8/22--*/
 .contact-us .contact-us-left {background-position: 60% 50%;}
-/*--supriyo-home-page-responsive-end-24/8/22--*/
-/* sb */
-/* .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 160px;} */
 .newest-items-section .product-items-wrap .product-item-box {height: 370px !important;}
 .newest-items-section.deal-of-the-day-section .product-items-wrap .product-item-box {height: 470px !important;}
 .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
 .bestseller-items-section .bsp-left-img-1 img {min-height: 360px;}
-/* sb */
-/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 20px;}
 .testimonial-content .client-name li::after {height: 28px;}
 .testimonial-content .paragraph {font-size: 13px;}
 .testimonial-content .client-name h5 {font-size: 13px;}
-/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-/* sb contact 26-08-2022 */
 .contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
 .contact-details .contact-content .info .info-detail {display: flex;margin-left: 0;margin-right: auto !important;gap: 25px;align-items: center;}
 .contact-details .contact-content .info .info-detail h4 {padding: 0 0 10px;}
 .product-timings .time-box {width: 42px;height: 42px;}
 .hour-mins {gap: 0 8px;}
-/* sb contact 26-08-2022 */
 .bestseller-items-section .bsp-left-image-wrap {margin: 0;}
 .custom-banner .side-banner .side-img img {height: 139px;}
 .custom-banner .carousel-item img {height: 439px;}
 .custom-banner .items {gap: 11px 10px;}
 .custom-banner .row .col-lg-9 {padding-right: 0px;}
-
 }
-
 @media (min-width: 992px) and (max-width: 1024px) {
-/*supriyo-start*/
 .cart-section li h4 {font-size: 14px;}
 .navigation .navbar-expand-lg .navbar-nav .nav-link {padding-right: 0rem; padding-left: 0rem; padding: 0 4px;}
 .logo-login .log-in li {padding: 0 5px 0 0;}
@@ -156,30 +111,21 @@ padding: 72px 9px;}
 .footer-2-text li a span {padding-right: 5px;}
 .cart-section {padding: 10px 10px 10px 10px;width: 50%; text-align: center;}
 .cart-section li h4 {font-size: 12px;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
 .ni-banner a img{width: 100%;}
 .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 58%;}
 .custom-offer-banner1 li.ni-banner:nth-child(even){width: 39%; margin-right: 0;}
 .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
 .fi-offer-img-wrap img {height: 300px; margin-bottom: 14px;}
-.custom-offer-banner1 li.ni-banner img {margin-top: 4px; height: 282px;}  
-/* About Us start */
+.custom-offer-banner1 li.ni-banner img {margin-top: 4px; height: 282px;}
 .about-us-content .about-us-content-image-wap img {height: 671px;object-fit: cover;}
 .about-us-content .about-us-right-content-wap {padding: 32px 0px 0px 19px;}
 .customer-counter .customer-counter-wap ul li {margin: 25px;}
 .our-service .row .col-lg-4 span i {font-size: 20px;margin-left: 26px;}
 .our-service .row .col-lg-4 p {font-weight: 600;font-size: 13px;margin: 8px 0 8px 3px;}
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap .mission-box-wrap{padding: 0 55px;}
-/* About Us End */
-/* Paulami Saha work end */
-/* Deep-banner-start */
-/* .custom-banner .items { flex-direction: column; } */
 .custom-banner .side-img { padding: 6px; }
 .custom-banner .carousel-caption a{margin-top: 18px;}
-/* Deep-banner-end */
-/*supriyo-blog-page-start*/
 .post-content .img-fluid {width: 100%;}
 .custom-inner-banner {padding: 100px 0;}
 .box-right-text h2 {font-size: 20px; line-height: 28px;}
@@ -188,28 +134,21 @@ padding: 72px 9px;}
 .box-right-text .comment {margin-top: 10px;}
 .popular-text.align-self-center h5 {font-size: 14px;}
 .post-content-img {width: 100%;}
-/*supriyo-blog-page-end*/ 
-/*----supriyo-blog-page-start-24/8/22----*/
 .box-right-text h2 {font-size: 16px;line-height: 24px;}
 .box-right-text h5 {margin-top: 8px;font-size: 12px;}
 .box-right-text .comment {margin-top: 8px;}
 .box-right-text .paragraph {margin-top: 6px;font-size: 12px;line-height: 19px;}
 .box-right-text .custom-button {margin-top: 8px;font-size: 12px;padding: 8px 20px;}
-/*----supriyo-blog-page-end-24/8/22----*/
-/*----supriyo-blog-inner-start-24/8/22----*/
 .blog-inner-1-content .paragraph {font-size: 13px;}
 .blog-inner-2 .blog-inner-2-list li {font-size: 13px;}
 .blog-inner-3 .paragraph {font-size: 13px;}
 .blog-inner-3 {min-height: 750px;}
 .blog-inner-2 {min-height: 750px;}
-/*----supriyo-blog-inner-end-24/8/22----*/
-/*--supriyo-home-page-responsive-start-24/8/22-- (sb changes) */
 .custom-banner .side-banner-content .custom-button {padding: 5px 15px;font-size: 10px;}
 .contact-us .contact-us-left {background-position: 60% 50%;}
 .product-button a {font-weight: 600;}
 .custom-banner .side-img {padding: 0px;}
 .custom-banner-caption {left: 0%;bottom: unset;top: 50%;transform: translateY(-50%);}
-/* .newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: 360px;} */
 .newest-items-section .product-items-wrap .product-item-box {height: 360px !important;}
 .newest-items-section.deal-of-the-day-section .product-items-wrap .product-item-box {height: 460px !important;}
 .product-item-box:hover .product-images img:last-of-type, .product-item-box .product-images img:first-of-type {height: 180px;}
@@ -218,34 +157,22 @@ padding: 72px 9px;}
 .testimonial-content .client-name li::after {height: 28px;}
 .testimonial-content .paragraph {font-size: 13px;}
 .testimonial-content .client-name h5 {font-size: 13px;}
-/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-/* sb contact 26-08-2022 */
 .contact-details .contact-content ul.info {flex-direction: column;gap: 15px 0;}
 .contact-details .contact-content .info .info-detail {display: flex;margin-left: 0;margin-right: auto !important;gap: 25px;align-items: center;}
 .contact-details .contact-content .info .info-detail h4 {padding: 0 0 10px;}
 .product-timings .time-box {width: 42px;height: 42px;}
 .hour-mins {gap: 0 8px;}
-/* sb contact 26-08-2022 */
-/* <<<<<<< HEAD */
 .custom-banner .side-banner .side-img img {height: 139px;}
 .custom-banner .carousel-item img {height: 439px;}
 .custom-banner .items {gap: 11px 10px;}
 .bestseller-items-section .bsp-left-image-wrap {margin: 0;}
 .custom-banner .row .col-lg-9 {padding-right: 0px;}
-/* ======= */
-
-.our-mission-section .our-mission-section-wrap .mission-heading-wrap p {font-size: 18px;
-  padding: 0 60px;
-}
+.our-mission-section .our-mission-section-wrap .mission-heading-wrap p {font-size: 18px;padding: 0 60px;}
 .custom-inner-banner-sb {padding: 45px 0 0;}
 .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 200px;}
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 18px;}
-
-/* >>>>>>> 4638ce512fd856d5b49fd51ce29da8feb47d4f72 */
 }
-
-@media only screen and (max-width: 991.98px) {    
-/*supriyo-start*/
+@media only screen and (max-width: 991.98px) {
 .logo-search {display: none;}
 .log-in {display: none;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {display: block;}
@@ -264,30 +191,20 @@ padding: 72px 9px;}
 .accordion-body {font-size: 12px;}
 .faq .accordion-button.collapsed {font-size: 16px;}
 .accordion-button:not(.collapsed) {font-size: 16px;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
 .ni-banner a img{width: 100%;}
-/* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 9px;} */
 .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 55%;}
 .custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;}
 .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
 .fi-offer-img-wrap img {height: 300px; margin-bottom: 10px;}
 .custom-offer-banner1 li.ni-banner img {margin-top: 8px;}
 .fi-offer-img-wrap img {width: 100%;height: 340px;}
-/* About Us Start */
 .about-us-content .about-us-right-content-wap {margin: 75px 0 0 0;padding-bottom: 5px;}
 .our-mission-section .our-mission-section-wrap {padding: 40px 0 0;}
 .our-service {padding: 15px 0;}
-/* About Us End */
-/* Newsletter Start */
 .custom-newsletter {margin-bottom: 50px;}
-/* Newsletter End */
-/* Paulami Saha work end */
-/* Deep-banner-start */
 .custom-banner .items { flex-direction: row;padding-top: 10px; }
 .custom-banner .carousel-caption a { margin-top: 20px; }
-/* Deep-banner-end */
 .navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
 .navbar-toggler .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
 .navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
@@ -297,7 +214,6 @@ padding: 72px 9px;}
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
-/* sb */
 .custom-col-5 {flex: 0 0 33.333%;margin: 10px 0px;}
 .custom-button {font-size: 12px;padding: 7px 12px;}
 .custom-pad {padding: 30px 0;}
@@ -306,7 +222,6 @@ padding: 72px 9px;}
 .custom-banner .side-banner .side-img img {height: 200px;object-fit: cover;}
 .custom-banner .side-banner:nth-child(2) .side-banner-content {top: 20px;transform: unset;}
 .custom-banner .side-banner-content h5 {font-size: 17px;}
-/* .custom-banner li.side-banner {padding: 6px 6px 0px 0;} */
 .custom-banner li.side-banner:last-child {padding-right: 0;}
 .custom-banner .carousel-item img {height: 300px;object-fit: cover;}
 .custom-banner .carousel-caption h2 {font-size: 28px;padding-bottom: 15px;}
@@ -341,33 +256,20 @@ padding: 72px 9px;}
 .custom-offer-banner1 li.ni-banner:last-child{margin-bottom: 0;}
 .newest-items-section.bestseller-items-section .product-items-wrap .product-item-box {height: unset;}
 .newest-items-section .product-items-wrap .product-item-box {height: unset !important;}
-/* sb */
-/*supriyo-privacy-terms-refund-start*/
-/* .custom-inner-banner {padding: 100px 0;} */
 .custom-inner-banner-title h2 {font-size: 28px;}
 .breadcrumb-item.active {font-size: 14px;}
 .breadcrumb-divider {padding-top: 4px;}
 .custom-inner-banner .custom-inner-banner-breadcrumb {padding: 0px 30px 0px;padding-top: 10px;}
 .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
-/*supriyo-privacy-terms-refund-end*/
-/*supriyo-blog-page-start*/
 .post-content-img {min-height: 70px;}
 .box-right-text h2 {font-size: 18px;line-height: 25px; margin-top: 20px;}
 .box-right-text h5 {font-size: 14px;}
 .popular-text.align-self-center h5 {font-size: 14px;}
 .popular-content-date {padding: 35px 33px 35px;}
-/*supriyo-blog-page-end*/ 
-/*----------------Deep-contact-us-page-start---------------------- */
-/* .contact-details .contact-content {margin-top: 20px;} */
 .newsletter .newsletter-heading h4 {font-size: 20px;}
-/* .newsletter .input-group{width: 50%; padding: 0px;top: -50px; left: 170px;} */
-/*----------------Deep-contact-us-page-end---------------------- */
-/*----supriyo-blog-page-start-24/8/22----*/
 .blog-content .big-box {display: block;}
 .big-box-right {margin-left: 0px;}
 .custom-inner-banner {padding: 80px 0;margin-bottom: 50px;}
-/*----supriyo-blog-page-end-24/8/22----*/
-/*----supriyo-blog-inner-start-24/8/22----*/
 .blog-inner-1-content .comments li {font-size: 13px;}
 .blog-inner-1-content .comments li {padding: 0 30px 0 0;}
 .blog-inner-1-content .comments li::after {right: 12px;}
@@ -375,17 +277,11 @@ padding: 72px 9px;}
 .blog-inner-2 .blog-inner-2-list li {font-size: 13px;}
 .blog-inner-2 .blog-inner-2-list {margin-left: 22px;}
 .blog-inner-3 .paragraph {font-size: 12px;}
-/*----supriyo-blog-inner-end-24/8/22----*/
-/*----supriyo-home-cart-start-24/8/22----*/
 .navigation .cart-section.col-md-3.col-lg-none.col-sm-block {width: 32%; padding: 0px 0px;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 55%;}
-/*----supriyo-home-cart-end-24/8/22----*/
-/*--supriyo-home-page-responsive-start-24/8/22--*/
 .custom-banner-caption {left: 0%;}
 .navigation .navbar-nav .nav-item:first-child {margin: 0 auto;}
 .navigation .navbar-nav .nav-item:last-child {margin: 0 auto;}
-/*--supriyo-home-page-responsive-end-24/8/22--*/
-/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 17px;}
 .testimonial-content .client-name li::after {height: 22px; right: 1px;}
 .testimonial-content .paragraph {font-size: 13px;}
@@ -395,11 +291,7 @@ padding: 72px 9px;}
 .testimonial-content .paragraph {min-height: 110px;}
 .testimonial-btn {margin-top: 10px;}
 .testimonial {padding: 0 0 40px 0;}
-/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-/*--supriyo-faq-page-responsive-start-25/8/22--*/
 .faq.custom-pad-2 {padding: 0 0 40px 0;}
-/*--supriyo-faq-page-responsive-end-25/8/22--*/
-/* contact sb 26-08-2022 */
 .contact-details .contact-form {margin-top: 40px;margin-left: 0;}
 .contact-details .contact-content .custom-heading.cus-no-border .product-section-heading {padding-bottom: 30px;text-align: center;margin-left: auto;}
 .contact-details .contact-content .info .info-detail {margin-left: auto !important;margin-right: auto !important;}
@@ -410,20 +302,14 @@ padding: 72px 9px;}
 .newsletter .input-group {padding: 0px 6px 0 0;}
 .newsletter .form-control {padding: 13px;font-size: 15px;}
 .newsletter #basic-addon2 {margin: 6px 0;font-size: 13px;}
-/* contact sb 26-08-2022 */
-/* <<<<<<< HEAD */
-/* contact sb 27-08-2022 */
 .product-timings .time-box {width: 40px;height: 40px;}
 .hour-mins {gap: 0 9px;}
 .product-timings .time-box h4 {font-size: 13px;}
 .custom-banner .side-banner .side-banner-content .custom-button {margin-top: 9px;}
 .faq-accordion .accordion-item .accordion-button::after {width: 27px;height: 23px;font-size: 18px;line-height: 24px;}
-/* contact sb 27-08-2022 */
-/* ======= */
 .about-us-content .about-us-content-image-wap img {height: 380px;object-position: 100% 0%;}
 .our-mission-section .our-mission-section-wrap .mission-heading-wrap p {font-size: 16px;}
-.our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {width: 80%;
-}
+.our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {width: 80%;}
 .customer-counter .customer-counter-wap ul li {margin: 29px 10px;width: 30%;padding: 30px 8px;}
 .customer-counter .customer-counter-wap ul li span {font-size: 30px;}
 .customer-counter .customer-counter-wap ul li p {font-size: 16px;}
@@ -436,23 +322,34 @@ padding: 72px 9px;}
 .term-condition-part .sub-heading-margin-top {margin-top: 15px;}
 .privacy-text .paragraph {padding: 15px 0px;}
 .custom-ul {padding: 15px 0px 5px 15px !important;}
-
-/* sb 30-08 */
 .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 180px;}
 .custom-inner-banner-sb {padding: 38px 0 0;}
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 16px;}
-/* sb 30-08 */
-/* >>>>>>> 4638ce512fd856d5b49fd51ce29da8feb47d4f72 */
+.product-thumb .item{margin: 0 15px 0 0;}
+.ipd-thumb-box{width: 100%;}
+.ipd-thumb-box img {height: 100px;}
+.ipd-right-wrap{padding-top: 45px;}
+.ipd-heading > h4{margin-bottom: 10px;}
+.sku > p {margin-bottom: 7px;}
+.ipd-desc > p {margin-bottom: 16px;}
+.ipd-cta {margin-top: 20px;}
+.ipd-socials{margin-top: 25px;}
+.inner-product-details-bottom {padding-top: 40px;}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a {font-size: 17px;padding-bottom: 11px;}
+.inner-product-details-bottom .ipd-tabs {gap: 0 40px;}
+.tab-content .ipd-tab-content-wrap {margin-top: 30px;}
+.ipd-tab-list li {line-height: 38px;}
+.desc-links > li:not(:first-child) {list-style: unset;}
+.desc-links {gap: 0 20px;}
+.product-slider .owl-nav {bottom: unset;right: unset;width: 100%;top: 50%;transform: translateY(-50%);justify-content: space-between;display: flex;}
+.product-slider .owl-nav button.owl-prev{margin-left: 0;}
 }
 
 @media (max-width: 767.98px){
-/*supriyo-start*/
 .top-section .top-nav {display: none;}
 .cart-section {flex: 0 0 40%;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 40%;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 img {width: 60%;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
 .ni-banner a img{width: 100%;}
 .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
@@ -461,7 +358,6 @@ padding: 72px 9px;}
 .custom-offer-banner1 li.ni-banner img {margin-top: 8px;}
 .fi-offer-img-wrap img {width: 100%;height: 305px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 331px;}
-/* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;}  */
 .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content h4 {font-size: 35px;line-height: 47px;}
 .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 19px;line-height: 19px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 34px;line-height: 51px;}
@@ -472,26 +368,17 @@ padding: 72px 9px;}
 .custom-offer-banner1 li.ni-banner:nth-child(even){width: 100%; margin-right: 0;margin-left: 0;}
 .custom-offer-banner1 li.ni-banner {margin-bottom: 18px;}
 .fi-offer-img-wrap img {margin-bottom: 10px;}
-/* About Us Start */
 .about-us-content .about-us-content-image-wap img {height: 550px;}
-/* About Us End */
 .custom-newsletter {margin-bottom: 40px;}
-/* Paulami Saha work end */
-/* Deep-banner-start */
 .custom-banner .carousel-caption h2{ font-size: 22px; padding-bottom: 18px; }
 .custom-banner .side-banner-content a{ font-weight: 300; padding: 2px 4px; margin-top: 4px;}
 .custom-banner .side-banner-content h5{ font-size: 14px; font-weight: 300;}
 .custom-banner li.side-banner:first-child .side-banner-content a{ padding: 4px 5px; margin-top: 4px; }
-/* .custom-banner .side-banner:nth-child(2) .side-banner-content{ top: 44%; } */
-/* Deep-banner-end */
-/* sb */
 .custom-col-5 {flex: 0 0 50% !important;}
 .contact-us .contact-us-left .contact-us-left-content .icons-content a {font-size: 15px;line-height: 37px;}
 .contact-us .contact-us-left .contact-us-left-content .icons-content a span i {font-size: 13px;}
 .contact-us .contact-us-right-logo img {width: 60%;}
 .custom-banner .side-banner .side-img img {height: 150px;}
-/* sb */
-/*supriyo-privacy-terms-refund-start*/
 .custom-inner-banner-title h2 {font-size: 24px;}
 .custom-inner-banner .custom-inner-banner-breadcrumb a {font-size: 14px;}
 .breadcrumb-item.active {font-size: 14px;}
@@ -503,18 +390,11 @@ padding: 72px 9px;}
 .privacy-text .custom-ul li {font-size: 13px;}
 .paragraph-margin {font-size: 13px;}
 .privacy-content {padding: 0px 0 20px;}
-/* .custom-inner-banner {margin-bottom: 60px;} */
 .custom-term-condition {padding: 0 0 20px 0;}
-/*supriyo-privacy-terms-refund-end*/
-/*supriyo-blog-page-start*/
 .popular-content-date {width: 50%;}
 .popular-text.align-self-center h5 {font-size: 18px;}
-/*supriyo-blog-page-end*/
-/*---supriyo-refund-page-start-24/8/22---*/
 .term-condition-part-refund .paragraph {font-size: 13px; text-align: center;}
 .term-condition-part-refund ul li {font-size: 13px;}
-/*---supriyo-refund-page-end-24/8/22---*/
-/*----supriyo-blog-inner-start-24/8/22----*/
 .blog-inner-1-content .comments li {font-size: 12px;}
 .blog-inner-1-content .comments li {padding: 0 10px 0 0;}
 .blog-inner-1-content .comments li::after {right: 2px;}
@@ -522,50 +402,38 @@ padding: 72px 9px;}
 .blog-inner .col-md-6.col-sm-12:last-child {margin: 0 0 0px 0;}
 .blog-inner-2 {min-height: 702px;}
 .blog-inner-3 {min-height: 702px;}
-/*----supriyo-blog-inner-end-24/8/22----*/
-/*----supriyo-home-cart-start-24/8/22----*/
 .navigation .cart-section.col-md-3.col-lg-none.col-sm-block {width: 32%; padding: 0px 0px;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 45%;}
-/*----supriyo-home-cart-end-24/8/22----*/
-/*--supriyo-home-page-responsive-start-24/8/22--*/
 .custom-banner-caption {top: 50%;transform: translateY(-50%);padding: 0px 0;}
-/*--supriyo-home-page-responsive-end-24/8/22--*/
-/*--------------------------------Deep-contact-us-start--------------------------------*/
-/* .contact-details .contact-content .info .info-detail {padding: 0 40px 0 0;} */
 .contact-details .contact-content .info .info-detail h4 {font-size: 16px;}
-/* .contact-details .contact-content .info .info-detail span {padding: 14px;} */
 .contact-details .contact-content .info .info-detail ul .si a i {font-size: 12px;}
-/* .contact-details .contact-content .info .info-detail a {font-size: 8px;font-weight: 500;} */
 .newsletter .newsletter-heading h4 {font-size: 20px;}
 .newsletter .form-control {padding: 6px;font-size: 12px;}
-/* .newsletter .input-group {top: -38px; left: 120px;} */
 .newsletter #basic-addon2 {font-weight: 400;}
-/* .contact-details .contact-content .info .info-detail span {line-height: 84px;} */
 .newsletter {padding: 50px 0;}
-/* .newsletter .input-group {top: 12px;left: -75px;width: 70%;} */
-/*--------------------------------Deep-contact-us-end--------------------------------*/
-/* >>>>>>> 4af3a937e541aff2a1ad64ce6a1704b307e79b1e */
-/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .paragraph {min-height: 60px;}
-/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-/* contact sb 26-03-2022 */
 .contact-details .contact-form .contact-form-content .form-control {font-size: 14px;}
 .contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {padding: 8px 0;font-size: 14px;}
 .newsletter .newsletter-heading {width: 100%;text-align: center;padding-bottom: 22px;}
-/* contact sb 26-03-2022 */
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li p {font-size: 17px;margin-top: 4px;}
 .our-mission-section .our-mission-section-wrap .mission-heading-bottom-wrap ul li {width: 90%;}
-/* sb 30-08 */
 .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 150px;}
-.custom-inner-banner-sb {
-  padding: 25px 0 0;
-}
+.custom-inner-banner-sb {padding: 25px 0 0;}
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 14px;}
-/* sb 30-08 */
+#thumb {flex-direction: row;justify-content: space-between;}
+.ipd-thumb-box {width: 100%;}
+.product-thumb .item {margin: 0;flex-basis: 23.66%;}
+.product-slider {min-height: 300px;margin-bottom: 10px;}
+.ipd-image-box img {height: 265px;} 
+.ipd-right-wrap {padding-top: 25px;}
+.inner-product-details-bottom .ipd-tabs {gap: 0 20px;}
+.ipd-heading > h4 {font-size: 22px;line-height: 20px;}
+.sku > p {line-height: 20px;}
+.desc-links {gap: 0 10px;flex-wrap: wrap;}
+.desc-links > li:not(:first-child) {list-style: none;}
+.inner-product-section .custom-col-5 {flex: 0 0 48% !important;}
 }
-
 @media (max-width: 575.98px){
-/*supriyo-start*/
 .top-section {display: none;}
 .footer-2 {margin-top: 20px;}
 .footer-3 {margin-top: 20px;}
@@ -577,16 +445,11 @@ padding: 72px 9px;}
 .footer-1, .footer-2, .footer-3 {text-align: center;}
 .footer-1-text li, .footer-2-text li {padding: 0 0 14px 0;}
 .footer-header::after {right: 0;left: 0;margin: 0 auto;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
 .ni-banner a img{width: 100%;}
-/* .custom-offer-banner1 li.ni-banner:nth-child(odd){margin-left: 0;width: 50%;}
-.custom-offer-banner1 li.ni-banner:nth-child(even){width: 42%; margin-right: 0;} */
 .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
 .custom-offer-banner1 li.ni-banner img {margin-top: 8px;height: auto;}
 .fi-offer-img-wrap img {width: 100%;height: 252px;}
-/* .bsp-banner-bottom .bsp-banner-bottom-wap .list-banner-content {top: 10px;}  */
 .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 27px;line-height: 43px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 12px 20px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 262px;}
@@ -595,7 +458,6 @@ padding: 72px 9px;}
 .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content p {font-size: 17px;line-height: 12px;}
 .fi-offer-img-wrap img {margin-bottom: 6px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap a {padding: 10px 15px;}
-/* About Us Start */
 .about-us-content .about-us-content-image-wap img {height: 332px;}
 .about-us-content .about-us-content-image-wap .list-about-us-content h4 {font-size: 30px;line-height: 13px;margin-bottom: 14px;}
 .about-us-content .about-us-content-image-wap .list-about-us-content p {font-size: 18px;line-height: 15px;}
@@ -606,8 +468,6 @@ padding: 72px 9px;}
 .customer-counter .customer-counter-wap ul li {margin: 0 0 10px;padding: 34px;width: 100%;}
 .our-service .row .col-lg-4 span i {font-size: 29px; margin-left: 20px;}
 .our-service .row .col-lg-4 p {font-size: 14px;margin: 10px 0 18px 6px;display: block;}
-/* About Us End */
-/* Newsletter Start */
 .custom-newsletter {margin-bottom: 25px;}
 .custom-newsletter .newsletter-heading-wrap .custom-heading .product-section-heading {line-height: 24px;font-size: 17px;}
 .custom-newsletter .card p {font-size: 13px;margin: 15px 0 23px 0;line-height: 12px;}
@@ -616,21 +476,14 @@ padding: 72px 9px;}
 .custom-newsletter .inputbox input {font-size: 14px;height: 35px;margin-bottom: 15px;}
 .custom-newsletter .inputbox input::placeholder {font-size: 13px;}
 .custom-newsletter .form-btn-wrap .custom-button {font-size: 12px;font-weight: 500;padding: 8px 25px;}
-/* Newsletter Start */
-/* Paulami Saha work end */
-/* Deep-banner-start */
 .custom-banner .carousel-caption h2{ font-size: 14px; }
 .custom-banner .carousel-caption h4{ font-size: 12px; }
-/* Deep-banner-end */
-/* sb */
 .contact-us .contact-us-left {background-position: 71% 50%;}
 .contact-us-left::after {background-color: rgba(227, 35, 48, 0.6);}
 .contact-us .contact-us-right-logo img {width: 100%;}
 .custom-banner .carousel-item img {height: 250px;}   
 .custom-banner .side-banner .side-img img {object-position: 63%;}
 .custom-banner .carousel-caption h2 {padding-bottom: 10px;}
-/* sb */
-/*supriyo-privacy-terms-refund-start*/
 .sub-heading h4 {font-size: 17px;line-height: 25px;}
 .sub-heading-margin-top h4 {font-size: 18px;}
 .privacy-text .paragraph {text-align: center;}
@@ -644,13 +497,9 @@ padding: 72px 9px;}
 .term-condition-part .paragraph {text-align: center;}
 .term-condition-part .paragraph-margin-top {text-align: center;}
 .term-condition-part .sub-heading-margin-top {text-align: center;}
-/*supriyo-privacy-terms-refund-end*/
-/*supriyo-blog-page-start*/
 .blog-content .row.big-box {padding: 15px 5px;}
 .blog-content {padding: 0 0 10px 0;}
 .pagination {margin-bottom: 20px;}
-/*supriyo-blog-page-end*/
-/*----supriyo-blog-inner-start-24/8/22----*/
 .blog-inner-1-content h3 {text-align: center;}
 .blog-inner-1-content .comments {text-align: center;}
 .blog-inner-1-content .paragraph {text-align: center;}
@@ -658,23 +507,11 @@ padding: 72px 9px;}
 .blog-inner-1 {padding: 15px;}
 .blog-inner-2 {padding: 15px;}
 .blog-inner-3 {padding: 15px;}
-/*----supriyo-blog-inner-end-24/8/22----*/
-/*--supriyo-home-page-responsive-start-24/8/22-- sb changes*/
-.custom-banner .carousel-caption h2 {font-size: 20px;}   
-/*--supriyo-home-page-responsive-end-24/8/22--*/
-/*------------------------Deep-contact-us-page-start-------------*/
+.custom-banner .carousel-caption h2 {font-size: 20px;}
 .custom-inner-banner .custom-inner-banner-breadcrumb {padding: 8px 13px 0px; border-radius: 7px;}
 .contact-details .contact-content {padding-left: 0;}
-/* .contact-details .contact-content .info .info-detail {padding: 0 0 0 0;} */
-/* .contact-details .contact-content .info .info-detail span {width: 70px;} */
-/* .contact-details .contact-content .info .info-detail h4 {font-size: 12px;} */
-/* .contact-details .contact-content .info .info-detail a {font-size: 9px;font-weight: 500;} */
 .contact-details .contact-form {margin: 35px 0 0;}
 .contact-details .contact-form .contact-form-content .btn.btn-primary {font-size: 16px;}
-/* .newsletter .input-group {top: 12px;left: -17px;} */
-/*------------------------Deep-contact-us-page-end-------------*/
-/* >>>>>>> 4af3a937e541aff2a1ad64ce6a1704b307e79b1e */
-/* contact sb 26-03-2022 */
 .contact-details .contact-form .contact-form-content .form-control {font-size: 13px;}
 .contact-details .contact-form .contact-form-content .contact-form-btn-wrap .custom-button {padding: 8px 0;font-size: 13px;}
 .contact-details .contact-form .custom-heading.cus-no-border .product-section-heading {font-size: 17px;}
@@ -692,16 +529,31 @@ padding: 72px 9px;}
 .term-condition-part .paragraph {padding: 5px 0px 10px;}
 .navigation {padding: 15px 0;}
 .privacy-text .paragraph {padding: 7px 0px 10px;}
-/* contact sb 26-03-2022 */
-
-/* sb 30-08 */
 .custom-inner-banner-sb .custom-inner-banner-sb-right img {height: 120px;width: 100%;object-fit: contain;}
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 13px;}
-/* sb 30-08 */
+.ipd-thumb-box {height: 75px;}
+.ipd-thumb-box img {height: 62px;}
+.ipd-image-box img {height: 195px;}
+.product-slider {min-height: 230px;margin-bottom: 7px;}
+.ipd-heading > h4 {font-size: 20px;}
+.ipd-right-wrap .ipd-price > h5 {font-size: 18px;line-height: 20px;}
+.sku > p {font-size: 14px;}
+.ipd-desc > p {margin-bottom: 13px;}
+.desc-links {gap: 0 20px;justify-content: center;}
+.desc-links > li > a {font-size: 13px;line-height: 24px;}
+.ipd-cta .quantity {height: 34px;align-items: center;}
+.ipd-cta .quantity .qtyminus, .ipd-cta .quantity .qtyplus {width: 25px;height: 25px;line-height: 27px;}
+.ipd-card-btn.custom-button {height: 34px;line-height: 33px;font-size: 14px;width: 145px;}
+.ipd-wishlist span {height: 34px;line-height: 36px;font-size: 14px;}
+.inner-product-details-bottom .ipd-tabs > .ipd-nav-item > a {font-size: 15px;padding-bottom: 7px;margin-bottom: 13px;}
+.tab-content .ipd-tab-content-wrap {margin-top: 10px;}
+.ipd-tab-list {margin-bottom: 15px;}
+.ipd-tab-list li {line-height: 22px;margin-bottom: 8px;}
+.inner-product-section .custom-col-5 {flex: 0 0 47% !important;margin: 10px 7px;}
+.custom-inner-banner-sb {padding: 85px 0 0;z-index: 9;}
+.custom-inner-banner-sb::before {content: '';position: absolute;width: 100%;height: 100%;top: 0;left: 0;background-color: rgba(0, 0, 0, 0.2);}
 }
-
-@media only screen and (max-width: 480.98px) {	
-/*supriyo-start*/
+@media only screen and (max-width: 480.98px) {
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 35%;}
 .cart-section {padding: 5px 0px;}
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 img {width: 100%;}
@@ -709,8 +561,6 @@ padding: 72px 9px;}
 .accordion-button:not(.collapsed) {font-size: 14px;}
 .bottom-text li {padding: 0 0px 10px 0px;}
 .footer-header h3 {font-size: 16px;}
-/*supriyo-end*/
-/* Paulami Saha work start */
 .custom-offer-banner1 .ni-banner-wrap {flex-wrap: wrap;}
 .ni-banner a img{width: 100%;}
 .custom-offer-banner1 li.ni-banner {margin-bottom: 15px;}
@@ -721,29 +571,23 @@ padding: 72px 9px;}
 .fi-offer-banner1 .container-fluid .row .col-lg-6 .list-banner-content a {font-size: 12px;padding: 9px 12px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap h4 {font-size: 21px;line-height: 26px;}
 .bsp-banner-bottom .bsp-banner-bottom-wap img {height: 207px;}
-/* Paulami Saha work end */
-/* sb */
 .custom-col-5 {flex: 0 0 100% !important;}
 .custom-banner .items {flex-direction: column;gap: 11px 10px;}
 .custom-banner .side-banner .side-img img {width: 100%;object-position: top;}
-/* sb */
-/*supriyo-blog-page-start*/
 .popular-text.align-self-center h5 {font-size: 16px;}
 .box-right-text .paragraph {font-size: 12px;line-height: 25px;}
-/*supriyo-blog-page-end*/   
 .custom-heading .product-section-heading {font-size: 16px;}
 .about-us-content .about-us-right-content-wap p {font-size: 16px;}
 .about-us-content .about-us-right-content-wap p {margin-bottom: 28px;}
+.inner-product-section .custom-col-5 {flex: 0 0 100% !important;margin-left: 0;padding: 0 13px 0 13px;}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .custom-breadcrumb-divider {left: -10px;}
+.custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 11px;}
+.custom-inner-banner-sb .custom-breadcrumb {gap: 0 14px;}
 }
-
 @media only screen and (max-width: 360.98px) {
 .custom-banner .carousel-caption a {margin-top: 10px;}
-/*--supriyo-testimonial-page-responsive-start-25/8/22--*/
 .testimonial-content .client-name h4 {font-size: 15px;}
 .testimonial-content .client-name h5 {font-size: 12px;}
 .testimonial-content .client-name li::after {height: 20px;}
-/*--supriyo-testimonial-page-responsive-end-25/8/22--*/
-/*--supriyo-faq-page-responsive-start-25/8/22--*/
 .faq.custom-pad-2 {padding: 0 0 30px 0;}
-/*--supriyo-faq-page-responsive-end-25/8/22--*/
 }

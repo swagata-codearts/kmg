@@ -60,48 +60,28 @@ jQuery( document ).ready(function() {
     });
     jQuery('.showing-select').change(function(){
         let showingVal = jQuery(".showing-select").val()
-        
-        // jQuery( ".product-items-wrap .custom-col-5" ).eq( showingVal - 1 ).nextAll().hide()  
-        // showLi()
         let current = 0,
         numToShow = jQuery(".showing-select").val(),
         colDiv = jQuery('.product-items-wrap .custom-col-5'),
         numOfcolDiv = jQuery('.product-items-wrap .custom-col-5').children().length
-        let startIndex = current * numToShow;   // calculate your slice start number
-    if (startIndex > numOfcolDiv) {          // if start number greater than number of li, reset
-        startIndex = 0;
-        current = 0;
-    } else if (current < 0) {               // if start number less than 0, reset to end
-        current = Math.floor(numOfcolDiv / numToShow);
-        startIndex = current * numToShow;
-    } else {
-        colDiv.hide()                                   // hide all li
-            .slice(startIndex, startIndex + numToShow) // slice off the ones you want to show
-            .show();                                   // show them
-    }
-        // console.log(colDiv.length)
+        let startIndex = current * numToShow;   
+        if (startIndex > numOfcolDiv) {         
+            startIndex = 0;
+            current = 0;
+        } else if (current < 0) {               
+            current = Math.floor(numOfcolDiv / numToShow);
+            startIndex = current * numToShow;
+        } else {
+            colDiv.hide()                                   
+                .slice(startIndex, startIndex + numToShow) 
+                .show();                                   
+        }
     });
 });
 
-// var current = 0,
-//   numToShow = showingVal,
-//   $li = jQuery('.product-items-wrap row').children();          // get all li once and work with this set for better performance
-
-// function showLi() {
-//   var startIndex = current * numToShow;   // calculate your slice start number
-//   if (startIndex > $li.length) {          // if start number greater than number of li, reset
-//     startIndex = 0;
-//     current = 0;
-//   } else if (current < 0) {               // if start number less than 0, reset to end
-//     current = Math.floor($li.length / numToShow);
-//     startIndex = current * numToShow;
-//   } else {
-//       $li.hide()                                   // hide all li
-//         .slice(startIndex, startIndex + numToShow) // slice off the ones you want to show
-//         .show();                                   // show them
-
-//   }
-
-
-
-
+jQuery( document ).ready(function() {
+    jQuery(".sidebar-nav-toggle").click(function() {
+        jQuery(this).siblings(".sidebar-sub-menu").slideToggle(400)
+        jQuery(this).children().toggleClass("fa-plus fa-minus")
+    })
+});

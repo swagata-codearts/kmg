@@ -2823,6 +2823,12 @@ align-items: center;
   text-align: center;
   margin: 0;
 }
+.cta-tel-wrap {
+  padding: 20px 21px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .inner-products-sidebar-cta .inner-products-sidebar-heading h3 {
   text-transform: capitalize;
   line-height: 27px;

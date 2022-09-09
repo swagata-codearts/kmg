@@ -34,6 +34,10 @@ jQuery('#slider').owlCarousel({
     navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
 });
 
+jQuery( document ).ready(function() {
+    jQuery(".navbar-nav .menu-item-has-children").children(".nav-link").removeAttr("data-bs-toggle").removeAttr("aria-haspopup");
+});
+
 jQuery(document).ready(function(){
     jQuery(window).scroll(function() {
        if(jQuery(this).scrollTop() > 225 ) {
@@ -84,4 +88,11 @@ jQuery( document ).ready(function() {
         jQuery(this).siblings(".sidebar-sub-menu").slideToggle(400)
         jQuery(this).children().toggleClass("fa-plus fa-minus")
     })
+ 
+        // if (window.matchMedia('(max-width: 991.98px)').matches) {
+        //     alert()
+        //     jQuery(".product-items-wrap").removeClass(function (index, className){return (className.match (/(^|\s)product-items-v-\S+/g) || []).join(' ');}).addClass("product-items-v-12");
+        // } else {
+            
+        // } 
 });

@@ -373,6 +373,17 @@
 .custom-inner-banner-sb-content p.text {font-size: 13px;margin-bottom: 10px;line-height: 20px;}
 .custom-inner-banner-sb-content .custom-cta {padding: 8px 12px;font-size: 12px;}
 .custom-inner-banner-sb-content {margin-bottom: 20px;padding-right: 0;}
+
+.inner-products-sidebar-wrap {gap: 20px 0;}
+.inner-products-sidebar-cta .inner-products-sidebar-heading h3 {line-height: 22px;margin-bottom: 9px;text-align: center;}
+.tel-link{flex-direction: column;gap: 6px 0;}
+.inner-products-sidebar-cta .tel {margin: 0;font-size: 26px;}
+.inner-products-top-nav {margin-top: 20px;}
+.inner-products-top-nav-left {display: none;}
+/* cols */
+.ipd-items-section .product-items-wrap.product-items-v-12 .custom-col-5 {margin: 10px 0;}
+
+/* cols */
 /* sb */
 }
 

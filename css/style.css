@@ -2941,6 +2941,24 @@ align-items: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
+
+.product-items-wrap.product-items-v-4 .product-item-box {
+  display: none;
+}
+.product-items-wrap.product-items-v-4 .product-item-box.product-item-box-hor {
+  display: flex !important;
+  height: unset;
+}
+.pr-content-wrap {
+  flex: 0 0 auto;
+  width: 60%;
+  text-align: left;
+}
+.pr-image-wrap {
+  flex: 0 0 auto;
+  width: 40%;
+}
 /* ************ Product Inner Page Start (fdev-sb) 05-09-2022 ************ */
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS END +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */

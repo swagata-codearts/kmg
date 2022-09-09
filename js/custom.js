@@ -89,10 +89,9 @@ jQuery( document ).ready(function() {
         jQuery(this).children().toggleClass("fa-plus fa-minus")
     })
  
-        // if (window.matchMedia('(max-width: 991.98px)').matches) {
-        //     alert()
-        //     jQuery(".product-items-wrap").removeClass(function (index, className){return (className.match (/(^|\s)product-items-v-\S+/g) || []).join(' ');}).addClass("product-items-v-12");
-        // } else {
-            
-        // } 
+        if (window.matchMedia('(max-width: 991.98px)').matches) {
+            jQuery(".product-items-wrap").removeClass(function (index, className){return (className.match (/(^|\s)product-items-v-\S+/g) || []).join(' ');}).addClass("product-items-v-12");
+        } else {
+            jQuery(".product-items-wrap").trigger("reset")
+        } 
 });

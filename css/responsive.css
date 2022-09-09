@@ -48,6 +48,7 @@
 .custom-inner-banner-sb-content {margin-bottom: 41px;padding-right: 17%;}
 .custom-inner-banner-sb-content h2.heading {font-size: 32px;margin-bottom: 12px;}
 .custom-inner-banner-sb-content p.text {font-size: 14px;margin-bottom: 10px;}
+.inner-products-sidebar-cta .tel {font-size: 24px;}
 /* sb */
 }
 @media (max-width: 1230px)  {
@@ -112,6 +113,10 @@
 
 /* sb */
 .custom-inner-banner-sb-content {padding-right: 2%;}
+.inner-products-sidebar-coil .coil-left {flex: 0 0 100%;width: 100%;}
+.inner-products-sidebar-coil {flex-direction: column;gap: 15px 0;}
+.sidebar-nav-link {line-height: 26px;margin-bottom: 15px;}
+.sidebar-nav-item:last-child .sidebar-nav-link {margin-bottom: 0px;}
 /* sb */
 
 }
@@ -192,6 +197,12 @@
 .custom-inner-banner-sb-content p.text {line-height: 20px;}
 .custom-inner-banner-sb-content .custom-cta {padding: 10px 20px;}
 .custom-inner-banner-sb-content {margin-bottom: 30px;padding-right: 0;}
+.inner-products-sidebar-coil {flex-direction: column;gap: 15px 0;}
+.inner-products-sidebar-coil .coil-left {flex: 0 0 100%;width: 100%;}
+.sidebar-nav-link {line-height: 26px;margin-bottom: 15px;}
+.sidebar-nav-item:last-child .sidebar-nav-link {margin-bottom: 0px;}
+.tel-link{flex-direction: column;gap: 6px 0;}
+.inner-products-sidebar-cta .tel {margin-right: unset;font-size: 24px;}
 /* sb */
 }
 @media only screen and (max-width: 991.98px) {
@@ -380,7 +391,7 @@
 .inner-products-top-nav-left {display: none;}
 /* cols */
 .ipd-items-section .product-items-wrap.product-items-v-12 .custom-col-5 {margin: 10px 0;}
-
+.inner-products-top-nav-right {gap: 0 10px;}
 /* cols */
 /* sb */
 }
@@ -602,6 +613,9 @@
 .custom-inner-banner-sb-content p.text {font-size: 13px;margin-bottom: 10px;line-height: 16px;}
 .custom-inner-banner-sb-content .custom-cta {padding: 5px 10px;font-size: 11px;}
 .custom-inner-banner-sb .custom-breadcrumb {margin-bottom: 8px;}
+.sort .form-select {padding: 6px 10px 6px 8px;font-size: 13px;}
+.inner-products-top-nav-right .showing {font-size: 14px;}
+.inner-products-top-nav-right .showing .form-select {padding: 9px 25px 9px 7px;}
 /* sb */
 }
 @media only screen and (max-width: 480.98px) {

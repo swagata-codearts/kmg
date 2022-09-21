@@ -2962,10 +2962,9 @@ align-items: center;
 /* ************ Product Inner Page Start (fdev-sb) 05-09-2022 ************ */
 
 /* ************ Product Inner Page Start (fdev-ps) 21-09-2022 ************ */
-.membership-content .membership-content-heading h3{
-  font-size: 30px;
+.membership-content .custom-heading h3{
   margin-bottom: 30px;
-}
+} 
 .membership-content .membership-table .membership-table-heading h5{
   font-size: 22px;
   margin-bottom: 30px;

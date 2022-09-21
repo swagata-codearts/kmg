@@ -2961,4 +2961,47 @@ align-items: center;
 }
 /* ************ Product Inner Page Start (fdev-sb) 05-09-2022 ************ */
 
+/* ************ Product Inner Page Start (fdev-ps) 21-09-2022 ************ */
+.membership-content .membership-content-heading h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.membership-content .membership-table .membership-table-heading h5{
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.membership-content .membership-content-heading h4{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.membership-content .membership-content-text p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.membership-content .membership-table .table-content table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.membership-content .membership-table .table-content td, th {
+  font-size: 17px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+.membership-content .membership-table .table-content tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.membership-content .membership-text a{
+  color: #000000;
+  font-weight: 700;
+}
+
+/* ************ Product Inner Page End (fdev-ps) 21-09-2022 ************ */
+
+
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS END +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */

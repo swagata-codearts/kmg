@@ -3039,7 +3039,85 @@ list-style: inherit;
   width: 25%;
   text-align: center;
 }
-.form-file {display: flex;}
+.form-file-upload {
+  display: flex;
+  margin-top: 30px;
+}
+.form .form-check {
+  margin-top: 20px;
+  background-color: #e0e0e0;
+  width: 90%;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+}
+.form .form-check-label {
+  font-family: var(--ff-secondary);
+  font-size: 15px;
+  font-weight: 400;
+}
+.form .file-upload-text-2 .form-check {
+  margin-top: 20px;
+  background-color: #e0e0e0;
+  width: 50%;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+}
+.file-upload .paragraph {
+  padding: 0px 0px;
+  text-align: center;
+}
+.file-upload .upload {
+  font-size: 40px;
+  color: #e32330;
+}
+.form #formFile {
+  margin-top: 20px;
+}
+.form .file-upload-text-2 h4 {
+  font-family: var(--ff-secondary);
+  font-size: 18px;
+}
+.file-upload-text-2 {
+  margin-top: 40px;
+}
+.form-textarea {
+  margin-top: 30px;
+}
+.form-textarea #exampleFormControlTextarea1 {
+  margin-top: 10px;
+  width: 50%;
+  height: 180px;
+  border: 1px solid gray;
+  border-radius: 0;
+}
+.form-textarea .custom-button {
+  font-size: 13px;
+  padding: 10px 45px;
+  margin-top: 20px;
+  background-color: #e32330;
+  font-weight: 500;
+}
+.form-textarea .custom-button:hover {
+  color: #000;
+}
+.wholesale-form {
+  padding: 0 0 60px 0;
+}
+.form .form-check-input {
+  width: 1.2em;
+  height: 1.2em;
+}
+.form .form-check .form-check-input {
+  margin-left: -1.8em;
+}
+.file-upload #formFile {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
 
 /* ************ Wholesale Form Page End (fdev-sg) 22-09-2022 ************ */
 

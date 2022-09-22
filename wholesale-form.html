@@ -331,7 +331,7 @@
                                     aria-describedby="emailHelp" required="">
                             </div>
                         </form>
-                        <div class="form-file">
+                        <div class="form-file-upload">
                         <ul class="file-upload-text">
                             <h4>Please upload the following <span class="star">*</span></h4>
                             <div class="form-check">
@@ -349,18 +349,16 @@
                         </ul>
                         <ul class="file-upload">
                             <h4>File Upload <span class="star">*</span></h4>
-                            <span><i class="fas fa-cloud-upload-alt"></i></span>
+                            <span class="upload"><i class="fas fa-cloud-upload-alt"></i></span>
                             <li>
                                 <p class="paragraph">1. Business License</p>
                             </li>
                             <li>
                                 <p class="paragraph">2. Tobacco License (If Applicable)</p>
                             </li>
-                            <div class="drag-area">
-                                <h4>Drag & Drop Files Here</h4>
-                                <button>Browse File</button>
-                                <input type="file" hidden>
-                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="file" id="formFile">
+                            </div>                              
                         </ul>
                     </div>
                         <ul class="file-upload-text-2">
@@ -396,11 +394,13 @@
                                 </label>
                             </div>
                         </ul>
+                        <div class="form-textarea">
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Additional Comments (Who
                                 Referred You?)</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <a class="custom-button" href="#">SUBMIT</a>
+                        </div>
                         </div>
                     </div>
                 </div>

@@ -394,6 +394,15 @@
 .inner-products-top-nav-right {gap: 0 10px;}
 /* cols */
 /* sb */
+
+/* Paulami Saha Membership Start 22.09.2022 */
+.membership-content .membership-table .membership-table-heading h5 {font-size: 17px;}
+.membership-content .membership-content-heading h4 {font-size: 19px; margin-bottom: 20px;}
+.membership-content .membership-table .table-content td, th {font-size: 13px;}
+.membership-content .membership-content-text p {font-size: 14px;margin-bottom: 22px;}
+
+/* Paulami Saha Membership End 22.09.2022 */
+
 }
 
 @media (max-width: 767.98px){
@@ -483,6 +492,10 @@
 .desc-links {gap: 0 10px;flex-wrap: wrap;}
 .desc-links > li:not(:first-child) {list-style: none;}
 .inner-product-section .custom-col-5 {flex: 0 0 48% !important;}
+/* Paulami Saha Membership Start 22.09.2022 */
+.membership-content .membership-content-text p {line-height: 25px;}
+
+/* Paulami Saha Membership End 22.09.2022 */
 }
 @media (max-width: 575.98px){
 .top-section {display: none;}
@@ -617,6 +630,13 @@
 .inner-products-top-nav-right .showing {font-size: 14px;}
 .inner-products-top-nav-right .showing .form-select {padding: 9px 25px 9px 7px;}
 /* sb */
+/* Paulami Saha Membership Start 22.09.2022 */
+.membership-content .custom-heading h3 {margin-bottom: 20px;}
+.membership-content .membership-content-text p {line-height: 23px;text-align: center;}
+.membership-content .membership-table .membership-table-heading h5 {font-size: 14px;text-align: center;margin-bottom: 22px;}
+.membership-content .membership-content-heading h4 {font-size: 16px;margin-bottom: 18px;text-align: center;}
+.membership-content .membership-table .table-content td, th {font-size: 12px;}
+/* Paulami Saha Membership End 22.09.2022 */
 }
 @media only screen and (max-width: 480.98px) {
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 35%;}

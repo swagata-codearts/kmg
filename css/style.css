@@ -3121,5 +3121,124 @@ list-style: inherit;
 
 /* ************ Wholesale Form Page End (fdev-sg) 22-09-2022 ************ */
 
+/* ************ How much cost Page Start (fdev-sg) 22-09-2022 ************ */
+.cost-text .paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 20px 0px;
+  line-height: 28px;
+}
+.cost-form #exampleFormControlInput1 {
+  height: 60px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-form #exampleFormControlTextarea1 {
+  height: 250px;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-form .custom-button {
+  font-size: 13px;
+  padding: 10px 45px;
+  margin-top: 20px;
+  background-color: #e32330;
+  font-weight: 500;
+}
+.cost-form .custom-button:hover {
+  color: #000;
+}
+.cost-button {
+  text-align: center;
+}
+.cost-form {
+  margin-top: 20px;
+}
+.how-much-cost .cost-list-1 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-1 {
+  margin-top: 20px;
+  border-right: 1px solid #afafaf;
+}
+.how-much-cost .margin-top {
+  margin-top: 20px;
+}
+.cost-list-1 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .cost-list-2 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-2 {
+  margin-top: 20px;
+}
+.cost-list-2 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .cost-list-3 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-3 {
+  margin-top: 20px;
+  border-right: 1px solid #afafaf;
+}
+.cost-list-3 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .cost-list-4 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-4 {
+  margin-top: 20px;
+}
+.cost-list-4 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .reply {
+  background-color: #f8f8f8;
+  padding: 10px 20px 0;
+}
+.reply .reply-link {
+  color: #e32330;
+}
+.reply .reply-link:hover {
+  color: #000;
+}
+.how-much-cost {
+  padding: 0 0 60px 0;
+}
+
+
+/* ************ How much cost Page End (fdev-sg) 22-09-2022 ************ */
+
+
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS END +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */

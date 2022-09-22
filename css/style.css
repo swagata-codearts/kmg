@@ -2961,4 +2961,72 @@ align-items: center;
 }
 /* ************ Product Inner Page Start (fdev-sb) 05-09-2022 ************ */
 
+
+
+/* ************ Wholesale Form Page Start (fdev-sg) 22-09-2022 ************ */
+.welcome-text h4 {padding: 30px 0;}
+.wholesale-form .paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 30px 0px;
+  line-height: 28px;
+}
+.wholesale-form .paragraph-top {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 10px 0px 40px 0;
+  line-height: 28px;
+}
+.form .paragraph-divide {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 15px 0px;
+  line-height: 28px;
+}
+.form .form-select {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 0px;
+  width: 50%;
+}
+.form .form-label {
+  font-size: 18px;
+  font-family: var(--ff-secondary);
+}
+.form #exampleInputEmail1 {
+  width: 50%;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 0px;
+}
+.wholesale-form .see-also-list {
+  padding: 0 0px 30px 15px;
+  margin-top: 30px;
+}
+.wholesale-form .see-also-list li {
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: #727272;
+padding: 0 0px 10px 0px;
+list-style: inherit;
+}
+.form .star {
+  color: #e80000;
+}
+
+/* ************ Wholesale Form Page End (fdev-sg) 22-09-2022 ************ */
+
+
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS END +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */

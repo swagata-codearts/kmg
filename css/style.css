@@ -3025,6 +3025,21 @@ list-style: inherit;
 .form .star {
   color: #e80000;
 }
+.form .file-upload-text h4 {
+  font-size: 18px;
+}
+.form .file-upload h4 {
+  font-size: 18px;
+  text-align: left;
+}
+.form .file-upload-text {
+  width: 25%;
+}
+.form .file-upload {
+  width: 25%;
+  text-align: center;
+}
+.form-file {display: flex;}
 
 /* ************ Wholesale Form Page End (fdev-sg) 22-09-2022 ************ */
 

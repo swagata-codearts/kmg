@@ -229,6 +229,7 @@
 /* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
 .welcome-text h3 {font-size: 25px;}
 .welcome-text h4 {font-size: 20px;}
+.wholesale-form .see-also-list li {font-size: 14px;}
 .form .form-label {font-size: 16px;}
 .form .file-upload-text h4 {font-size: 14px;}
 .form .file-upload h4 {font-size: 14px;}
@@ -450,17 +451,18 @@
 /* Paulami Saha Membership End 22.09.2022 */
 
 /* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
-.welcome-text h3 {font-size: 20px;}
-.welcome-text h4 {font-size: 17px;}
+.welcome-text h3 {font-size: 20px;text-align: center;}
+.welcome-text h4 {font-size: 17px;text-align: center;}
+.form {margin-top: 30px;}
 .form .form-label {font-size: 16px;}
 .form .file-upload-text h4 {font-size: 16px;}
 .form .file-upload h4 {font-size: 16px;}
 .form .form-check-label {font-size: 14px;}
 .wholesale-form .paragraph {font-size: 14px;}
 .form .file-upload-text-2 h4 {font-size: 16px;}
-.wholesale-form .see-also-list {margin-top: 20px;}
+.wholesale-form .see-also-list {padding: 0px 10px 20px 10px;}
 .see-also h5 {font-size: 17px;}
-.wholesale-form .paragraph-top {font-size: 14px;}
+.wholesale-form .paragraph-top {font-size: 14px; padding: 10px 0px 30px 0;}
 .wholesale-form .see-also-list li {font-size: 14px;}
 .form .paragraph-divide {font-size: 14px;}
 .form .form-select {font-size: 14px;}

@@ -3050,17 +3050,38 @@ align-items: center;
   border: 1px solid #c4c4c4;
   border-radius: 0px;
 }
+.see-also {
+  border: 1px solid #c4c4c4;
+}
 .wholesale-form .see-also-list {
-  padding: 0 0px 30px 15px;
-  margin-top: 30px;
+  padding: 10px 10px 20px 10px;
+  position: relative;
+}
+.wholesale-form .see-also-list li:last-child {
+  border-bottom: none;
+  padding: 10px 0 0 0;
+}
+.see-also h5 {
+  background-color: #e32330;
+  color: #fff;
+  padding: 10px;
+}
+.list-arrow {
+  position: absolute;
+  right: 18px;
+  background-color: #e32330;
+  color: #fff;
+  padding: 2px 6px;
+  transition: all 0.2s ease-in-out;
 }
 .wholesale-form .see-also-list li {
 font-family: 'Montserrat', sans-serif;
 font-size: 15px;
 font-weight: 400;
 color: #727272;
-padding: 0 0px 10px 0px;
-list-style: inherit;
+padding: 15px 0px 15px 0px;
+list-style: none;
+border-bottom: 1px dotted #c4c4c4;
 }
 .form .star {
   color: #e80000;
@@ -3158,7 +3179,25 @@ list-style: inherit;
   font-weight: 400;
   color: #727272;
 }
-
+.welcome-text a {
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+.welcome-text a:hover {
+  color: #e32330;
+}
+.see-also-list a {
+  color: #727272;
+  transition: all 0.1s ease-in-out;
+}
+.see-also-list a:hover {
+  color: #e32330;
+}
+.wholesale-form .see-also-list li:hover .list-arrow {
+  right: 12px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
 /* ************ Wholesale Form Page End (fdev-sg) 22-09-2022 ************ */
 
 /* ************ How much cost Page Start (fdev-sg) 22-09-2022 ************ */

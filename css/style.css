@@ -3003,5 +3003,296 @@ align-items: center;
 
 /* ************ Product Inner Page End (fdev-ps) 21-09-2022 ************ */
 
+/* ************ Wholesale Form Page Start (fdev-sg) 22-09-2022 ************ */
+.welcome-text h4 {padding: 30px 0;}
+.wholesale-form .paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 30px 0px;
+  line-height: 28px;
+}
+.wholesale-form .paragraph-top {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 10px 0px 40px 0;
+  line-height: 28px;
+}
+.form .paragraph-divide {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 15px 0px;
+  line-height: 28px;
+}
+.form .form-select {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #727272;
+  line-height: 28px;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 0px;
+  width: 50%;
+}
+.form .form-label {
+  font-size: 18px;
+  font-family: var(--ff-secondary);
+}
+.form #exampleInputEmail1 {
+  width: 50%;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 0px;
+}
+.wholesale-form .see-also-list {
+  padding: 0 0px 30px 15px;
+  margin-top: 30px;
+}
+.wholesale-form .see-also-list li {
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: #727272;
+padding: 0 0px 10px 0px;
+list-style: inherit;
+}
+.form .star {
+  color: #e80000;
+}
+.form .file-upload-text h4 {
+  font-size: 18px;
+}
+.form .file-upload h4 {
+  font-size: 18px;
+  text-align: left;
+}
+.form .file-upload-text {
+  width: 25%;
+}
+.form .file-upload {
+  width: 25%;
+  text-align: center;
+}
+.form-file-upload {
+  display: flex;
+  margin-top: 30px;
+}
+.form .form-check {
+  margin-top: 20px;
+  background-color: #e9ecef;
+  width: 90%;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+}
+.form .form-check-label {
+  font-family: var(--ff-secondary);
+  font-size: 15px;
+  font-weight: 400;
+}
+.form .file-upload-text-2 .form-check {
+  margin-top: 20px;
+  background-color: #e9ecef;
+  width: 50%;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+}
+.file-upload .paragraph {
+  padding: 0px 0px;
+  text-align: center;
+}
+.file-upload .upload {
+  font-size: 40px;
+  color: #e32330;
+}
+.form #formFile {
+  margin-top: 20px;
+}
+.form .file-upload-text-2 h4 {
+  font-family: var(--ff-secondary);
+  font-size: 18px;
+}
+.file-upload-text-2 {
+  margin-top: 40px;
+}
+.form-textarea {
+  margin-top: 30px;
+}
+.form-textarea #exampleFormControlTextarea1 {
+  margin-top: 10px;
+  width: 50%;
+  height: 180px;
+  border: 1px solid gray;
+  border-radius: 0;
+}
+.form-textarea .custom-button {
+  font-size: 13px;
+  padding: 10px 45px;
+  margin-top: 20px;
+  background-color: #e32330;
+  font-weight: 500;
+}
+.form-textarea .custom-button:hover {
+  color: #000;
+}
+.wholesale-form {
+  padding: 0 0 60px 0;
+}
+.form .form-check-input {
+  width: 1.2em;
+  height: 1.2em;
+}
+.form .form-check .form-check-input {
+  margin-left: -1.8em;
+}
+.file-upload #formFile {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+
+/* ************ Wholesale Form Page End (fdev-sg) 22-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 22-09-2022 ************ */
+.cost-text .paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+  padding: 20px 0px;
+  line-height: 28px;
+}
+.cost-form #exampleFormControlInput1 {
+  height: 60px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-form #exampleFormControlTextarea1 {
+  height: 250px;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-form .custom-button {
+  font-size: 13px;
+  padding: 10px 45px;
+  margin-top: 20px;
+  background-color: #e32330;
+  font-weight: 500;
+}
+.cost-form .custom-button:hover {
+  color: #000;
+}
+.cost-button {
+  text-align: center;
+}
+.cost-form {
+  margin-top: 20px;
+}
+.cost-form .form-control::placeholder {
+  opacity: 0.7;
+}
+.how-much-cost .cost-list-1 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-1 {
+  margin-top: 20px;
+  border-right: 1px solid #afafaf;
+  width: 50%;
+}
+.how-much-cost .margin-top {
+  margin-top: 20px;
+}
+.cost-list-1 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .cost-list-2 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-2 {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 20px;
+}
+.cost-list-2 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .cost-list-3 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-3 {
+  margin-top: 20px;
+  border-right: 1px solid #afafaf;
+  width: 50%;
+}
+.cost-list-3 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .cost-list-4 li {
+  padding: 0 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727272;
+}
+.cost-list-4 {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 20px;
+}
+.cost-list-4 .text-bold {
+  color: #e32330;
+  font-weight: 600;
+}
+.how-much-cost .list-1 {
+  display: flex;
+}
+.how-much-cost .list-2 {
+  display: flex;
+}
+.how-much-cost .reply {
+  background-color: #f8f8f8;
+  padding: 10px 20px 0;
+}
+.reply .reply-link {
+  color: #e32330;
+}
+.reply .reply-link:hover {
+  color: #000;
+}
+.how-much-cost {
+  padding: 0 0 60px 0;
+}
+
+
+/* ************ How much cost Page End (fdev-sg) 22-09-2022 ************ */
+
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+ INNER PAGE CSS END +=+=+=+=+=+=+=+=+=+=+=+==+=+=+=+=+=+ */

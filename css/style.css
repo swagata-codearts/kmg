@@ -3054,7 +3054,7 @@ align-items: center;
   border: 1px solid #c4c4c4;
 }
 .wholesale-form .see-also-list {
-  padding: 10px 10px 20px 10px;
+  padding: 0px 10px 20px 10px;
   position: relative;
 }
 .wholesale-form .see-also-list li:last-child {

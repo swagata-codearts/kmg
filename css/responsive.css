@@ -127,7 +127,7 @@
 .form .form-check-label {font-size: 14px;}
 .wholesale-form .paragraph {font-size: 14px;}
 .form .file-upload-text-2 h4 {font-size: 16px;}
-.wholesale-form .see-also-list {margin-top: 20px;}
+.wholesale-form .see-also-list {margin-top: 0px;}
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
@@ -229,13 +229,14 @@
 /* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
 .welcome-text h3 {font-size: 25px;}
 .welcome-text h4 {font-size: 20px;}
+.wholesale-form .see-also-list li {font-size: 14px;}
 .form .form-label {font-size: 16px;}
 .form .file-upload-text h4 {font-size: 14px;}
 .form .file-upload h4 {font-size: 14px;}
 .form .form-check-label {font-size: 14px;}
 .wholesale-form .paragraph {font-size: 14px;}
 .form .file-upload-text-2 h4 {font-size: 16px;}
-.wholesale-form .see-also-list {margin-top: 20px;}
+.wholesale-form .see-also-list {margin-top: 0px;}
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
@@ -450,17 +451,18 @@
 /* Paulami Saha Membership End 22.09.2022 */
 
 /* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
-.welcome-text h3 {font-size: 20px;}
-.welcome-text h4 {font-size: 17px;}
+.welcome-text h3 {font-size: 20px;text-align: center;}
+.welcome-text h4 {font-size: 17px;text-align: center;}
+.form {margin-top: 30px;}
 .form .form-label {font-size: 16px;}
 .form .file-upload-text h4 {font-size: 16px;}
 .form .file-upload h4 {font-size: 16px;}
 .form .form-check-label {font-size: 14px;}
 .wholesale-form .paragraph {font-size: 14px;}
 .form .file-upload-text-2 h4 {font-size: 16px;}
-.wholesale-form .see-also-list {margin-top: 20px;}
+.wholesale-form .see-also-list {padding: 0px 10px 20px 10px;}
 .see-also h5 {font-size: 17px;}
-.wholesale-form .paragraph-top {font-size: 14px;}
+.wholesale-form .paragraph-top {font-size: 14px; padding: 10px 0px 30px 0;}
 .wholesale-form .see-also-list li {font-size: 14px;}
 .form .paragraph-divide {font-size: 14px;}
 .form .form-select {font-size: 14px;}
@@ -591,7 +593,7 @@
 
 /* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
 .cost-text h4 {font-size: 20px;}
-.cost-text .paragraph {font-size: 13px;padding: 15px 0px;}
+.cost-text .paragraph {font-size: 13px;padding: 15px 0px 5px;}
 .how-much-cost .cost-list-1 li {font-size: 13px;}
 .how-much-cost .cost-list-2 li {font-size: 13px;}
 .how-much-cost .cost-list-3 li {font-size: 13px;}
@@ -799,7 +801,15 @@
 
 /* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
 .cost-text h4 {font-size: 18px;}
-.cost-text .paragraph {padding: 10px 0px;}
+.cost-text .paragraph {padding: 10px 0px 0;}
+.cost-list-1 {width: 56%;}
+.cost-list-2 {width: 44%;}
+.how-much-cost .cost-list-1 li {font-size: 12px;}
+.how-much-cost .cost-list-2 li {font-size: 12px;}
+.cost-list-3 {width: 54%;}
+.cost-list-4 {width: 46%;}
+.how-much-cost .cost-list-3 li {font-size: 12px;}
+.how-much-cost .cost-list-4 li {font-size: 12px;}
 
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }

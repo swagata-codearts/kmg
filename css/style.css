@@ -3209,6 +3209,13 @@ border-bottom: 1px dotted #c4c4c4;
   padding: 20px 0px;
   line-height: 28px;
 }
+.how-much-cost .paragraph a {
+  color: #727272;
+  font-weight: 600;
+}
+.how-much-cost .paragraph a:hover {
+  color: #e32330;
+}
 .cost-form #exampleFormControlInput1 {
   height: 60px;
   font-size: 15px;
@@ -3244,50 +3251,44 @@ border-bottom: 1px dotted #c4c4c4;
   opacity: 0.7;
 }
 .how-much-cost .cost-list-1 li {
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  font-weight: 400;
-  color: #727272;
+  font-weight: 500;
+  color: #000;
 }
 .cost-list-1 {
-  margin-top: 20px;
-  border-right: 1px solid #afafaf;
   width: 50%;
 }
 .how-much-cost .margin-top {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .cost-list-1 .text-bold {
   color: #e32330;
   font-weight: 600;
 }
 .how-much-cost .cost-list-2 li {
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  font-weight: 400;
-  color: #727272;
+  font-weight: 500;
+  color: #000;
 }
 .cost-list-2 {
-  margin-top: 20px;
   width: 50%;
-  margin-left: 20px;
 }
 .cost-list-2 .text-bold {
   color: #e32330;
   font-weight: 600;
 }
 .how-much-cost .cost-list-3 li {
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  font-weight: 400;
-  color: #727272;
+  font-weight: 500;
+  color: #000;
 }
 .cost-list-3 {
-  margin-top: 20px;
-  border-right: 1px solid #afafaf;
   width: 50%;
 }
 .cost-list-3 .text-bold {
@@ -3295,30 +3296,40 @@ border-bottom: 1px dotted #c4c4c4;
   font-weight: 600;
 }
 .how-much-cost .cost-list-4 li {
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  font-weight: 400;
-  color: #727272;
+  font-weight: 500;
+  color: #000;
 }
 .cost-list-4 {
-  margin-top: 20px;
   width: 50%;
-  margin-left: 20px;
 }
 .cost-list-4 .text-bold {
   color: #e32330;
   font-weight: 600;
 }
+.cost-list-1 .bg-1 {background-color: #ddd;}
+.cost-list-2 .bg-1 {background-color: #ddd;}
+.cost-list-3 .bg-1 {background-color: #ddd;}
+.cost-list-4 .bg-1 {background-color: #ddd;}
 .how-much-cost .list-1 {
   display: flex;
+  border: 1px solid #afafaf;
+  margin-top: 30px;
+}
+.how-much-cost .list-2 {
+  display: flex;
+  border: 1px solid #afafaf;
+  margin-top: 30px;
 }
 .how-much-cost .list-2 {
   display: flex;
 }
 .how-much-cost .reply {
   background-color: #f8f8f8;
-  padding: 10px 20px 0;
+  padding: 20px 20px 10px;
+  margin-top: 30px;
 }
 .reply .reply-link {
   color: #e32330;
@@ -3329,7 +3340,13 @@ border-bottom: 1px dotted #c4c4c4;
 .how-much-cost {
   padding: 0 0 60px 0;
 }
-
+.reply .custom-heading .product-section-heading {
+  background-color: #f8f8f8;
+}
+.reply .paragraph {
+  text-align: center;
+  padding: 20px 0px 10px;
+}
 
 /* ************ How much cost Page End (fdev-sg) 22-09-2022 ************ */
 

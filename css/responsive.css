@@ -118,7 +118,19 @@
 .sidebar-nav-link {line-height: 26px;margin-bottom: 15px;}
 .sidebar-nav-item:last-child .sidebar-nav-link {margin-bottom: 0px;}
 /* sb */
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h3 {font-size: 25px;}
+.welcome-text h4 {font-size: 20px;}
+.form .form-label {font-size: 16px;}
+.form .file-upload-text h4 {font-size: 14px;}
+.form .file-upload h4 {font-size: 14px;}
+.form .form-check-label {font-size: 14px;}
+.wholesale-form .paragraph {font-size: 14px;}
+.form .file-upload-text-2 h4 {font-size: 16px;}
 
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media (min-width: 992px) and (max-width: 1024px) {
 .cart-section li h4 {font-size: 14px;}

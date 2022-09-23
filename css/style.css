@@ -3174,6 +3174,7 @@ list-style: inherit;
 .cost-list-1 {
   margin-top: 20px;
   border-right: 1px solid #afafaf;
+  width: 50%;
 }
 .how-much-cost .margin-top {
   margin-top: 20px;
@@ -3191,6 +3192,8 @@ list-style: inherit;
 }
 .cost-list-2 {
   margin-top: 20px;
+  width: 50%;
+  margin-left: 20px;
 }
 .cost-list-2 .text-bold {
   color: #e32330;
@@ -3206,6 +3209,7 @@ list-style: inherit;
 .cost-list-3 {
   margin-top: 20px;
   border-right: 1px solid #afafaf;
+  width: 50%;
 }
 .cost-list-3 .text-bold {
   color: #e32330;
@@ -3220,10 +3224,18 @@ list-style: inherit;
 }
 .cost-list-4 {
   margin-top: 20px;
+  width: 50%;
+  margin-left: 20px;
 }
 .cost-list-4 .text-bold {
   color: #e32330;
   font-weight: 600;
+}
+.how-much-cost .list-1 {
+  display: flex;
+}
+.how-much-cost .list-2 {
+  display: flex;
 }
 .how-much-cost .reply {
   background-color: #f8f8f8;

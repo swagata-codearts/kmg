@@ -131,6 +131,16 @@
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 22px;}
+.cost-text .paragraph {font-size: 14px;}
+.how-much-cost .cost-list-1 li {font-size: 14px;}
+.how-much-cost .cost-list-2 li {font-size: 14px;}
+.how-much-cost .cost-list-3 li {font-size: 14px;}
+.how-much-cost .cost-list-4 li {font-size: 14px;}
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media (min-width: 992px) and (max-width: 1024px) {
 .cart-section li h4 {font-size: 14px;}
@@ -229,6 +239,16 @@
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 22px;}
+.cost-text .paragraph {font-size: 14px;}
+.how-much-cost .cost-list-1 li {font-size: 14px;}
+.how-much-cost .cost-list-2 li {font-size: 14px;}
+.how-much-cost .cost-list-3 li {font-size: 14px;}
+.how-much-cost .cost-list-4 li {font-size: 14px;}
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media only screen and (max-width: 991.98px) {
 .logo-search {display: none;}
@@ -444,6 +464,18 @@
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 22px;}
+.cost-text .paragraph {font-size: 14px;}
+.how-much-cost .cost-list-1 li {font-size: 14px;}
+.how-much-cost .cost-list-2 li {font-size: 14px;}
+.how-much-cost .cost-list-3 li {font-size: 14px;}
+.how-much-cost .cost-list-4 li {font-size: 14px;}
+.cost-form #exampleFormControlInput1 {font-size: 13px;}
+.cost-form #exampleFormControlTextarea1 {font-size: 13px;}
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }
 
 @media (max-width: 767.98px){
@@ -541,6 +573,18 @@
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 20px;}
+.cost-text .paragraph {font-size: 13px;padding: 15px 0px;}
+.how-much-cost .cost-list-1 li {font-size: 13px;}
+.how-much-cost .cost-list-2 li {font-size: 13px;}
+.how-much-cost .cost-list-3 li {font-size: 13px;}
+.how-much-cost .cost-list-4 li {font-size: 13px;}
+.how-much-cost {padding: 0 0 40px 0;}
+
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media (max-width: 575.98px){
 .top-section {display: none;}
@@ -729,6 +773,12 @@
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .custom-breadcrumb-divider {left: -10px;}
 .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item a, .custom-inner-banner-sb .custom-breadcrumb .custom-breadcrumb-item .active {font-size: 11px;}
 .custom-inner-banner-sb .custom-breadcrumb {gap: 0 14px;}
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 18px;}
+.cost-text .paragraph {padding: 10px 0px;}
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media only screen and (max-width: 360.98px) {
 .custom-banner .carousel-caption a {margin-top: 10px;}
@@ -741,4 +791,12 @@
 .form-textarea .custom-button {padding: 10px 122px;}
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-form .custom-button {padding: 10px 122px;margin-top: 10px;}
+.cost-form #exampleFormControlInput1 {font-size: 12px;}
+.cost-form #exampleFormControlTextarea1 {font-size: 12px;}
+
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }

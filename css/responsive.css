@@ -127,7 +127,7 @@
 .form .form-check-label {font-size: 14px;}
 .wholesale-form .paragraph {font-size: 14px;}
 .form .file-upload-text-2 h4 {font-size: 16px;}
-
+.wholesale-form .see-also-list {margin-top: 20px;}
 
 
 /* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
@@ -216,6 +216,19 @@
 .tel-link{flex-direction: column;gap: 6px 0;}
 .inner-products-sidebar-cta .tel {margin-right: unset;font-size: 24px;}
 /* sb */
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h3 {font-size: 25px;}
+.welcome-text h4 {font-size: 20px;}
+.form .form-label {font-size: 16px;}
+.form .file-upload-text h4 {font-size: 14px;}
+.form .file-upload h4 {font-size: 14px;}
+.form .form-check-label {font-size: 14px;}
+.wholesale-form .paragraph {font-size: 14px;}
+.form .file-upload-text-2 h4 {font-size: 16px;}
+.wholesale-form .see-also-list {margin-top: 20px;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media only screen and (max-width: 991.98px) {
 .logo-search {display: none;}
@@ -406,6 +419,31 @@
 .inner-products-top-nav-right {gap: 0 10px;}
 /* cols */
 /* sb */
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h3 {font-size: 20px;}
+.welcome-text h4 {font-size: 17px;}
+.form .form-label {font-size: 16px;}
+.form .file-upload-text h4 {font-size: 16px;}
+.form .file-upload h4 {font-size: 16px;}
+.form .form-check-label {font-size: 14px;}
+.wholesale-form .paragraph {font-size: 14px;}
+.form .file-upload-text-2 h4 {font-size: 16px;}
+.wholesale-form .see-also-list {margin-top: 20px;}
+.see-also h5 {font-size: 17px;}
+.wholesale-form .paragraph-top {font-size: 14px;}
+.wholesale-form .see-also-list li {font-size: 14px;}
+.form .paragraph-divide {font-size: 14px;}
+.form .form-select {font-size: 14px;}
+.form #exampleInputEmail1 {width: 100%;}
+.form .form-select {width: 100%;}
+.form .file-upload-text {width: 50%;}
+.form .file-upload {width: 50%;}
+.form-textarea #exampleFormControlTextarea1 {width: 100%;}
+.wholesale-form {padding: 0 0 40px 0;}
+.form .file-upload-text-2 .form-check {width: 100%;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
 }
 
 @media (max-width: 767.98px){
@@ -495,6 +533,14 @@
 .desc-links {gap: 0 10px;flex-wrap: wrap;}
 .desc-links > li:not(:first-child) {list-style: none;}
 .inner-product-section .custom-col-5 {flex: 0 0 48% !important;}
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h4 {padding: 30px 0 10px;}
+.wholesale-form .paragraph-top {padding: 10px 0px 20px 0;}
+.welcome-text h3 {text-align: center;}
+.welcome-text h4 {text-align: center;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media (max-width: 575.98px){
 .top-section {display: none;}
@@ -629,6 +675,27 @@
 .inner-products-top-nav-right .showing {font-size: 14px;}
 .inner-products-top-nav-right .showing .form-select {padding: 9px 25px 9px 7px;}
 /* sb */
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h3 {font-size: 18px;}
+.welcome-text h4 {font-size: 14px;}
+.see-also h5 {font-size: 16px;}
+.wholesale-form .paragraph-top {font-size: 13px;}
+.wholesale-form .see-also-list li {font-size: 13px;}
+.form .form-label {font-size: 14px;}
+.form .paragraph-divide {font-size: 13px;}
+.form-file-upload {flex-direction: column;}
+.form .file-upload-text {width: 100%;}
+.form .form-check {width: 100%;}
+.form .file-upload {width: 100%;margin-top: 30px;}
+.form .file-upload-text h4 {font-size: 15px;}
+.form .file-upload h4 {font-size: 15px;}
+.wholesale-form .paragraph {font-size: 13px;}
+.file-upload #formFile {font-size: 14px;}
+.form .file-upload-text-2 h4 {font-size: 14px;}
+.submit-button {text-align: center;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media only screen and (max-width: 480.98px) {
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 35%;}

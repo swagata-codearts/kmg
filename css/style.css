@@ -3038,20 +3038,21 @@ align-items: center;
   height: 50px;
   border: 1px solid #c4c4c4;
   border-radius: 0px;
-  width: 50%;
+  width: 70%;
 }
 .form .form-label {
   font-size: 18px;
   font-family: var(--ff-secondary);
 }
 .form #exampleInputEmail1 {
-  width: 50%;
+  width: 70%;
   height: 50px;
   border: 1px solid #c4c4c4;
   border-radius: 0px;
 }
 .see-also {
   border: 1px solid #c4c4c4;
+  margin-top: 20px;
 }
 .wholesale-form .see-also-list {
   padding: 0px 10px 20px 10px;
@@ -3094,10 +3095,10 @@ border-bottom: 1px dotted #c4c4c4;
   text-align: left;
 }
 .form .file-upload-text {
-  width: 25%;
+  width: 35%;
 }
 .form .file-upload {
-  width: 25%;
+  width: 35%;
   text-align: center;
 }
 .form-file-upload {
@@ -3120,7 +3121,7 @@ border-bottom: 1px dotted #c4c4c4;
 .form .file-upload-text-2 .form-check {
   margin-top: 20px;
   background-color: #e9ecef;
-  width: 50%;
+  width: 70%;
   display: inline-block;
   padding: 12px 40px;
   border-radius: 5px;
@@ -3148,7 +3149,7 @@ border-bottom: 1px dotted #c4c4c4;
 }
 .form-textarea #exampleFormControlTextarea1 {
   margin-top: 10px;
-  width: 50%;
+  width: 70%;
   height: 180px;
   border: 1px solid gray;
   border-radius: 0;
@@ -3206,8 +3207,9 @@ border-bottom: 1px dotted #c4c4c4;
   font-size: 15px;
   font-weight: 400;
   color: #727272;
-  padding: 20px 0px;
   line-height: 28px;
+  margin-bottom: 25px;
+  margin-top: 15px;
 }
 .how-much-cost .paragraph a {
   color: #727272;
@@ -3237,6 +3239,7 @@ border-bottom: 1px dotted #c4c4c4;
   margin-top: 20px;
   background-color: #e32330;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .cost-form .custom-button:hover {
   color: #000;
@@ -3345,7 +3348,8 @@ border-bottom: 1px dotted #c4c4c4;
 }
 .reply .paragraph {
   text-align: center;
-  padding: 20px 0px 10px;
+  padding: 20px 0px 0px;
+  margin-bottom: 10px;
 }
 
 /* ************ How much cost Page End (fdev-sg) 22-09-2022 ************ */

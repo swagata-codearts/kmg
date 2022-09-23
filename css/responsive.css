@@ -449,6 +449,44 @@
 
 /* Paulami Saha Membership End 22.09.2022 */
 
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h3 {font-size: 20px;}
+.welcome-text h4 {font-size: 17px;}
+.form .form-label {font-size: 16px;}
+.form .file-upload-text h4 {font-size: 16px;}
+.form .file-upload h4 {font-size: 16px;}
+.form .form-check-label {font-size: 14px;}
+.wholesale-form .paragraph {font-size: 14px;}
+.form .file-upload-text-2 h4 {font-size: 16px;}
+.wholesale-form .see-also-list {margin-top: 20px;}
+.see-also h5 {font-size: 17px;}
+.wholesale-form .paragraph-top {font-size: 14px;}
+.wholesale-form .see-also-list li {font-size: 14px;}
+.form .paragraph-divide {font-size: 14px;}
+.form .form-select {font-size: 14px;}
+.form #exampleInputEmail1 {width: 100%;}
+.form .form-select {width: 100%;}
+.form .file-upload-text {width: 50%;}
+.form .file-upload {width: 50%;}
+.form-textarea #exampleFormControlTextarea1 {width: 100%;}
+.wholesale-form {padding: 0 0 40px 0;}
+.form .file-upload-text-2 .form-check {width: 100%;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 22px;}
+.cost-text .paragraph {font-size: 14px;}
+.how-much-cost .cost-list-1 li {font-size: 14px;}
+.how-much-cost .cost-list-2 li {font-size: 14px;}
+.how-much-cost .cost-list-3 li {font-size: 14px;}
+.how-much-cost .cost-list-4 li {font-size: 14px;}
+.cost-form #exampleFormControlInput1 {font-size: 13px;}
+.cost-form #exampleFormControlTextarea1 {font-size: 13px;}
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
+
 }
 
 @media (max-width: 767.98px){
@@ -542,6 +580,26 @@
 .membership-content .membership-content-text p {line-height: 25px;}
 
 /* Paulami Saha Membership End 22.09.2022 */
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h4 {padding: 30px 0 10px;}
+.wholesale-form .paragraph-top {padding: 10px 0px 20px 0;}
+.welcome-text h3 {text-align: center;}
+.welcome-text h4 {text-align: center;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ How much cost Page Start (fdev-sg) 23-09-2022 ************ */
+.cost-text h4 {font-size: 20px;}
+.cost-text .paragraph {font-size: 13px;padding: 15px 0px;}
+.how-much-cost .cost-list-1 li {font-size: 13px;}
+.how-much-cost .cost-list-2 li {font-size: 13px;}
+.how-much-cost .cost-list-3 li {font-size: 13px;}
+.how-much-cost .cost-list-4 li {font-size: 13px;}
+.how-much-cost {padding: 0 0 40px 0;}
+
+
+/* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media (max-width: 575.98px){
 .top-section {display: none;}
@@ -684,6 +742,29 @@
 .membership-content .membership-table .table-content td, th {font-size: 14px;}
 
 /* Paulami Saha Membership End 22.09.2022 */
+/* ************ Wholesale Form Page Start (fdev-sg) 23-09-2022 ************ */
+.welcome-text h3 {font-size: 18px;}
+.welcome-text h4 {font-size: 14px;}
+.see-also h5 {font-size: 16px;}
+.wholesale-form .paragraph-top {font-size: 13px;}
+.wholesale-form .see-also-list li {font-size: 13px;}
+.form .form-label {font-size: 14px;}
+.form .paragraph-divide {font-size: 13px;}
+.form-file-upload {flex-direction: column;}
+.form .file-upload-text {width: 100%;}
+.form .form-check {width: 100%;}
+.form .file-upload {width: 100%;margin-top: 30px;}
+.form .file-upload-text h4 {font-size: 15px;}
+.form .file-upload h4 {font-size: 15px;}
+.wholesale-form .paragraph {font-size: 13px;}
+.file-upload #formFile {font-size: 14px;}
+.form .file-upload-text-2 h4 {font-size: 14px;}
+.submit-button {text-align: center;}
+.wholesale-form {padding: 0 0 30px 0;}
+.form-textarea .custom-button {padding: 10px 70px;}
+
+
+/* ************ Wholesale Form Page End (fdev-sg) 23-09-2022 ************ */
 }
 @media only screen and (max-width: 480.98px) {
 .navigation .navbar-brand.col-lg-none.col-sm-block.ms-0.py-0 {flex: 0 0 35%;}

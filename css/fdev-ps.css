@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-heading h3{
+    font-family: 'Audiowide', cursive;
+    font-weight: 500;
+    font-size: 44px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-text p{
+    font-family: 'Audiowide', cursive;
+    font-weight: 500;
+    font-size: 44px;
+    color: #fff;
+    padding-bottom: 30px;
+}

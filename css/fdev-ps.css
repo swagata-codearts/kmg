@@ -1,19 +1,85 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-heading h3{
+.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-heading h3 {
     font-family: 'Audiowide', cursive;
     font-weight: 500;
     font-size: 44px;
     color: #fff;
     padding-bottom: 30px;
 }
-.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-text p{
-    font-family: 'Audiowide', cursive;
+.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-text p {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 28px;
     color: #fff;
-    padding-bottom: 30px;
+}
+.rda .rda-content {
+    text-align: center;
+}
+.rda .rda-content .rda-text-content p {
+    font-family: var(--ff-secondary);
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.rda .rda-content .rda-social-list ul li {
+    margin: 20px 0;
+    display: inline-block;
+}
+.rda .rda-content .rda-social-list ul li i {
+    color: #000000;
+    font-size: 17px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+}
+.rda .rda-content .rda-social-list ul li i:hover {
+    color: rgb(53, 53, 134);
+    background-color: azure;
+}
+.rda .rda-content .rda-card-content ul li {
+    display: inline-block;
+    margin-top: 40px;
+}
+.rda .rda-content .rda-card-content ul li .card {
+    border: none;
+}
+.banner-bottom-text .sub-heading h4 {
+    margin: 20px 0;
+}
+.banner-bottom-text .add-on h4 {
+    font-size: 20px;
+}
+.banner-bottom-text .paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+}
+.banner-bottom-text .banner-bottom-list-content ul li {
+    color: #727272;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 0 10px 0;
+    list-style: inherit;
+}
+.banner-bottom-text .add-on-bottom ul li {
+    list-style-type: none;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+.banner-bottom-text .add-on-bottom ul li a {
+    color: #000000;
+    font-weight: 700;
+}
+.banner-bottom-text .add-on-bottom ul li a:hover {
+    color: #e32330;
 }

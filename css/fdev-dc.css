@@ -46,3 +46,48 @@
     font-weight: 400;
     margin-left: 20px;
   }
+
+  @media (min-width: 1400px) and (min-width: 1600px){
+
+  }
+
+  @media (min-width: 1200px) and (min-width: 1400px){
+    
+  }
+
+  @media (min-width: 1024px) and (min-width: 1200px){
+    
+  }
+
+  @media (min-width: 992px) and (min-width: 1024px){
+    
+  }
+
+  @media only screen and (max-width:991.98px){
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-heading .sxmini-heading{font-size: 20px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-para .sxmini-para{padding: 15px 0;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items {padding: 15px 0;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .nest-content {padding: 4px 0;}
+  }
+
+  @media only screen and (max-width:767.98px){
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-heading .sxmini-heading{font-size: 18px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-para .sxmini-para{line-height: 20px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .items{line-height: 22px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .nest-content .nest-items{line-height: 22px;}
+  }
+
+  @media only screen and (max-width:575.98px){
+    
+  }
+
+  @media only screen and (max-width:480px){
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-heading .sxmini-heading {font-size: 16px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-para .sxmini-para {line-height: 18px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-para .sxmini-para {padding: 10px 0;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-main-para .sxmini-para{font-size: 14px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items {padding: 10px 0;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .items {line-height: 18px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .items{font-size: 14px;}
+    .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .nest-content .nest-items {line-height: 18px;font-size: 14px;}
+  }

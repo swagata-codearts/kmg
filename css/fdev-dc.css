@@ -1,0 +1,48 @@
+
+ .banner-bottom-text {
+    padding: 40px 0;
+  }
+ 
+ .banner-bottom-text .banner-bottom-text-wrap .cus-main-heading .sxmini-heading {
+    font-family: var(--ff-secondary);
+    color: var(--c-black);
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+ .banner-bottom-text .banner-bottom-text-wrap .cus-main-para .sxmini-para {
+    font-family: var(--ff-tertiary);
+    font-size: 15px;
+    padding: 30px 0;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--c-text-light);
+  }
+
+  .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .items {
+    list-style-type: disc;
+    font-size: 15px;
+    color: var(--c-text-light);
+    font-family: var(--ff-tertiary);
+    line-height: 28px;
+    font-weight: 400;
+    margin-left: 30px;
+  }
+
+ .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items {
+    padding: 30px 0;
+  }
+
+  .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .nest-content {
+    padding: 10px 0;
+  }
+
+  .banner-bottom-text .banner-bottom-text-wrap .cus-list-content .list-items .nest-content .nest-items{
+    list-style-type: circle;
+    font-size: 15px;
+    color: var(--c-text-light);
+    font-family: var(--ff-tertiary);
+    line-height: 28px;
+    font-weight: 400;
+    margin-left: 20px;
+  }

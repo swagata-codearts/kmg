@@ -80,9 +80,11 @@
   }
 
   @media only screen and (max-width:575.98px){
+    /*-------le-content-section-start------------*/
     .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 16px;}
     .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 18px;padding: 10px 0;font-size: 14px;}
     .le-content-section .le-content-wrap .le-list-content .list-items {padding: 10px 0;}
     .le-content-section .le-content-wrap .le-list-content .list-items .items {line-height: 18px;font-size: 14px;}
     .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items {line-height: 18px;font-size: 14px;}
+    /*-------le-content-section-end------------*/
   }

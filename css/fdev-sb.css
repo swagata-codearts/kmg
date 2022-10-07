@@ -126,6 +126,10 @@
   background-color: var(--c-white-600);
   color: var(--c-black);
 }
+.le-product-pioneer-box .le-product-box-text .custom-button:hover {
+  background-color: var(--c-black);
+  color: var(--c-white-600);
+}
 .le-products-image-section {
   height: 600px;
   background-size: cover;

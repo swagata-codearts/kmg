@@ -1,15 +1,22 @@
-.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-heading h3 {
+.custom-carousel-banner .carousel-inner h3 {
     font-family: 'Audiowide', cursive;
     font-weight: 500;
     font-size: 44px;
     color: #fff;
     padding-bottom: 30px;
 }
-.athena-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-text p {
+.custom-carousel-banner .carousel-inner p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 35px;
     color: #fff;
+    padding-bottom: 30px;
+}
+.custom-carousel-banner .carousel-caption{
+    bottom: 40%;
+}
+.custom-carousel-banner .carousel-btn i{
+    margin: 0 2px;
 }
 .rda .rda-content {
     text-align: center;
@@ -77,4 +84,21 @@
 }
 .banner-bottom-text .add-on-bottom ul li a:hover {
     color: #e32330;
+}
+@media only screen and (max-width: 991.98px){
+    .custom-carousel-banner .carousel-inner h3{font-size: 38px;padding-bottom: 20px;}
+    .custom-carousel-banner .carousel-inner p {font-size: 28px;padding-bottom: 20px;}
+    .custom-carousel-banner .carousel-caption {bottom: 25%;}
+}
+@media (max-width: 767.98px){
+    .custom-carousel-banner .carousel-inner h3 {font-size: 28px;padding-bottom: 15px;}
+    .custom-carousel-banner .carousel-inner p {font-size: 22px;padding-bottom: 15px;}
+    .custom-carousel-banner .carousel-caption {bottom: 20%;}
+}
+@media (max-width: 575.98px){
+    .custom-carousel-banner .carousel-inner h3 {font-size: 15px;padding-bottom: 6px;}
+    .custom-carousel-banner .carousel-inner p {font-size: 12px;padding-bottom: 6px;}
+    .custom-carousel-banner .custom-button {font-size: 8px;padding: 5px;}
+    .custom-carousel-banner .carousel-control-next-icon, .carousel-control-prev-icon {width: 23px;height: 23px;}
+    .custom-carousel-banner .carousel-indicators [data-bs-target] {width: 18px;height: 2px;}
 }

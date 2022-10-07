@@ -1,11 +1,17 @@
 .le-products-section {
   background-color: var(--c-secondary);
 }
+.le-products-pioneer {
+  background-color: #fafbfd;
+}
 .le-products-section .le-product-top .custom-heading .product-section-heading {
   color: var(--c-white-600);
   background-color: var(--c-secondary);
 }
-
+.le-products-pioneer .le-product-top .custom-heading .product-section-heading {
+  color: #4b4a4a;
+  background-color: #fafbfd;
+}
 .le-product-short-desc p {
   color: #e1e1e1;
   font-family: var(--ff-primary);
@@ -15,6 +21,9 @@
   margin-top: 7px;
   font-weight: 400;
   padding: 0;
+}
+.le-products-pioneer .le-product-short-desc p {
+  color: var(--c-text-light);
 }
 .le-product-socials {
   gap: 0 8px;
@@ -38,6 +47,14 @@
   background-color: var(--c-white-600);
   color: var(--c-secondary);
 }
+.le-products-pioneer .le-product-socials li a {
+  color: var(--c-text-light);
+  border: 2px solid var(--c-text-light);
+}
+.le-products-pioneer .le-product-socials li a:hover {
+  background-color: var(--c-text-light);
+  color: #fafbfd;
+}
 .le-product-box-wrap {
   display: flex;
   gap: 35px 30px;
@@ -46,6 +63,9 @@
   margin-top: 3rem;
   flex-wrap: wrap;
 }
+.le-products-pioneer .le-product-box-wrap {
+  flex-wrap: nowrap;
+}
 .le-product-box {
   margin: 0;
 }
@@ -53,6 +73,9 @@
   width: 100%;
   height: 390px;
   object-fit: cover;
+}
+.le-product-pioneer-box .le-product-box-image img {
+  height: 260px;
 }
 .le-product-box-text {
   padding-top: 20px;
@@ -87,6 +110,11 @@
   color: var(--c-white-600);
   line-height: 26px;
 }
+.le-product-pioneer-box .le-product-box-text .le-product-box-heading,
+.le-product-pioneer-box .le-product-box-text .le-product-box-short-desc,
+.le-product-pioneer-box .le-product-box-text .price {
+  display: none;
+}
 .le-product-box-text .custom-button {
   margin-top: 15px;
   background-color: var(--c-primary);
@@ -97,6 +125,13 @@
 .le-product-box-text .custom-button:hover {
   background-color: var(--c-white-600);
   color: var(--c-black);
+}
+.le-products-image-section {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 @media (min-width: 1024px) and (max-width: 1200px){
 .le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;}

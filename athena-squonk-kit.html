@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Owl Carousel Stylesheet -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fdev-ps.css">
+  <!-- Responsive CSS Stylesheet -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!--Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo:wght@500;600;700&family=Audiowide&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Athena Squonk Kit</title>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal qv-modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered qv-modal-dialog">
+      <div class="modal-content qv-modal-content">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="modal-body qv-modal-body">
+                <div id="quick-view-owl" class="owl-carousel owl-theme">
+                  <div class="item qv-product-image">
+                    <img src="./images/newest-items1.jpg" alt="">
+                  </div>
+                  <div class="item qv-product-image">
+                    <img src="./images/ni_hover1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="qv-modal-right">
+                <div class="modal-header qv-modal-close-wrap">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="qv-modal-heading mb-md-3 mb-2">
+                  <h4>ASPIRE BP80 REPLACEMENT Pod</h4>
+                </div>
+                <div class="qv-modal-price mb-md-3 mb-2">
+                  <h5>$2.36</h5>
+                </div>
+                <div class="qv-modal-desc mb-md-3 mb-2">
+                  <p class="demo">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus soluta earum eum rerum, non sint
+                    excepturi similique accusamus id molestias, praesentium tempore eaque odit itaque magnam, cumque
+                    enim
+                    possimus dolorum?
+                  </p>
+                </div>
+                <div class="qv-modal-add">
+                  <form action="">
+                    <input type="number" class="quantity" step="1" min="1" max="10" name="quantity" value="1"
+                      title="Qty" size="4" placeholder="" inputmode="numeric">
+                    <input type="button" class="custom-button" value="Add to cart">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="top-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 align-self-center justify-content-start">
+            <div class="top-left ms-0">
+              <a href="#">Login for Available Points</a>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 offset-md-8"></div> -->
+          <div class="col-md-6 col-sm-6 align-self-center justify-content-end">
+            <div class="top-right me-0">
+              <ul class="top-nav d-flex">
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>
+              <ul class="top-social-icons d-flex align-items-center">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fas fa-phone"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-section">
+      <div class="logo-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-start">
+              <div class="logo">
+                <a href="index.html"><img src="images/kmg-logo.png" alt="kmg-logo"></a>
+              </div>
+            </div>
+            <div class="col-md-6 align-self-center">
+              <div class="logo-search">
+                <form class="d-flex justify-content-center" role="search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><span><i class="fa fa-search"
+                        aria-hidden="true"></i>
+                    </span></button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-block col-sm-none align-self-center justify-content-end">
+              <div class="logo-login">
+                <ul class="log-in d-flex align-items-center">
+                  <li><span><i class="fas fa-sign-in-alt"></i></span></li>
+                  <li><a href="#">Login</a></li>
+                </ul>
+                <ul class="cart-section col-md-3 col-lg-block col-sm-none">
+                  <li><span><i class="fas fa-shopping-cart"></i></span></li>
+                  <li>
+                    <h4>Cart/$0.00</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg py-0">
+            <a class="navbar-brand col-lg-none col-sm-block ms-0 py-0" href="#"><img src="images/footer-logo.png"
+                alt="kmg-logo"></a>
+            <div class="d-flex align-items-center me-0">
+              <ul class="cart-section d-lg-none d-block">
+                <li><span><i class="fas fa-shopping-cart"></i></span></li>
+                <li>
+                  <h4>Cart/$0.00</h4>
+                </li>
+              </ul>
+              <div class="navbar-header me-0">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">New</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Blowout
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    BRANDS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    VAPE SHOP
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">POD SYSTEMS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Disposable Vapes </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">E-Liquid</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Accessories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wholesale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">smoke shop and membership</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Banner Start -->
+  <section class="athena-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/bsp-banner1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="athena-banner-heading">
+                    <h3 class="athena-heading"> Maximum Power Output </h3>
+                  </div>
+                  <div class="athena-banner-text">
+                    <p class="athena-text">GeekVape Athena Squonk Kit</p>
+                  </div>
+                  <div class="athena-btn">
+                    <a class="custom-button" href="javascript:void(0)">Order Now!</a>
+                    <a class="custom-button" href="javascript:void(0)">Wholesale Program</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/bsp-banner2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="athena-banner-heading">
+                    <h3 class="athena-heading">Second slide label</h3>
+                  </div>
+                  <div class="athena-banner-text">
+                    <p class="athena-text">Some representative placeholder content for the first slide.</p>
+                  </div>
+                  <div class="athena-btn">
+                    <a class="custom-button" href="javascript:void(0)">Order Now!</a>
+                    <a class="custom-button" href="javascript:void(0)">Wholesale Program</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="athena-banner-heading">
+                    <h3 class="athena-heading">Third slide label</h3>
+                  </div>
+                  <div class="athena-banner-text">
+                    <p class="athena-text">Some representative placeholder content for the first slide.</p>
+                  </div>
+                  <div class="athena-btn">
+                    <a class="custom-button" href="javascript:void(0)">Wholesale Program</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Arrows Start -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Arrows End -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner End -->
+
+  <!-- Banner Bottom Section Start -->
+  <section class="rda">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="rda-content">
+            <div class="custom-heading">
+              <h3 class="product-section-heading">GeekVape Athena Squonk Kit + BF RDA</h3>
+            </div>
+            <div class="rda-text-content">
+              <p class="rda-text">Athena Sqounk Kit - Compact, Lightweight & Powerful</p>
+            </div>
+            <div class="rda-social-list">
+              <ul>
+                <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="far fa-envelope"></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fab fa-pinterest"></i></i></a></li>
+                <li><a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="rda-card-content">
+              <ul>
+                <li>
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/bsp-item1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BLUE</h5>
+                      <h6 class="card-subtitle mb-2">GeeKVape Athena Squonk Kit with Athena BF RDA</h6>
+                      <p class="card-text mb-2">$64.95 + Free Shipping</p>
+                      <a class="custom-button" href="javascript:void(0)">Order Blue</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/bsp-item2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SILVER</h5>
+                      <h6 class="card-subtitle mb-2">GeeKVape Athena Squonk Kit with Athena BF RDA</h6>
+                      <p class="card-text mb-2">$64.95 + Free Shipping</p>
+                      <a class="custom-button" href="javascript:void(0)">Order Silver</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/bsp-item3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">GUN METAL</h5>
+                      <h6 class="card-subtitle mb-2">GeeKVape Athena Squonk Kit with Athena BF RDA</h6>
+                      <p class="card-text mb-2">$64.95 + Free Shipping</p>
+                      <a class="custom-button" href="javascript:void(0)">Order Gun Metal</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/bsp-item4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BLACK</h5>
+                      <h6 class="card-subtitle mb-2">GeeKVape Athena Squonk Kit with Athena BF RDA</h6>
+                      <p class="card-text mb-2">$64.95 + Free Shipping</p>
+                      <a class="custom-button" href="javascript:void(0)">Order Black</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Bottom Section Start -->
+  <!-- Banner-Bottom-text -->
+  <div class="banner-bottom-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="sub-heading">
+            <h4>GeekVape Athena Squonk Kit + BF RDA</h4>
+          </div>
+          <p class="paragraph">Athena Squonk Kit comes with a complete set of a mechanical squonk mod and a squonk RDA with 6.5ml juice reservoir. Athena was designed to be compact, lightweight and powerful. Athena Mod comes with a safety lock switch to prevent accidental firing, induction made out of high grade material for maximum power output while the Athena squonk RDA uses the top angled airflow system to reduce leakage. Both Silicone and PE food grade bottles included for personal preference. This kit is extremely portable and powerful.</p>
+          <div class="sub-heading">
+            <h4>GeekVape Athena Squonk Kit + BF RDA Features:</h4>
+          </div>
+          <div class="banner-bottom-list-content">
+            <ul>
+              <li>Auto-adjusting 510 pin for wide variety of RDAs</li>
+              <li>Safety lock prevents accidental firing</li>
+              <li>Compatible with 18650 Battery</li>
+              <li>6.5ml Silicone Quonk bottle</li>
+              <li>Compatible with 810 & 510 drip tips</li>
+              <li>Top angled leakproof airflow</li>
+              <li>Dual postless build deck design</li>
+            </ul>
+          </div>
+          <div class="sub-heading add-on">
+            <h4>Product Add-Ons:</h4>
+          </div>
+          <div class="banner-bottom-list-content add-on-bottom">
+            <ul>
+              <li><a href="javascript:void(0)">Replacement Coils</a></li>
+              <li><a href="javascript:void(0)">Atomizers</a></li>
+              <li><a href="javascript:void(0)">Reccomended Batteries</a></li>
+            </ul>
+          </div>
+          <div class="sub-heading">
+            <h4>GeekVape Athena Squonk Kit Technical</h4>
+          </div>
+          <div class="banner-bottom-list-content">
+            <ul>
+              <li>Drip Tip Height: 7 mm</li>
+              <li>Drip Tip Width: 18 mm</li>
+              <li>Material: Aluminum + SS</li>
+              <li>Physical Dimensions: 73 x 46 x 25 mm</li>
+              <li>Juice Storage: Reservoir / Bottle</li>
+              <li>Refilling Method: Dripping / Squonk</li>
+              <li>Battery Type: Single 18650</li>
+            </ul>
+          </div>
+          <div class="sub-heading">
+            <h4>Kit Contents:</h4>
+          </div>
+          <div class="banner-bottom-list-content">
+            <ul>
+              <li>1 x Athena Mod</li>
+              <li>1 x Athena RDA</li>
+              <li>1 x Squonk Bottle</li>
+              <li>1 x User Manua</li>
+              <li>1 x 510 Drip Tip</li>
+              <li>1 x 510 Drip Tip Adaptor</li>
+              <li>1 x Allen Key</li>
+              <li>1 x Spare Parts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner-Bottom-text -->
+
+  <footer>
+    <div class="footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="footer-1">
+              <div class="footer-header">
+                <h3>Customer Service</h3>
+              </div>
+              <ul class="footer-1-text">
+                <li><a href="about-us.html"><span><i class="fas fa-angle-double-right"></i></span> About KMG Imports</a>
+                </li>
+                <li><a href="newsletter.html"><span><i class="fas fa-angle-double-right"></i></span> Newsletter
+                    Signup</a>
+                </li>
+                <li><a href="privacy-policy.html"><span><i class="fas fa-angle-double-right"></i></span> Privacy
+                    Policy</a></li>
+                <li><a href="terms-conditions.html"><span><i class="fas fa-angle-double-right"></i></span>Terms &
+                    Conditions</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>My Account</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>View Cart</a></li>
+                <li><a href="refund-policy.html"><span><i class="fas fa-angle-double-right"></i></span>Refund Policy</a>
+                </li>
+                <li><a href="blog.html"><span><i class="fas fa-angle-double-right"></i></span>Blog</a></li>
+                <li><a href="faq.html"><span><i class="fas fa-angle-double-right"></i></span>FAQ</a></li>
+                <li><a href="testimonial.html"><span><i class="fas fa-angle-double-right"></i></span>Testimonial</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="footer-2">
+              <div class="footer-header">
+                <h3>Quick Link</h3>
+              </div>
+              <ul class="footer-2-text">
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> New</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Blowout</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Brands</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Device</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span> Atomizers/Tanks </a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Pod Systems</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Disposable Vapes</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>E-Liquid</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Accessories</a></li>
+                <li><a href="#"><span><i class="fas fa-angle-double-right"></i></span>Wholesale</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4  col-md-12 col-sm-12">
+            <div class="footer-3 ms-xl-5">
+              <div class="footer-header">
+                <h3>Find us on Google Maps</h3>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13286.478863038721!2d-117.720338!3d33.641101000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbd45ffb62b34c44!2sKMG%20Imports%20Wholesale%20Vape%20Supplies%20Distributor!5e0!3m2!1sen!2sus!4v1660646580502!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 align-self-center justify-content-start">
+              <div class="copyright-left">
+                <h4>Copyright 2022 © KMG Imports</h4>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 align-self-center justify-content-end">
+              <div class="copyright-right">
+                <ul class="copyright-icons">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

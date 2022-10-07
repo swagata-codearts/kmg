@@ -1,17 +1,3 @@
-/* .custom-carousel-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-heading h3 {
-    font-family: 'Audiowide', cursive;
-    font-weight: 500;
-    font-size: 44px;
-    color: #fff;
-    padding-bottom: 30px;
-}
-.custom-carousel-banner .carousel-inner .carousel-item .carousel-caption .athena-banner-text p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 28px;
-    color: #fff;
-    margin-bottom: 30px;
-} */
 .custom-carousel-banner .carousel-inner h3 {
     font-family: 'Audiowide', cursive;
     font-weight: 500;
@@ -28,6 +14,9 @@
 }
 .custom-carousel-banner .carousel-caption{
     bottom: 40%;
+}
+.custom-carousel-banner .carousel-btn i{
+    margin: 0 2px;
 }
 .rda .rda-content {
     text-align: center;

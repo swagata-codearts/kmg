@@ -61,6 +61,38 @@
   .banner-bottom-text .paragraph-link a:hover {
     color: var(--c-primary);
   }
+  .banner-bottom-text {padding: 0 0 60px 0;}
+  
+.cost-form .form-control::placeholder {
 
+    opacity: 0.7;
+
+}
+.form-control::placeholder {
+
+    color: #6c757d;
+    opacity: 1;
+
+}
+.form-control::placeholder {
+
+    color: #6c757d;
+    opacity: 1;
+
+}
+element {
+
+}
+.vape-form #exampleFormControlInput1 {
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #727272;
+}
+.vape-form .form-control {
+    background-color: #f8f8f8;
+    border: 1px solid transparent;
+}
 
 /*vape-wholesale-css-end*/

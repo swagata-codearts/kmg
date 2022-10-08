@@ -3,7 +3,7 @@
 .text-gap-2 .paragraph {padding: 10px 0;}
 .banner-bottom-text .custom-button {margin-top: 10px; background-color:var(--c-primary);}
 .banner-bottom-text .custom-button:hover {color: var(--c-white-600); background-color: var(--c-black);}
-.banner-bottom-text .small-heading {
+ .small-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -11,25 +11,7 @@
     line-height: 28px;
     padding: 20px 0;
   }
-  .banner-bottom-text .banner-bottom-list-content-vape ul li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 27px;
-    padding: 0 0 10px 0;
-    list-style: inherit;
-    color: #727272;
-  }
-  .banner-bottom-list-content-vape ul {
-    margin-left: 14px;
-  }
-  .banner-bottom-text .banner-bottom-list-content-vape ul li a {
-    color: #727272;
-    transition: all 0.3s ease-in-out;
-  }
-  .banner-bottom-text .banner-bottom-list-content-vape ul li a:hover {
-    color:var(--c-primary);
-  }
+ 
   .sub-heading-color h4 {
     color: var(--c-primary);
     padding: 20px 0;
@@ -39,7 +21,8 @@
     font-size: 18px;
     padding: 20px 0;
   }
-  .banner-bottom-text .paragraph-link a {
+  .le-para .link-text {
+    padding: 10px 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -47,30 +30,12 @@
     line-height: 28px;
     transition: all 0.2s ease-in-out;
   }
-  .banner-bottom-text .paragraph-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #727272;
-    line-height: 28px;
-    transition: all 0.2s ease-in-out;
-  }
-  .banner-bottom-text .paragraph-link {
-    padding: 10px 0;
-  }
-  .banner-bottom-text .paragraph-link a:hover {
+  .le-para .link-text:hover {
     color: var(--c-primary);
   }
-  .banner-bottom-text {padding: 0 0 60px 0;}
-  
-.cost-form .form-control::placeholder {
-
-    opacity: 0.7;
-
-}
 .form-control::placeholder {
     color: #6c757d;
-    opacity: 1;
+    opacity: 0.7;
 }
 .form-control::placeholder {
     color: #6c757d;
@@ -119,14 +84,24 @@
     color: var(--c-white-600); background-color: var(--c-black);
     border:1px solid var(--c-black);
 }
-.banner-bottom-text .heading h3 {
-    font-size: 18px;
+  .le-content-wrap .heading-2 {
+    font-size: 1.4rem;
     padding: 30px 0;
-    line-height: 25px;
   }
-  .banner-bottom-text .heading h2 {
-    font-size: 1.5rem;
+  .le-content-wrap .custom-button {
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    background-color:var(--c-primary);
   }
-
-
+  .le-content-wrap .custom-button:hover {
+    color: var(--c-white-600); 
+    background-color: var(--c-black);
+  }
+  .vape-form {
+    padding: 0px 60px 0 60px;
+    margin: 50px 0 50px 0;
+  }
+  .custom-pad {
+    padding: 0px 0 60px;
+  }
 /*vape-wholesale-css-end*/

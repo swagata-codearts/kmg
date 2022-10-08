@@ -167,6 +167,9 @@
   background-color: rgba(0 0 0 / 0.3);
   z-index: -1;
 }
+.le-product-box-image {
+  display: block;
+}
 .faq-accordion .custom-accordion-list li {
   margin-left: 12px;
   list-style-type: unset;

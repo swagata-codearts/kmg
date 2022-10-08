@@ -25,15 +25,6 @@
 .our-service .row .col-lg-4 span i {font-size: 23px;margin-left: 40px;}
 .about-us-content .about-us-right-content-wap {padding: 36px 30px 21px 19px;}
 .hour-mins {gap: 0 8px;}
-
-/* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
-.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
-.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
-
-/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 }
 
 @media (max-width: 1500px)  {
@@ -150,17 +141,8 @@
 .how-much-cost .cost-list-4 li {font-size: 14px;}
 
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
-
-/* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0; line-height: 28px;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
-.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
-.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
-
-/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 }
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1024px){
 .cart-section li h4 {font-size: 14px;}
 .navigation .navbar-expand-lg .navbar-nav .nav-link {padding-right: 0rem; padding-left: 0rem; padding: 0 4px;}
 .logo-login .log-in li {padding: 0 5px 0 0;}
@@ -269,14 +251,7 @@
 
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 
-/* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0; line-height: 28px;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
-.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
-.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
 
-/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 }
 @media only screen and (max-width: 991.98px) {
 .logo-search {display: none;}
@@ -516,15 +491,7 @@
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 
 
-/* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px; text-align: center;}
-.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0; line-height: 28px; text-align: center;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
-.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
-.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
-.vape-content-button {text-align: center;}
 
-/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 
 }
 
@@ -642,21 +609,7 @@
 
 
 
-/* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-wrap .heading-2 {font-size: .9rem;padding: 25px 0;line-height: 24px;}
-.vape-form {padding: 30px 30px 30px 30px;margin: 10px 0 40px 0;}
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 17px; line-height: 25px;}
-.le-content-section .le-content-wrap .le-content-para .le-para {font-size: 13px;text-align: center;}
-.le-para .link-text {font-size: 13px;}
-.le-content-section .le-content-wrap .le-list-content .list-items .items a {font-size: 13px;}
-.short-heading {font-size: 16px !important;padding: 20px 0 0;}
-.le-para a {font-size: 13px;}
-.le-content-section .add-content-text .heading-color {font-size: 18px !important;}
-.small-heading {font-size: 16px;padding: 0px 0 10px;}
-.vape-form #exampleFormControlInput1 {font-size: 13px;}
-.vape-form #exampleFormControlTextarea1 {font-size: 13px;height: 180px;}
 
-/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 }
 @media (max-width: 575.98px){
 .top-section {display: none;}
@@ -895,14 +848,6 @@
 
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 
-/* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.vape-form {padding: 10px 10px 10px 10px;margin: 10px 0 40px 0;}
-.vape-form #exampleFormControlInput1 {font-size: 12px;}
-.vape-form #exampleFormControlTextarea1 {font-size: 12px;}
-.le-content-wrap .heading-2 {font-size: .8rem;}
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 16px;}
 
-
-/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 
 }

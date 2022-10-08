@@ -2,14 +2,14 @@
     font-family: 'Audiowide', cursive;
     font-weight: 500;
     font-size: 44px;
-    color: #fff;
+    color: var(--c-white);
     padding-bottom: 30px;
 }
 .custom-carousel-banner .carousel-inner p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 35px;
-    color: #fff;
+    color: var(--c-white);
     padding-bottom: 30px;
 }
 .custom-carousel-banner .carousel-caption{
@@ -37,9 +37,9 @@
     z-index: 9;
 } 
 .custom-carousel-banner .carousel-btn .custom-button{
-    color: #000000;
+    color: var(--c-black);
     font-weight: 500;
-    background-color: #fff;
+    background-color: var(--c-white);
 }
 .rda .rda-content {
     text-align: center;
@@ -74,41 +74,20 @@
 .rda .rda-content .rda-card-content ul li .card {
     border: none;
 }
-/* .banner-bottom-text .sub-heading h4 {
-    margin: 20px 0;
+.le-content-section .add-content-text h3{
+    font-size: 18px !important;
 }
-.banner-bottom-text .add-on h4 {
-    font-size: 20px;
+.le-content-section .add-content-text .le-list-content ul li{
+    margin-bottom: 20px;
+    list-style-type: circle !important;
 }
-.banner-bottom-text .paragraph {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #727272;
-    line-height: 28px;
-}
-.banner-bottom-text .banner-bottom-list-content ul li {
-    color: #727272;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 27px;
-    padding: 0 0 10px 0;
-    list-style: inherit;
-}
-.banner-bottom-text .add-on-bottom ul li {
-    list-style-type: none;
-    margin-bottom: 25px;
-    line-height: 20px;
-} */
-.le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items a{
-    color: #000000;
-    font-family: var(--ff-tertiary);
+.le-content-section .add-content-text .le-list-content ul li a{
+    color: var(--c-text-light);
     font-weight: 600;
-  }
-  .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items a:hover{
-    color: #e32330;
-  }
+}
+.le-content-section .add-content-text .le-list-content ul li a:hover{
+    color: var(--c-primary);
+}
 @media only screen and (max-width: 991.98px){
     /* ******Paulami Saha Carousel Start****** */
     .custom-carousel-banner .carousel-inner h3{font-size: 38px;padding-bottom: 20px;}

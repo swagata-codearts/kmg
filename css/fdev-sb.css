@@ -209,6 +209,7 @@
 .le-product-box-image img {height: 300px;  object-fit: contain;}
 .le-products-image-section {height: 320px;}
 .le-products-image-content .le-products-image-heading {font-size: 28px;}
+.le-product-pioneer-box .le-product-box-text {padding-top: 5px;}
 }
 @media only screen and (max-width: 575.98px) {
 .le-products-section .le-product-top .custom-heading .product-section-heading {font-size: 16px;}

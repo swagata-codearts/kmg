@@ -4,6 +4,9 @@
 .le-products-pioneer {
   background-color: #fafbfd;
 }
+.le-products-pioneer .le-product-top {
+  display: none;
+}
 .le-products-section .le-product-top .custom-heading .product-section-heading {
   color: var(--c-white-600);
   background-color: var(--c-secondary);
@@ -61,7 +64,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .le-products-pioneer .le-product-box-wrap {
   flex-wrap: nowrap;
@@ -137,21 +140,41 @@
   background-repeat: no-repeat;
   position: relative;
 }
+.le-products-image-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.le-products-image-content .le-products-image-heading {
+  color: var(--c-white-600);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 36px;
+}
 @media (min-width: 1024px) and (max-width: 1200px){
 .le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;}
 .le-product-box {flex-basis: 31.9%;}
+.le-products-pioneer .le-product-box-wrap {column-gap: 0;}
+.le-product-pioneer-box .le-product-box-image img {height: 240px;object-fit: contain;}
+.le-product-pioneer-box {flex-basis: 25%;}
 }
 @media (min-width: 992px) and (max-width: 1024px)  {
-.le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;}
+.le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;flex-wrap: wrap;}
 .le-product-box {flex-basis: 31.9%;}
+.le-product-pioneer-box .le-product-box-image img {height: 170px;object-fit: contain;}
 }
 @media only screen and (max-width: 991.98px)  {
 .le-product-socials {margin-top: 10px;}
 .le-product-socials li a {height: 30px;width: 30px;font-size: 13px;}
-.le-product-box-wrap {gap: 30px 10px;margin-top: 2rem;}
+.le-product-box-wrap {gap: 30px 10px;margin-top: 2rem;flex-wrap: wrap;}
 .le-product-box {flex-basis: 32.33%;}
 .le-product-short-desc p {font-size: 18px;line-height: 30px;}
 .le-product-box-image img {height: 320px;}
+.le-products-pioneer .le-product-box-wrap {flex-wrap: wrap;}
+.le-product-pioneer-box .le-product-box-image img {height: 280px;object-fit: contain;}
 }
 @media only screen and (max-width: 767.98px)  {
 .le-product-short-desc p {font-size: 16px;line-height: 26px;}

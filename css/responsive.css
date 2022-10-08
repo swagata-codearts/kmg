@@ -25,6 +25,7 @@
 .our-service .row .col-lg-4 span i {font-size: 23px;margin-left: 40px;}
 .about-us-content .about-us-right-content-wap {padding: 36px 30px 21px 19px;}
 .hour-mins {gap: 0 8px;}
+
 }
 
 @media (max-width: 1500px)  {
@@ -141,6 +142,11 @@
 .how-much-cost .cost-list-4 li {font-size: 14px;}
 
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
+
+/* ************ Vape wholesale page start (fdev-sg) 8-10-2022 ************ */
+.banner-bottom-text .heading h2 {font-size: 1.3rem;}
+
+/* ************ Vape wholesale page End (fdev-sg) 8-10-2022 ************ */
 }
 @media (min-width: 992px) and (max-width: 1024px) {
 .cart-section li h4 {font-size: 14px;}
@@ -839,9 +845,6 @@
 
 /* ************ How much cost Page End (fdev-sg) 23-09-2022 ************ */
 
-/* ************ Vape wholesale page start (fdev-sg) 8-10-2022 ************ */
 
-
-/* ************ Vape wholesale page End (fdev-sg) 8-10-2022 ************ */
 
 }

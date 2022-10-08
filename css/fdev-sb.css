@@ -177,16 +177,14 @@
 .le-products-pioneer .le-product-box-wrap {column-gap: 0;}
 .le-product-pioneer-box .le-product-box-image img {height: 240px;object-fit: contain;}
 .le-product-pioneer-box {flex-basis: 25%;}
-.le-products-image-section {
-  height: 550px;}
+.le-products-image-section {height: 550px;}
 }
 @media (min-width: 992px) and (max-width: 1024px)  {
 .le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;flex-wrap: wrap;}
 .le-product-box {flex-basis: 31.9%;}
 .le-product-pioneer-box .le-product-box-image img {height: 170px;object-fit: contain;}
-.le-products-image-section {
-  height: 500px;}
-  .le-products-image-content .le-products-image-heading {font-size: 38px;}
+.le-products-image-section {height: 500px;}
+.le-products-image-content .le-products-image-heading {font-size: 38px;}
 }
 @media only screen and (max-width: 991.98px)  {
 .le-product-socials {margin-top: 10px;}
@@ -197,22 +195,17 @@
 .le-product-box-image img {height: 320px;}
 .le-products-pioneer .le-product-box-wrap {flex-wrap: wrap;}
 .le-product-pioneer-box .le-product-box-image img {height: 280px;object-fit: contain;}
-.le-products-image-section {
-  height: 430px;}
-  .le-products-image-content .le-products-image-heading {font-size: 32px;}
+.le-products-image-section {height: 430px;}
+.le-products-image-content .le-products-image-heading {font-size: 32px;}
 }
 @media only screen and (max-width: 767.98px)  {
 .le-product-short-desc p {font-size: 16px;line-height: 26px;}
 .le-products-section .le-product-top .custom-heading .product-section-heading {font-size: 18px;}
 .le-product-box-wrap {gap: 25px 12px;}
 .le-product-box {flex-basis: 48.6%;}
-.le-product-box-image img {height: 300px;}
-.le-products-image-section {
-  height: 320px;
-}
-.le-products-image-content .le-products-image-heading {
-  font-size: 28px;
-}
+.le-product-box-image img {height: 300px;  object-fit: contain;}
+.le-products-image-section {height: 320px;}
+.le-products-image-content .le-products-image-heading {font-size: 28px;}
 }
 @media only screen and (max-width: 575.98px) {
 .le-products-section .le-product-top .custom-heading .product-section-heading {font-size: 16px;}
@@ -220,10 +213,6 @@
 .le-product-socials li a {height: 26px;width: 26px;font-size: 10px;}
 .le-product-box-wrap {gap: 15px 10px;margin-top: 1.5rem;}
 .le-product-box {flex-basis: 100%;}
-.le-products-image-section {
-  height: 180px;
-}
-.le-products-image-content .le-products-image-heading {
-  font-size: 20px;
-}
+.le-products-image-section {height: 180px;}
+.le-products-image-content .le-products-image-heading {font-size: 20px;}
 }

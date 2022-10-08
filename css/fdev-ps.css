@@ -74,7 +74,7 @@
 .rda .rda-content .rda-card-content ul li .card {
     border: none;
 }
-.banner-bottom-text .sub-heading h4 {
+/* .banner-bottom-text .sub-heading h4 {
     margin: 20px 0;
 }
 .banner-bottom-text .add-on h4 {
@@ -100,14 +100,15 @@
     list-style-type: none;
     margin-bottom: 25px;
     line-height: 20px;
-}
-.banner-bottom-text .add-on-bottom ul li a {
+} */
+.le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items a{
     color: #000000;
-    font-weight: 700;
-}
-.banner-bottom-text .add-on-bottom ul li a:hover {
+    font-family: var(--ff-tertiary);
+    font-weight: 600;
+  }
+  .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items a:hover{
     color: #e32330;
-}
+  }
 @media only screen and (max-width: 991.98px){
     /* ******Paulami Saha Carousel Start****** */
     .custom-carousel-banner .carousel-inner h3{font-size: 38px;padding-bottom: 20px;}

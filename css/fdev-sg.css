@@ -7,6 +7,15 @@
     line-height: 28px;
     padding: 0px 0 20px;
   }
+  .le-content-wrap .heading-2 {
+    font-family: var(--ff-tertiary);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--c-text-light);
+    padding: 30px 0 10px 0;
+    text-align: center;
+  }
   .le-content-section .le-content-wrap .le-list-content .list-items .items a {
     list-style-type: disc;
     font-size: 15px;
@@ -33,7 +42,7 @@
   .short-heading {
     font-size: 18px !important;
     color: #727272 !important;
-    padding: 30px 0 0;
+    padding: 0px 0 20px;
   }
   .le-para .link-text {
     padding: 10px 0;
@@ -51,7 +60,7 @@
   .le-para a {
     font-family: var(--ff-tertiary);
     font-size: 15px;
-    padding: 30px 0;
+    padding: 0px 0 20px;
     font-weight: 600;
     line-height: 28px;
     color: var(--c-text-light);
@@ -92,7 +101,7 @@
   .vape-form-button {
     text-align: center;
   }
-  .vape-form-button .btn.btn-primary {
+  .vape-form-button .custom-button {
     font-family: var(--ff-tertiary);
     background-color:var(--c-primary);
     color: #fff;
@@ -105,20 +114,18 @@
     border: 1px solid var(--c-primary);
     border-radius: 0px;
     margin-top: 20px;
-    margin-bottom: 10px;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
   }
-  .vape-form-button .btn.btn-primary:hover {
+  .vape-form-button .custom-button:hover {
     color: var(--c-white-600); background-color: var(--c-black);
     border:1px solid var(--c-black);
 }
-  .le-content-wrap .heading-2 {
-    font-size: 1.4rem;
-    padding: 30px 0;
+.vape-content-button .custom-button {
+    margin-bottom: 20px;
   }
   .le-content-wrap .custom-button {
     margin-top: 10px; 
-    margin-bottom: 30px;
     background-color:var(--c-primary);
   }
   .le-content-wrap .custom-button:hover {
@@ -135,3 +142,80 @@
     padding: 0px 0 60px;
   }
 /*vape-wholesale-css-end*/
+
+@media (min-width: 1200px) and (max-width: 1600px){
+    /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
+.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0;}
+.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
+.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
+
+/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
+.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0; line-height: 28px;}
+.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
+.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
+
+/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
+.le-content-wrap .heading-2 {font-size: 1rem;padding: 30px 0; line-height: 28px;}
+.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
+.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
+
+/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+}
+@media only screen and (max-width: 991.98px) {
+    /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px; text-align: center;}
+.le-content-wrap .heading-2 {font-size: 0.9rem;padding: 30px 0; line-height: 28px; text-align: center;}
+.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-section .add-content-text .heading-color {font-size: 20px !important;}
+.vape-content-button {text-align: center;}
+
+/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+}
+@media (max-width: 767.98px){
+    /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
+.le-content-wrap .heading-2 {font-size: .9rem;padding: 25px 0;line-height: 24px;}
+.vape-form {padding: 30px 30px 30px 30px;margin: 10px 0 40px 0;}
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 17px; line-height: 25px;}
+.le-content-section .le-content-wrap .le-content-para .le-para {font-size: 13px;text-align: center;}
+.le-para .link-text {font-size: 13px;}
+.le-content-section .le-content-wrap .le-list-content .list-items .items a {font-size: 13px;}
+.short-heading {font-size: 16px !important;padding: 20px 0 0;}
+.le-para a {font-size: 13px;}
+.le-content-section .add-content-text .heading-color {font-size: 18px !important;}
+.small-heading {font-size: 16px;padding: 0px 0 10px;}
+.vape-form #exampleFormControlInput1 {font-size: 13px;}
+.vape-form #exampleFormControlTextarea1 {font-size: 13px;height: 180px;}
+
+/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+}
+@media (max-width: 575.98px){
+
+}
+@media only screen and (max-width: 480.98px) {
+    /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
+.vape-form {padding: 10px 10px 10px 10px;margin: 10px 0 40px 0;}
+.vape-form #exampleFormControlInput1 {font-size: 12px;}
+.vape-form #exampleFormControlTextarea1 {font-size: 12px;}
+.le-content-wrap .heading-2 {font-size: .8rem;}
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 16px;}
+.vape-form #exampleFormControlInput1 {height: 40px;}
+.vape-form-button .custom-button {width: 100%;}
+.vape-content-button .custom-button {width: 100%;}
+.le-para a {line-height: 25px;}
+.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 14px;}
+.le-para .link-text {line-height: 15px;}
+
+/* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+}

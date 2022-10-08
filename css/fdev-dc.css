@@ -43,6 +43,14 @@
     margin-left: 20px;
   }
 
+    /*------------pioneer4you-eclipse-start------------------*/
+
+    .le-products-section {
+      background-color: var(--c-secondary);
+    }
+  
+    /*------------pioneer4you-eclipse-end------------------*/
+
 /*-------le-content-section-end------------*/
 
   @media (min-width: 1400px) and (min-width: 1600px){
@@ -88,3 +96,6 @@
     .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items {line-height: 18px;font-size: 14px;}
     /*-------le-content-section-end------------*/
   }
+
+
+

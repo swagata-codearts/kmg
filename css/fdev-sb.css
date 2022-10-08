@@ -167,6 +167,10 @@
   background-color: rgba(0 0 0 / 0.3);
   z-index: -1;
 }
+.faq-accordion .custom-accordion-list li {
+  margin-left: 12px;
+  list-style-type: unset;
+}
 @media (min-width: 1024px) and (max-width: 1200px){
 .le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;}
 .le-product-box {flex-basis: 31.9%;}

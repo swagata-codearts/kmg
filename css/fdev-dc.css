@@ -9,7 +9,7 @@
   .le-content-section .le-content-wrap .le-content-para .le-para {
     font-family: var(--ff-tertiary);
     font-size: 15px;
-    padding: 30px 0;
+    padding: 0 0 20px;
     font-weight: 400;
     line-height: 28px;
     color: var(--c-text-light);
@@ -49,7 +49,95 @@
       background-color: var(--c-secondary);
     }
   
+    .bottom-heading h3 {
+      font-family: var(--ff-secondary);
+      color: var(--c-black);
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    .bottom-para {
+      font-family: var(--ff-tertiary);
+      font-size: 15px;
+      padding: 8px 0;
+      font-weight: 400;
+      line-height: 28px;
+      color: var(--c-text-light);
+    }
+
+    .bottom-content {
+      margin-top: 40px;
+    }
     /*------------pioneer4you-eclipse-end------------------*/
+
+
+    /*------------pioneer4you-eclipse-footer-top-start------------------*/
+    .le-footer-top-content-section.custom-pad {
+      background-color: var(--c-black);
+    }
+
+    .footer-top-heading h3 {
+      font-family: var(--ff-secondary);
+      color: var(--c-white);
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .footer-top-heading h4 {
+      font-family: var(--ff-secondary);
+      color: var(--c-white);
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    .footer-top-list .list-items .items {
+      list-style-type: disc;
+      font-size: 15px;
+      color: var(--c-white);
+      font-family: var(--ff-tertiary);
+      line-height: 28px;
+      font-weight: 400;
+      margin-left: 30px;
+    }
+
+    .footer-top-list .list-items {
+      padding: 30px 0;
+    }
+  
+    .footer-top-list .list-items .nest-content {
+      padding: 10px 0;
+    }
+  
+    .footer-top-list .list-items .nest-content .nest-items{
+      list-style-type: circle;
+      font-size: 15px;
+      color: var(--c-white);
+      font-family: var(--ff-tertiary);
+      line-height: 28px;
+      font-weight: 400;
+      margin-left: 20px;
+    }
+
+    .footer-top-content .footer-content-para {
+      font-family: var(--ff-tertiary);
+      font-size: 15px;
+      padding: 10px 0;
+      font-weight: 400;
+      line-height: 28px;
+      color: var(--c-white);
+    }
+
+    .le-footer-top-content-wrap {
+      padding-top: 30px;
+    }
+    
+    .le-footer-video {
+      padding: 20px 0;
+    }
+    /*------------pioneer4you-eclipse-footer-top-end------------------*/
+
+
 
 /*-------le-content-section-end------------*/
 

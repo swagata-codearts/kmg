@@ -1,0 +1,66 @@
+/*vape-wholesale-css-start*/
+.text-gap .paragraph {padding: 0px 0 10px;}
+.text-gap-2 .paragraph {padding: 10px 0;}
+.banner-bottom-text .custom-button {margin-top: 10px; background-color:var(--c-primary);}
+.banner-bottom-text .custom-button:hover {color: var(--c-white-600); background-color: var(--c-black);}
+.banner-bottom-text .small-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+    padding: 20px 0;
+  }
+  .banner-bottom-text .banner-bottom-list-content-vape ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 0 10px 0;
+    list-style: inherit;
+    color: #727272;
+  }
+  .banner-bottom-list-content-vape ul {
+    margin-left: 14px;
+  }
+  .banner-bottom-text .banner-bottom-list-content-vape ul li a {
+    color: #727272;
+    transition: all 0.3s ease-in-out;
+  }
+  .banner-bottom-text .banner-bottom-list-content-vape ul li a:hover {
+    color:var(--c-primary);
+  }
+  .sub-heading-color h4 {
+    color: var(--c-primary);
+    padding: 20px 0;
+  }
+  .short-heading h4 {
+    color: #727272;
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  .banner-bottom-text .paragraph-link a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #727272;
+    line-height: 28px;
+    transition: all 0.2s ease-in-out;
+  }
+  .banner-bottom-text .paragraph-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+    transition: all 0.2s ease-in-out;
+  }
+  .banner-bottom-text .paragraph-link {
+    padding: 10px 0;
+  }
+  .banner-bottom-text .paragraph-link a:hover {
+    color: var(--c-primary);
+  }
+
+
+/*vape-wholesale-css-end*/

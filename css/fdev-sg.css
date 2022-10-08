@@ -69,20 +69,14 @@
 
 }
 .form-control::placeholder {
-
     color: #6c757d;
     opacity: 1;
-
 }
 .form-control::placeholder {
-
     color: #6c757d;
-    opacity: 1;
-
+    opacity: 0.6;
 }
-element {
 
-}
 .vape-form #exampleFormControlInput1 {
     height: 60px;
     font-size: 15px;
@@ -94,5 +88,44 @@ element {
     background-color: #f8f8f8;
     border: 1px solid transparent;
 }
+.vape-form #exampleFormControlTextarea1 {
+    height: 250px;
+    padding: 20px 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #727272;
+  }
+  .vape-form-button {
+    text-align: center;
+  }
+  .vape-form-button .btn.btn-primary {
+    font-family: var(--ff-tertiary);
+    background-color:var(--c-primary);
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 40px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    border: 1px solid var(--c-primary);
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .vape-form-button .btn.btn-primary:hover {
+    color: var(--c-white-600); background-color: var(--c-black);
+    border:1px solid var(--c-black);
+}
+.banner-bottom-text .heading h3 {
+    font-size: 18px;
+    padding: 30px 0;
+  }
+  .banner-bottom-text .heading h2 {
+    font-size: 1.5rem;
+  }
+
 
 /*vape-wholesale-css-end*/

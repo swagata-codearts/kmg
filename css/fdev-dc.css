@@ -109,7 +109,10 @@
     }
 
     .le-content-section-bk .le-video {
-      padding: 60px;
+      padding: 30px;
+    }
+    .le-video iframe {
+      width: 100%;
     }
 
     .le-content-section-bk .le-content-wrap .le-content-para .le-para{ color: var(--c-white);

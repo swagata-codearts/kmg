@@ -140,9 +140,6 @@
   background-repeat: no-repeat;
   position: relative;
 }
-.le-products-image-section.vape-img {
-  height: 990px;
-}
 .le-products-image-content {
   position: absolute;
   width: 100%;
@@ -178,10 +175,10 @@
   list-style-type: unset;
 }
 @media (min-width: 1600px) and (max-width: 1800px){
-  .le-products-image-section.vape-img {height: 910px;
+  .le-products-image-section.vape-img {height: 910px;}
   }
 @media (min-width: 1400px) and (max-width: 1600px){
-.le-products-image-section.vape-img {height: 750px;
+.le-products-image-section.vape-img {height: 750px;}
 }
 @media (min-width: 1200px) and (max-width: 1400px){
 .le-products-image-section.vape-img {height: 680px;}

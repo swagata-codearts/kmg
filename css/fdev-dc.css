@@ -120,7 +120,9 @@
 
     /*------------pioneer4you-eclipse-footer-top-end------------------*/
 
-
+    .le-content-section-bk .le-content-wrap .le-content-para .red-para {
+      color: var(--c-primary);
+    }
 
 /*-------le-content-section-end------------*/
 

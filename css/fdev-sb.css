@@ -1,12 +1,3 @@
-.custom-carousel-banner .carousel-indicators {
-  display: none;
-}
-.carousel-control-prev {
-  display: none;
-}
-.carousel-control-next {
-  display: none;
-}
 .le-products-section {
   background-color: var(--c-secondary);
 }
@@ -145,9 +136,12 @@
 .le-products-image-section {
   height: 700px;
   background-size: cover;
-  background-position: 0 68%;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
+}
+.le-products-image-section.vape-img {
+  height: 990px;
 }
 .le-products-image-content {
   position: absolute;
@@ -183,6 +177,15 @@
   margin-left: 12px;
   list-style-type: unset;
 }
+@media (min-width: 1600px) and (max-width: 1800px){
+  .le-products-image-section.vape-img {height: 910px;
+  }
+@media (min-width: 1400px) and (max-width: 1600px){
+.le-products-image-section.vape-img {height: 750px;
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+.le-products-image-section.vape-img {height: 680px;}
+}
 @media (min-width: 1024px) and (max-width: 1200px){
 .le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;}
 .le-product-box {flex-basis: 31.9%;}
@@ -190,6 +193,7 @@
 .le-product-pioneer-box .le-product-box-image img {height: 240px;object-fit: contain;}
 .le-product-pioneer-box {flex-basis: 25%;}
 .le-products-image-section {height: 550px;}
+.le-products-image-section .vape-img {height: 580px;}
 }
 @media (min-width: 992px) and (max-width: 1024px)  {
 .le-product-box-wrap {gap: 30px 20px;margin-top: 2.5rem;flex-wrap: wrap;}
@@ -197,6 +201,7 @@
 .le-product-pioneer-box .le-product-box-image img {height: 170px;object-fit: contain;}
 .le-products-image-section {height: 500px;}
 .le-products-image-content .le-products-image-heading {font-size: 38px;}
+.le-products-image-section.vape-img {height: 560px;}
 }
 @media only screen and (max-width: 991.98px)  {
 .le-product-socials {margin-top: 10px;}
@@ -209,6 +214,7 @@
 .le-product-pioneer-box .le-product-box-image img {height: 280px;object-fit: contain;}
 .le-products-image-section {height: 430px;}
 .le-products-image-content .le-products-image-heading {font-size: 32px;}
+.le-products-image-section.vape-img {height: 430px;}
 }
 @media only screen and (max-width: 767.98px)  {
 .le-product-short-desc p {font-size: 16px;line-height: 26px;}
@@ -219,6 +225,7 @@
 .le-products-image-section {height: 320px;}
 .le-products-image-content .le-products-image-heading {font-size: 28px;}
 .le-product-pioneer-box .le-product-box-text {padding-top: 5px;}
+.le-products-image-section.vape-img {height: 330px;}
 }
 @media only screen and (max-width: 575.98px) {
 .le-products-section .le-product-top .custom-heading .product-section-heading {font-size: 16px;}
@@ -229,7 +236,8 @@
 .le-product-box {flex-basis: 100%;}
 .le-products-image-section {height: 180px;}
 .le-products-image-content .le-products-image-heading {font-size: 20px;}
+.le-products-image-section.vape-img {height: 270px;}
 }
 @media only screen and (max-width: 480.98px) {
-.le-products-image-section {background-position: -16px 68%;}
+.le-products-image-section.vape-img {height: 185px;}
 }

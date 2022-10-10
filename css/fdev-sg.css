@@ -3,9 +3,12 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #727272;
+    color: var( --c-text-light);
     line-height: 28px;
     padding: 0px 0 20px;
+  }
+  .le-content-section .le-content-wrap .le-content-para .le-para {
+    padding: 0 0 20px;
   }
   .le-content-wrap .heading-2 {
     font-family: var(--ff-tertiary);
@@ -13,7 +16,7 @@
     font-weight: 400;
     line-height: 28px;
     color: var(--c-text-light);
-    padding: 30px 0 10px 0;
+    padding:15px 0;
     text-align: center;
   }
   .le-content-section .le-content-wrap .le-list-content .list-items .items a {
@@ -41,7 +44,7 @@
   }
   .short-heading {
     font-size: 18px !important;
-    color: #727272 !important;
+    color: var( --c-text-light) !important;
     padding: 0px 0 20px;
   }
   .le-para .link-text {
@@ -49,7 +52,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: #727272;
+    color: var( --c-text-light);
     line-height: 28px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -84,7 +87,7 @@
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: #727272;
+    color: var( --c-text-light);
 }
 .vape-form .form-control {
     background-color: #f8f8f8;
@@ -96,7 +99,7 @@
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: #727272;
+    color: var( --c-text-light);
   }
   .vape-form-button {
     text-align: center;
@@ -104,7 +107,7 @@
   .vape-form-button .custom-button {
     font-family: var(--ff-tertiary);
     background-color:var(--c-primary);
-    color: #fff;
+    color: var(--c-white);
     font-size: 13px;
     padding: 10px 40px;
     display: inline-block;
@@ -122,8 +125,8 @@
     border:1px solid var(--c-black);
 }
 .vape-content-button .custom-button {
-    margin-bottom: 20px;
-  }
+  margin: 0 0 25px;
+}
   .le-content-wrap .custom-button {
     margin-top: 10px; 
     background-color:var(--c-primary);
@@ -133,61 +136,98 @@
     background-color: var(--c-black);
   }
   .vape-form {
-    padding: 70px 70px 60px 70px;
-    margin: 30px 0 50px 0;
+    padding: 30px;
+    margin: 10px 0 35px 0;
     background-color:var(--c-white);
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
   }
   .custom-pad {
     padding: 0px 0 60px;
   }
+  .vape-form .vape-form-button .custom-button {
+    margin-bottom: 0;
+  }
 /*vape-wholesale-css-end*/
+
+/*Best-pod-mods-2019-css start*/
+
+.small-header .heading {
+    font-size: 20px !important;
+    color: var(--c-primary) !important;
+  }
+.le-content-section .le-content-wrap .le-content-para .le-para .separate-text {
+    font-family: var(--ff-tertiary);
+    font-size: 15px;
+    padding: 0 0 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--c-text-light);
+  }
+/*Best-pod-mods-2019-css end*/
+
 
 @media (min-width: 1200px) and (max-width: 1600px){
     /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
 .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
 .le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
 .le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
 .le-content-section .add-content-text .heading-color {font-size: 20px !important;}
 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+
+/*Best-pod-mods-2019-css start(fdev-sg)*/
+
+
+/*Best-pod-mods-2019-css end(fdev-sg)*/
 }
 @media (min-width: 1024px) and (max-width: 1200px){
     /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 30px 0; line-height: 28px;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-wrap .heading-2 {font-size: 1.1rem;padding: 15px 0; line-height: 28px;}
 .le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
 .le-content-section .add-content-text .heading-color {font-size: 20px !important;}
 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+
+/*Best-pod-mods-2019-css start(fdev-sg)*/
+
+
+/*Best-pod-mods-2019-css end(fdev-sg)*/
 }
 @media (min-width: 992px) and (max-width: 1024px){
     /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-.le-content-wrap .heading-2 {font-size: 1rem;padding: 30px 0; line-height: 28px;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-wrap .heading-2 {font-size: 1rem;padding: 15px 0; line-height: 28px;}
 .le-content-section .le-content-wrap .le-content-para .le-para {padding: 20px 0;}
 .le-content-section .add-content-text .heading-color {font-size: 20px !important;}
 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+
+/*Best-pod-mods-2019-css start(fdev-sg)*/
+
+
+/*Best-pod-mods-2019-css end(fdev-sg)*/
 }
 @media only screen and (max-width: 991.98px) {
     /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
 .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px; text-align: center;}
-.le-content-wrap .heading-2 {font-size: 0.9rem;padding: 30px 0; line-height: 28px; text-align: center;}
-.vape-form {padding: 70px 70px 60px 70px;margin: 10px 0 50px 0;}
+.le-content-wrap .heading-2 {font-size: 0.9rem;padding: 15px 0; line-height: 28px; text-align: center;}
 .le-content-section .add-content-text .heading-color {font-size: 20px !important;}
 .vape-content-button {text-align: center;}
-
+.vape-form #exampleFormControlInput1 {height: 42px;font-size: 14px;}
+.vape-form-button .custom-button {margin-top: 8px;}
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+
+/*Best-pod-mods-2019-css start(fdev-sg)*/
+.le-content-section .le-content-wrap .le-content-text-heading h3 {text-align: center;}
+.small-header .heading {font-size: 18px !important;}
+.small-header .heading {text-align: left !important;}
+
+/*Best-pod-mods-2019-css end(fdev-sg)*/
 }
 @media (max-width: 767.98px){
     /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
-.le-content-wrap .heading-2 {font-size: .9rem;padding: 25px 0;line-height: 24px;}
-.vape-form {padding: 30px 30px 30px 30px;margin: 10px 0 40px 0;}
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 17px; line-height: 25px;}
+.le-content-wrap .heading-2 {font-size: .9rem;padding: 15px 0;line-height: 24px;}
+
+.le-content-section .le-content-wrap .le-content-text-heading h3 {text-align:center;line-height: 25px;}
 .le-content-section .le-content-wrap .le-content-para .le-para {font-size: 13px;text-align: center;}
 .le-para .link-text {font-size: 13px;}
 .le-content-section .le-content-wrap .le-list-content .list-items .items a {font-size: 13px;}
@@ -197,8 +237,12 @@
 .small-heading {font-size: 16px;padding: 0px 0 10px;}
 .vape-form #exampleFormControlInput1 {font-size: 13px;}
 .vape-form #exampleFormControlTextarea1 {font-size: 13px;height: 180px;}
-
+.vape-content-button {justify-content: center;} 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+
+/*Best-pod-mods-2019-css start(fdev-sg)*/
+.small-header .heading {font-size: 14px !important;}
+/*Best-pod-mods-2019-css end(fdev-sg)*/
 }
 @media (max-width: 575.98px){
 
@@ -209,13 +253,16 @@
 .vape-form #exampleFormControlInput1 {font-size: 12px;}
 .vape-form #exampleFormControlTextarea1 {font-size: 12px;}
 .le-content-wrap .heading-2 {font-size: .8rem;}
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 16px;}
 .vape-form #exampleFormControlInput1 {height: 40px;}
 .vape-form-button .custom-button {width: 100%;}
 .vape-content-button .custom-button {width: 100%;}
 .le-para a {line-height: 25px;}
-.le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 14px;}
 .le-para .link-text {line-height: 15px;}
-
+.vape-content-button {flex-direction: column;gap: 12px 10px;margin-bottom: 15px;}
+.vape-content-button .custom-button {margin: 0;} 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
+
+/*Best-pod-mods-2019-css start(fdev-sg)*/
+.le-content-wrap .custom-button {width: 100%;text-align: center;}
+/*Best-pod-mods-2019-css end(fdev-sg)*/
 }

@@ -117,6 +117,8 @@
     .custom-carousel-banner .carousel-inner h3 {    font-size: 30px;padding-bottom: 13px;}
     .custom-carousel-banner .carousel-inner h4 {font-size: 28px;padding-bottom: 15px;}
     .custom-carousel-banner .carousel-inner img {height: 400px;}
+    .le-content-section .add-content-text h3 {font-size: 17px !important;}
+    .le-content-section .add-content-text .le-list-content ul li {margin-bottom: 18px;}
     /* ******Paulami Saha Carousel End****** */
 }
 @media (max-width: 767.98px){
@@ -128,6 +130,8 @@
     .custom-carousel-banner .carousel-btn .custom-button {font-size: 11px;padding: 5px 12px; }
     .custom-carousel-banner .carousel-indicators [data-bs-target] {width: 8px;height: 8px;}
     .custom-carousel-banner .carousel-indicators{margin-bottom: 0;}
+    .le-content-section .add-content-text h3 {font-size: 15px !important;}
+    .le-content-section .add-content-text .le-list-content ul li {margin-bottom: 15px;}
     /* ******Paulami Saha Carousel End****** */
 }
 @media (max-width: 575.98px){
@@ -140,6 +144,8 @@
     .custom-carousel-banner .carousel-btn {gap: 6px 12px;flex-direction: column;}
     .custom-carousel-banner .carousel-inner img {height: 230px;}
     .custom-carousel-banner .carousel-indicators [data-bs-target] {width: 6px;height: 6px;}
+    .le-content-section .add-content-text h3 {font-size: 14px !important;}
+    .le-content-section .add-content-text .le-list-content ul li {margin-bottom: 8px;}
     
     /* ******Paulami Saha Carousel End****** */
 }

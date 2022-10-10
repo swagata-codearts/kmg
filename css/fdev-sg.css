@@ -207,7 +207,6 @@
     /* ************ Vape wholesale Page Start (fdev-sg) 8-10-2022 ************ */
 .le-content-wrap .heading-2 {font-size: 0.9rem;padding: 15px 0; line-height: 28px; text-align: center;}
 .le-content-section .add-content-text .heading-color {font-size: 20px !important;}
-.vape-content-button {text-align: center;}
 .vape-form #exampleFormControlInput1 {height: 42px;font-size: 14px;}
 .vape-form-button .custom-button {margin-top: 8px;}
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
@@ -227,7 +226,6 @@
 .small-heading {font-size: 16px;padding: 0px 0 10px;}
 .vape-form #exampleFormControlInput1 {font-size: 13px;}
 .vape-form #exampleFormControlTextarea1 {font-size: 13px;height: 180px;}
-.vape-content-button {justify-content: center;} 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 
 /*Best-pod-mods-2019-css start(fdev-sg)*/
@@ -248,8 +246,6 @@
 .vape-content-button .custom-button {width: 100%;}
 .le-para a {line-height: 25px;}
 .le-para .link-text {line-height: 15px;}
-.vape-content-button {flex-direction: column;gap: 12px 10px;margin-bottom: 15px;}
-.vape-content-button .custom-button {margin: 0;} 
 /* ************ Vape wholesale Page End (fdev-sg) 8-10-2022 ************ */
 
 /*Best-pod-mods-2019-css start(fdev-sg)*/

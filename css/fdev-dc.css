@@ -108,9 +108,9 @@
       padding-top: 10px;
     }
 
-    .le-content-section-bk .le-video {
-      padding: 30px;
-    }
+   .le-content-section-bk .le-video {
+     padding: 30px 0;
+   }
     .le-video iframe {
       width: 100%;
     }
@@ -125,6 +125,14 @@
     }
 
 /*-------le-content-section-end------------*/
+
+/*-----------custom-button-change-start---------*/
+.btn-hvr .custom-button:hover {
+  background-color: var(--c-white) !important;
+  color: var(--c-black) !important;
+}
+
+/*-----------custom-button-change-end---------*/
 
   @media (min-width: 1400px) and (min-width: 1600px){
 

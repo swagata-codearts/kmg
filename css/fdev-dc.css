@@ -45,18 +45,18 @@
 
     /*------------pioneer4you-eclipse-start------------------*/
 
-    .le-products-section {
+ .le-products-section {
       background-color: var(--c-secondary);
-    }
+   }
   
-    .bottom-heading h3 {
+ .bottom-heading h3 {
       font-family: var(--ff-secondary);
       color: var(--c-black);
       font-size: 20px;
       text-transform: uppercase;
-    }
+  }
 
-    .bottom-para {
+  .bottom-para {
       font-family: var(--ff-tertiary);
       font-size: 15px;
       padding: 8px 0;
@@ -85,7 +85,11 @@
     .le-content-section-bk .le-content-wrap .le-content-text-heading h3 {
       color: var(--c-white);
     }
-    .le-content-section-bk .le-content-wrap .le-content-text-heading h4 {color: var(--c-white);font-size: 20px;padding-top: 10px;}
+    .le-content-section-bk .le-content-wrap .le-content-text-heading h4 {
+      color: var(--c-white);
+      font-size: 20px;
+      padding-top: 10px;
+    }
     .le-content-section-bk  .items {
       color: var(--c-white);
       list-style-type: disc;
@@ -104,12 +108,11 @@
       padding-left: 20px;
     }
 
-    /*.le-content-section-bk .list-items {
-      padding-top: 10px;
-    }*/
 
    .le-content-section-bk .le-video {
      padding: 30px 0;
+     position: relative;
+     overflow: hidden;
    }
     .le-video iframe {
       width: 100%;
@@ -143,28 +146,30 @@
 
 /*-----------custom-button-change-end---------*/
 
-  @media (min-width: 1400px) and (min-width: 1600px){
+  @media (min-width: 1400px) and (max-width: 1600px){
 
   }
 
-  @media (min-width: 1200px) and (min-width: 1400px){
+  @media (min-width: 1200px) and (max-width: 1400px){
     
   }
 
-  @media (min-width: 1024px) and (min-width: 1200px){
+  @media (min-width: 1024px) and (max-width: 1200px){
     
   }
 
-  @media (min-width: 992px) and (min-width: 1024px){
-    
+  @media (min-width: 992px) and (max-width: 1024px){
+    .le-video iframe {height: 500px;}
   }
 
   @media only screen and (max-width:991.98px){
     /*-------le-content-section-start------------*/
     .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-    .le-content-section .le-content-wrap .le-content-para .le-para {padding: 15px 0;}
+    .le-content-section .le-content-wrap .le-content-para .le-para {padding: 0 0 15px;}
     .le-content-section .le-content-wrap .le-list-content .list-items {padding: 15px 0;}
     .le-content-section .le-content-wrap .le-list-content .list-items .nest-content {padding: 4px 0;}
+    .le-content-text-heading .heading-dc {font-size: 19px;min-height: 46px;margin-bottom: 8px;}
+    .le-video iframe {height: 400px;}
     /*-------le-content-section-end------------*/
   }
 
@@ -174,16 +179,21 @@
      .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 20px;}
      .le-content-section .le-content-wrap .le-list-content .list-items {line-height: 22px;}
      .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items{line-height: 22px;}
+     .le-content-text-heading .heading-dc {min-height: unset;}
+     .text-heading-alt .heading {font-size: 20px !important;}
+    .content-para-alt .le-para {font-size: 16px !important;}
+    .le-video iframe {height: 300px;}
     /*-------le-content-section-end------------*/
   }
 
   @media only screen and (max-width:575.98px){
     /*-------le-content-section-start------------*/
     .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 16px;line-height: 23px;}
-    .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 22px;padding: 10px 0;font-size: 14px;}
+    .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 25px;padding: 0 0 10px;font-size: 14px;}
     .le-content-section .le-content-wrap .le-list-content .list-items {padding: 10px 0;}
     .le-content-section .le-content-wrap .le-list-content .list-items .items {line-height: 18px;font-size: 14px;}
     .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items {line-height: 18px;font-size: 14px;}
+    .le-video iframe {height: 250px;}
     /*-------le-content-section-end------------*/
   }
 

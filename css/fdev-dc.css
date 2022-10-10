@@ -1,150 +1,120 @@
-   /*-------le-content-section-start------------*/
-  .le-content-section .le-content-wrap .le-content-text-heading h3 {
-    font-family: var(--ff-secondary);
-    color: var(--c-black);
-    font-size: 22px;
-    text-transform: uppercase;
-    padding-bottom: 10px;
-  }
-
-  .le-content-section .le-content-wrap .le-content-para .le-para {
-    font-family: var(--ff-tertiary);
-    font-size: 15px;
-    padding: 0 0 20px;
-    font-weight: 400;
-    line-height: 28px;
-    color: var(--c-text-light);
-  }
-
-  .le-content-section .le-content-wrap .le-list-content .list-items .items {
-    list-style-type: disc;
-    font-size: 15px;
-    color: var(--c-text-light);
-    font-family: var(--ff-tertiary);
-    line-height: 28px;
-    font-weight: 400;
-    margin-left: 15px;
-  }
-  .le-content-section .le-content-wrap .le-list-content .list-items {
-    padding: 0 0 30px;
-  }
-
-  .le-content-section .le-content-wrap .le-list-content .list-items .nest-content {
-    padding: 10px 0;
-  }
-
-  .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items{
-    list-style-type: circle;
-    font-size: 15px;
-    color: var(--c-text-light);
-    font-family: var(--ff-tertiary);
-    line-height: 28px;
-    font-weight: 400;
-    margin-left: 20px;
-  }
-
-    /*------------pioneer4you-eclipse-start------------------*/
-
- .le-products-section {
-      background-color: var(--c-secondary);
-   }
-  
- .bottom-heading h3 {
-      font-family: var(--ff-secondary);
-      color: var(--c-black);
-      font-size: 20px;
-      text-transform: uppercase;
-  }
-
-  .bottom-para {
-      font-family: var(--ff-tertiary);
-      font-size: 15px;
-      padding: 8px 0;
-      font-weight: 400;
-      line-height: 28px;
-      color: var(--c-text-light);
-    }
-
-    .bottom-content {
-      margin-top: 40px;
-    }
-    /*------------pioneer4you-eclipse-end------------------*/
-
-
-    /*------------pioneer4you-eclipse-footer-top-start------------------*/
-    
-    .text-heading-alt .heading {
-      font-size: 25px !important;
-    }
-    .content-para-alt .le-para {
-      font-size: 18px !important;
-    }
-    .le-content-section-bk {
-      background-color: var(--c-text-dark);
-    }
-    .le-content-section-bk .le-content-wrap .le-content-text-heading h3 {
-      color: var(--c-white);
-    }
-    .le-content-section-bk .le-content-wrap .le-content-text-heading h4 {
-      color: var(--c-white);
-      font-size: 20px;
-      padding-top: 10px;
-    }
-    .le-content-section-bk  .items {
-      color: var(--c-white);
-      list-style-type: disc;
-      font-size: 15px;
-      font-family: var(--ff-tertiary);
-      line-height: 28px;
-      font-weight: 400;
-      margin-left: 15px
-    }
-  
-    .le-content-section-bk .nest-content .nest-items {
-      list-style-type: circle;
-    }
-
-    .le-content-section-bk .nest-content {
-      padding-left: 20px;
-    }
-
-
-   .le-content-section-bk .le-video {
-     padding: 30px 0;
-     position: relative;
-     overflow: hidden;
-   }
-    .le-video iframe {
-      width: 100%;
-    }
-
-    .le-content-section-bk .le-content-wrap .le-content-para .le-para{ color: var(--c-white);}
-
-    /*------------pioneer4you-eclipse-footer-top-end------------------*/
-
-    .le-content-section-bk .le-content-wrap .le-content-para .red-para {
-      color: var(--c-primary);
-      font-weight: 500;
-    }
-
-/*-------le-content-section-end------------*/
-
-/*-----------custom-button-change-start---------*/
+/*------- fdev-dc changes 10-10-2022 ------------*/
+.le-content-section .le-content-wrap .le-content-text-heading h3 {
+  font-family: var(--ff-secondary);
+  color: var(--c-black);
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.le-content-section .le-content-wrap .le-content-para .le-para {
+  font-family: var(--ff-tertiary);
+  font-size: 15px;
+  padding: 0 0 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--c-text-light);
+}
+.le-content-section .le-content-wrap .le-list-content .list-items .items {
+  list-style-type: disc;
+  font-size: 15px;
+  color: var(--c-text-light);
+  font-family: var(--ff-tertiary);
+  line-height: 28px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+.le-content-section .le-content-wrap .le-list-content .list-items {
+  padding: 0 0 30px;
+}
+.le-content-section .le-content-wrap .le-list-content .list-items .nest-content {
+  padding: 10px 0;
+}
+.le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items{
+  list-style-type: circle;
+  font-size: 15px;
+  color: var(--c-text-light);
+  font-family: var(--ff-tertiary);
+  line-height: 28px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.le-products-section {
+  background-color: var(--c-secondary);
+}
+.bottom-heading h3 {
+  font-family: var(--ff-secondary);
+  color: var(--c-black);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.bottom-para {
+  font-family: var(--ff-tertiary);
+  font-size: 15px;
+  padding: 8px 0;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--c-text-light);
+}
+.bottom-content {
+  margin-top: 40px;
+}
+.text-heading-alt .heading {
+  font-size: 25px !important;
+}
+.content-para-alt .le-para {
+  font-size: 18px !important;
+}
+.le-content-section-bk {
+  background-color: var(--c-text-dark);
+}
+.le-content-section-bk .le-content-wrap .le-content-text-heading h3 {
+  color: var(--c-white);
+}
+.le-content-section-bk .le-content-wrap .le-content-text-heading h4 {
+  color: var(--c-white);
+  font-size: 20px;
+  padding-top: 10px;
+}
+.le-content-section-bk  .items {
+  color: var(--c-white);
+  list-style-type: disc;
+  font-size: 15px;
+  font-family: var(--ff-tertiary);
+  line-height: 28px;
+  font-weight: 400;
+  margin-left: 15px
+}
+.le-content-section-bk .nest-content .nest-items {
+  list-style-type: circle;
+}
+.le-content-section-bk .nest-content {
+  padding-left: 20px;
+}
+.le-content-section-bk .le-video {
+  padding: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+.le-video iframe {
+  width: 100%;
+}
+.le-content-section-bk .le-content-wrap .le-content-para .le-para{ 
+  color: var(--c-white);
+}
+.le-content-section-bk .le-content-wrap .le-content-para .red-para {
+  color: var(--c-primary);
+  font-weight: 500;
+}
 .btn-hvr .custom-button:hover {
   background-color: var(--c-white) !important;
   color: var(--c-black) !important;
 }
-
-/*----changes-start------*/
 .le-content-text-heading .heading-dc {
   font-size: 20px;
   min-height: 48px;
   margin-bottom: 10px;
 }
-/*----changes-end------*/
-
-
-/*-----------custom-button-change-end---------*/
+/*------- fdev-dc changes 10-10-2022 ------------*/
 
   @media (min-width: 1400px) and (max-width: 1600px){
 

@@ -162,9 +162,10 @@
   @media only screen and (max-width:991.98px){
     /*-------le-content-section-start------------*/
     .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 20px;}
-    .le-content-section .le-content-wrap .le-content-para .le-para {padding: 15px 0;}
+    .le-content-section .le-content-wrap .le-content-para .le-para {padding: 0 0 15px;}
     .le-content-section .le-content-wrap .le-list-content .list-items {padding: 15px 0;}
     .le-content-section .le-content-wrap .le-list-content .list-items .nest-content {padding: 4px 0;}
+    .le-content-text-heading .heading-dc {font-size: 19px;min-height: 46px;margin-bottom: 8px;}
     /*-------le-content-section-end------------*/
   }
 
@@ -174,13 +175,16 @@
      .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 20px;}
      .le-content-section .le-content-wrap .le-list-content .list-items {line-height: 22px;}
      .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items{line-height: 22px;}
+     .le-content-text-heading .heading-dc {min-height: unset;}
+     .text-heading-alt .heading {font-size: 20px !important;}
+    .content-para-alt .le-para {font-size: 16px !important;}
     /*-------le-content-section-end------------*/
   }
 
   @media only screen and (max-width:575.98px){
     /*-------le-content-section-start------------*/
     .le-content-section .le-content-wrap .le-content-text-heading h3 {font-size: 16px;line-height: 23px;}
-    .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 22px;padding: 10px 0;font-size: 14px;}
+    .le-content-section .le-content-wrap .le-content-para .le-para {line-height: 25px;padding: 0 0 10px;font-size: 14px;}
     .le-content-section .le-content-wrap .le-list-content .list-items {padding: 10px 0;}
     .le-content-section .le-content-wrap .le-list-content .list-items .items {line-height: 18px;font-size: 14px;}
     .le-content-section .le-content-wrap .le-list-content .list-items .nest-content .nest-items {line-height: 18px;font-size: 14px;}
